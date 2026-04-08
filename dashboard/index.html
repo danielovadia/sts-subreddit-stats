@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STS2 Card Trends — /r/slaythespire</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-tag">r/slaythespire</span>
+        <h1 class="brand-title">STS2 Card Trends</h1>
+        <p class="brand-sub">What the community is actually talking about</p>
+      </div>
+      <div class="header-stats">
+        <div class="hstat">
+          <span class="hstat-val" id="totalCards">—</span>
+          <span class="hstat-lbl">cards tracked</span>
+        </div>
+        <div class="hstat">
+          <span class="hstat-val" id="totalComments">—</span>
+          <span class="hstat-lbl">comments analyzed</span>
+        </div>
+        <div class="hstat">
+          <span class="hstat-val" id="dateRange">—</span>
+          <span class="hstat-lbl">date range</span>
+        </div>
+        <span class="hstat-updated" id="lastUpdated"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- ── Sleeper Spotlight ──────────────────────────────── -->
+    <section class="spotlight" aria-labelledby="spotlight-heading">
+      <div class="eyebrow">
+        <span class="eyebrow-icon">✦</span>
+        <span id="spotlight-heading">Sleeper of the Week</span>
+        <span class="eyebrow-sub">Was barely on the radar — until now</span>
+      </div>
+      <div class="spotlight-body" id="spotlightBody">
+        <!-- JS populated -->
+      </div>
+    </section>
+
+    <!-- ── Surging / Fading ───────────────────────────────── -->
+    <section class="trends" aria-label="Weekly card trends">
+      <div class="trends-col">
+        <div class="trends-heading surging-heading">
+          <span>▲</span> Surging
+          <span class="trends-sub">biggest week-over-week jumps</span>
+        </div>
+        <div class="trend-list" id="surgingList"></div>
+      </div>
+      <div class="trends-col">
+        <div class="trends-heading fading-heading">
+          <span>▼</span> Fading
+          <span class="trends-sub">losing steam fast</span>
+        </div>
+        <div class="trend-list" id="fadingList"></div>
+      </div>
+    </section>
+
+    <!-- ── Explore Chart ──────────────────────────────────── -->
+    <section class="chart-zone" aria-labelledby="chart-heading">
+      <div class="chart-top">
+        <div>
+          <div class="eyebrow">
+            <span class="eyebrow-icon">◈</span>
+            <span id="chart-heading">Compare Cards</span>
+          </div>
+          <p class="chart-hint">Pre-loaded with this week's most interesting cards — add more below</p>
+        </div>
+        <div class="chart-controls">
+          <div class="search-wrap">
+            <input type="search" id="cardSearch" class="ctrl-input" placeholder="Add a card…" autocomplete="off">
+            <div class="search-dropdown" id="searchDropdown" role="listbox"></div>
+          </div>
+          <div class="zoom-btns">
+            <button class="zoom-btn" data-days="7">1W</button>
+            <button class="zoom-btn" data-days="14">2W</button>
+            <button class="zoom-btn" data-days="30">1M</button>
+            <button class="zoom-btn zoom-btn--active" data-days="0">All</button>
+          </div>
+          <label class="toggle-lbl" title="7-day rolling average">
+            <input type="checkbox" id="rollingAvg" class="toggle-inp">
+            <span class="toggle-track"></span>
+            <span class="toggle-text">Avg</span>
+          </label>
+          <button class="ctrl-ghost" id="resetChart">Reset</button>
+        </div>
+      </div>
+
+      <div class="active-tags" id="activeTags"></div>
+
+      <div class="chart-frame">
+        <canvas id="mainChart" role="img" aria-label="Card mention trend chart"></canvas>
+      </div>
+    </section>
+
+    <!-- ── All Cards Browser ─────────────────────────────── -->
+    <section class="browser" aria-labelledby="browser-heading">
+      <div class="browser-top">
+        <div class="eyebrow">
+          <span class="eyebrow-icon">▦</span>
+          <span id="browser-heading">All Cards</span>
+          <span class="eyebrow-sub">click any card to add it to the chart</span>
+        </div>
+        <div class="browser-filters">
+          <input type="search" id="browserSearch" class="ctrl-input" placeholder="Search cards…" autocomplete="off">
+          <select id="rarityFilter" class="ctrl-select">
+            <option value="">All Rarities</option>
+            <option value="Basic">Basic</option>
+            <option value="Common">Common</option>
+            <option value="Uncommon">Uncommon</option>
+            <option value="Rare">Rare</option>
+            <option value="Curse">Curse</option>
+          </select>
+          <div class="char-pills" id="charFilters"></div>
+        </div>
+      </div>
+      <div class="browser-grid" id="browserGrid"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-text">
+      Matched via word-boundary regex against <strong>r/slaythespire</strong> comments ·
+      collected 3× daily via GitHub Actions + PRAW ·
+      historical data via Arctic Shift ·
+      <a href="https://www.reddit.com/r/slaythespire" class="footer-link" target="_blank" rel="noopener">r/slaythespire</a>
+    </p>
+  </footer>
+
+  <aside class="dev-banner" id="devBanner" hidden>
+    <strong>⚠ Sample Data</strong> — serve with <code>python -m http.server</code> for live data.
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>

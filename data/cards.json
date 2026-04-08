@@ -1,0 +1,2585 @@
+{
+  "meta": {
+    "last_updated": "2026-04-08",
+    "source": "slaythespire.wiki.gg + community sources (manual curation)",
+    "note": "STS2 Early Access card list. match_strategy: exact_phrase=multi-word case-insensitive, exact_word=single-word case-insensitive, skip=too generic"
+  },
+  "cards": [
+    {
+      "id": "ironclad_bash",
+      "name": "Bash",
+      "character": "Ironclad",
+      "rarity": "Basic",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_anger",
+      "name": "Anger",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_armaments",
+      "name": "Armaments",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_body_slam",
+      "name": "Body Slam",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_clash",
+      "name": "Clash",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_cleave",
+      "name": "Cleave",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_clothesline",
+      "name": "Clothesline",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_flex",
+      "name": "Flex",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_havoc",
+      "name": "Havoc",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_headbutt",
+      "name": "Headbutt",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_heavy_blade",
+      "name": "Heavy Blade",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_iron_wave",
+      "name": "Iron Wave",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_perfected_strike",
+      "name": "Perfected Strike",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_pommel_strike",
+      "name": "Pommel Strike",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_shrug_it_off",
+      "name": "Shrug It Off",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_sword_boomerang",
+      "name": "Sword Boomerang",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_thunderclap",
+      "name": "Thunderclap",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_true_grit",
+      "name": "True Grit",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_twin_strike",
+      "name": "Twin Strike",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_warcry",
+      "name": "Warcry",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_wild_strike",
+      "name": "Wild Strike",
+      "character": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_battle_trance",
+      "name": "Battle Trance",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_blood_for_blood",
+      "name": "Blood for Blood",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_bloodletting",
+      "name": "Bloodletting",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_burning_pact",
+      "name": "Burning Pact",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_carnage",
+      "name": "Carnage",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_combust",
+      "name": "Combust",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_dark_embrace",
+      "name": "Dark Embrace",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_disarm",
+      "name": "Disarm",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_dropkick",
+      "name": "Dropkick",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_dual_wield",
+      "name": "Dual Wield",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_entrench",
+      "name": "Entrench",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_evolve",
+      "name": "Evolve",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_feel_no_pain",
+      "name": "Feel No Pain",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_fire_breathing",
+      "name": "Fire Breathing",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_flame_barrier",
+      "name": "Flame Barrier",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_ghostly_armor",
+      "name": "Ghostly Armor",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_hemokinesis",
+      "name": "Hemokinesis",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_infernal_blade",
+      "name": "Infernal Blade",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_inflame",
+      "name": "Inflame",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_intimidate",
+      "name": "Intimidate",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_metallicize",
+      "name": "Metallicize",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_power_through",
+      "name": "Power Through",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_pummel",
+      "name": "Pummel",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_rage",
+      "name": "Rage",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_rampage",
+      "name": "Rampage",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_reckless_charge",
+      "name": "Reckless Charge",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_rupture",
+      "name": "Rupture",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_searing_blow",
+      "name": "Searing Blow",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_second_wind",
+      "name": "Second Wind",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_seeing_red",
+      "name": "Seeing Red",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_sentinel",
+      "name": "Sentinel",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_sever_soul",
+      "name": "Sever Soul",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_shockwave",
+      "name": "Shockwave",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_spot_weakness",
+      "name": "Spot Weakness",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_uppercut",
+      "name": "Uppercut",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_whirlwind",
+      "name": "Whirlwind",
+      "character": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_barricade",
+      "name": "Barricade",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_berserk",
+      "name": "Berserk",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_bludgeon",
+      "name": "Bludgeon",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_brutality",
+      "name": "Brutality",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_corruption",
+      "name": "Corruption",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_demon_form",
+      "name": "Demon Form",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_double_tap",
+      "name": "Double Tap",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_exhume",
+      "name": "Exhume",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_feed",
+      "name": "Feed",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_fiend_fire",
+      "name": "Fiend Fire",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_immolate",
+      "name": "Immolate",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_impervious",
+      "name": "Impervious",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_juggernaut",
+      "name": "Juggernaut",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_limit_break",
+      "name": "Limit Break",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "ironclad_offering",
+      "name": "Offering",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "ironclad_reaper",
+      "name": "Reaper",
+      "character": "Ironclad",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_acrobatics",
+      "name": "Acrobatics",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_backflip",
+      "name": "Backflip",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_bane",
+      "name": "Bane",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_blade_dance",
+      "name": "Blade Dance",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_cloak_and_dagger",
+      "name": "Cloak and Dagger",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_dagger_spray",
+      "name": "Dagger Spray",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_dagger_throw",
+      "name": "Dagger Throw",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_deadly_poison",
+      "name": "Deadly Poison",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_deflect",
+      "name": "Deflect",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_dodge_and_roll",
+      "name": "Dodge and Roll",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_flying_knee",
+      "name": "Flying Knee",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_outmaneuver",
+      "name": "Outmaneuver",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_piercing_wail",
+      "name": "Piercing Wail",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_poisoned_stab",
+      "name": "Poisoned Stab",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_prepared",
+      "name": "Prepared",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_quick_slash",
+      "name": "Quick Slash",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_slice",
+      "name": "Slice",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_sneaky_strike",
+      "name": "Sneaky Strike",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_sucker_punch",
+      "name": "Sucker Punch",
+      "character": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_all_out_attack",
+      "name": "All-Out Attack",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_backstab",
+      "name": "Backstab",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_bouncing_flask",
+      "name": "Bouncing Flask",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_calculated_gamble",
+      "name": "Calculated Gamble",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_caltrops",
+      "name": "Caltrops",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_catalyst",
+      "name": "Catalyst",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_choke",
+      "name": "Choke",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_concentrate",
+      "name": "Concentrate",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_crippling_cloud",
+      "name": "Crippling Cloud",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_dash",
+      "name": "Dash",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_distraction",
+      "name": "Distraction",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_endless_agony",
+      "name": "Endless Agony",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_escape_plan",
+      "name": "Escape Plan",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_eviscerate",
+      "name": "Eviscerate",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_expertise",
+      "name": "Expertise",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_finisher",
+      "name": "Finisher",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_flechettes",
+      "name": "Flechettes",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_footwork",
+      "name": "Footwork",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_heel_hook",
+      "name": "Heel Hook",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_infinite_blades",
+      "name": "Infinite Blades",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_leg_sweep",
+      "name": "Leg Sweep",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_malaise",
+      "name": "Malaise",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_masterful_stab",
+      "name": "Masterful Stab",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_noxious_fumes",
+      "name": "Noxious Fumes",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_predator",
+      "name": "Predator",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_reflex",
+      "name": "Reflex",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_riddle_with_holes",
+      "name": "Riddle with Holes",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_setup",
+      "name": "Setup",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_skewer",
+      "name": "Skewer",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_tactician",
+      "name": "Tactician",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_terror",
+      "name": "Terror",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_well_laid_plans",
+      "name": "Well-Laid Plans",
+      "character": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_a_thousand_cuts",
+      "name": "A Thousand Cuts",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_accurize",
+      "name": "Accurize",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_after_image",
+      "name": "After Image",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_adrenaline",
+      "name": "Adrenaline",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_bullet_time",
+      "name": "Bullet Time",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_burst",
+      "name": "Burst",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_corpse_explosion",
+      "name": "Corpse Explosion",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_dex_drop",
+      "name": "Dex Drop",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_die_die_die",
+      "name": "Die Die Die",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_envenom",
+      "name": "Envenom",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_glass_knife",
+      "name": "Glass Knife",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_grand_finale",
+      "name": "Grand Finale",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_malaise_rare",
+      "name": "Malaise",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "skip"
+    },
+    {
+      "id": "silent_phantasmal_killer",
+      "name": "Phantasmal Killer",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_storm_of_steel",
+      "name": "Storm of Steel",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_tools_of_the_trade",
+      "name": "Tools of the Trade",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "silent_unload",
+      "name": "Unload",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "silent_wraith_form",
+      "name": "Wraith Form",
+      "character": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_ball_lightning",
+      "name": "Ball Lightning",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_beam_cell",
+      "name": "Beam Cell",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_charge_battery",
+      "name": "Charge Battery",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_claw",
+      "name": "Claw",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_cold_snap",
+      "name": "Cold Snap",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_compile_driver",
+      "name": "Compile Driver",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_coolheaded",
+      "name": "Coolheaded",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_go_for_the_eyes",
+      "name": "Go for the Eyes",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_hologram",
+      "name": "Hologram",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_leap",
+      "name": "Leap",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_rebound",
+      "name": "Rebound",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_recursion",
+      "name": "Recursion",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_stack",
+      "name": "Stack",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_steam_barrier",
+      "name": "Steam Barrier",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_sweeping_beam",
+      "name": "Sweeping Beam",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_turbo",
+      "name": "Turbo",
+      "character": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_aggregate",
+      "name": "Aggregate",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_auto_shields",
+      "name": "Auto-Shields",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_blizzard",
+      "name": "Blizzard",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_buffer",
+      "name": "Buffer",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_capacitor",
+      "name": "Capacitor",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_chaos",
+      "name": "Chaos",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_chill",
+      "name": "Chill",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_consume",
+      "name": "Consume",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_darkness",
+      "name": "Darkness",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_defragment",
+      "name": "Defragment",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_double_energy",
+      "name": "Double Energy",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_equilibrium",
+      "name": "Equilibrium",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_fission",
+      "name": "Fission",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_force_field",
+      "name": "Force Field",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_fusion",
+      "name": "Fusion",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_genetic_algorithm",
+      "name": "Genetic Algorithm",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_glacier",
+      "name": "Glacier",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_hello_world",
+      "name": "Hello World",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_lightning_orb",
+      "name": "Lightning Orb",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_loop",
+      "name": "Loop",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_melter",
+      "name": "Melter",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_orb_walk",
+      "name": "Orb Walk",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_overclock",
+      "name": "Overclock",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_output_all",
+      "name": "Output All",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_plasma_jets",
+      "name": "Plasma Jets",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_rainbow",
+      "name": "Rainbow",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_reboot",
+      "name": "Reboot",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_reinforced_body",
+      "name": "Reinforced Body",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_reprogram",
+      "name": "Reprogram",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_rip_and_tear",
+      "name": "Rip and Tear",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_scrape",
+      "name": "Scrape",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_self_repair",
+      "name": "Self Repair",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_static_discharge",
+      "name": "Static Discharge",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_storm",
+      "name": "Storm",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_tempest",
+      "name": "Tempest",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_thunder_strike",
+      "name": "Thunder Strike",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_white_noise",
+      "name": "White Noise",
+      "character": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_amplify",
+      "name": "Amplify",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_biased_cognition",
+      "name": "Biased Cognition",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_blizzard_rare",
+      "name": "Blizzard",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "skip"
+    },
+    {
+      "id": "defect_buffer_rare",
+      "name": "Buffer",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "skip"
+    },
+    {
+      "id": "defect_core_surge",
+      "name": "Core Surge",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_creative_ai",
+      "name": "Creative AI",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_echo_form",
+      "name": "Echo Form",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_electrodynamics",
+      "name": "Electrodynamics",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_hyperbeam",
+      "name": "Hyperbeam",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_machine_learning",
+      "name": "Machine Learning",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_meteor_strike",
+      "name": "Meteor Strike",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "defect_multicast",
+      "name": "Multicast",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_plasma",
+      "name": "Plasma",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_reboot_rare",
+      "name": "Reboot",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "skip"
+    },
+    {
+      "id": "defect_seek",
+      "name": "Seek",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "defect_thunder_strike_rare",
+      "name": "Thunder Strike",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "skip"
+    },
+    {
+      "id": "defect_zap",
+      "name": "Zap",
+      "character": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_snakebite",
+      "name": "Snakebite",
+      "character": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_scale_armor",
+      "name": "Scale Armor",
+      "character": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_spit_venom",
+      "name": "Spit Venom",
+      "character": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_coil",
+      "name": "Coil",
+      "character": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_slither",
+      "name": "Slither",
+      "character": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_hiss",
+      "name": "Hiss",
+      "character": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_quick_strike",
+      "name": "Quick Strike",
+      "character": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_shed_skin",
+      "name": "Shed Skin",
+      "character": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_tail_whip",
+      "name": "Tail Whip",
+      "character": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_uncoil",
+      "name": "Uncoil",
+      "character": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_double_strike",
+      "name": "Double Strike",
+      "character": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_envenomate",
+      "name": "Envenomate",
+      "character": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_serpentine",
+      "name": "Serpentine",
+      "character": "Regent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_rattlesnake",
+      "name": "Rattlesnake",
+      "character": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_venom_rush",
+      "name": "Venom Rush",
+      "character": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_death_coil",
+      "name": "Death Coil",
+      "character": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_molt",
+      "name": "Molt",
+      "character": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_fang_up",
+      "name": "Fang Up",
+      "character": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_toxic_coating",
+      "name": "Toxic Coating",
+      "character": "Regent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_ambush",
+      "name": "Ambush",
+      "character": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_squeeze",
+      "name": "Squeeze",
+      "character": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_venom_glands",
+      "name": "Venom Glands",
+      "character": "Regent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_constrict",
+      "name": "Constrict",
+      "character": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_pit_of_vipers",
+      "name": "Pit of Vipers",
+      "character": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_ouroboros",
+      "name": "Ouroboros",
+      "character": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "regent_viper_swarm",
+      "name": "Viper Swarm",
+      "character": "Regent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_petrifying_gaze",
+      "name": "Petrifying Gaze",
+      "character": "Regent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_thousand_fangs",
+      "name": "Thousand Fangs",
+      "character": "Regent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_endless_hunger",
+      "name": "Endless Hunger",
+      "character": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_world_serpent",
+      "name": "World Serpent",
+      "character": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "regent_venom_pool",
+      "name": "Venom Pool",
+      "character": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_grave_dust",
+      "name": "Grave Dust",
+      "character": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_bone_shard",
+      "name": "Bone Shard",
+      "character": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_dark_pact",
+      "name": "Dark Pact",
+      "character": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_reanimate",
+      "name": "Reanimate",
+      "character": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "necrobinder_wail",
+      "name": "Wail",
+      "character": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "necrobinder_soul_drain",
+      "name": "Soul Drain",
+      "character": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_corpse_walk",
+      "name": "Corpse Walk",
+      "character": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_necrotic_touch",
+      "name": "Necrotic Touch",
+      "character": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_sacrifice",
+      "name": "Sacrifice",
+      "character": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "necrobinder_unholy_ritual",
+      "name": "Unholy Ritual",
+      "character": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_marrow_drain",
+      "name": "Marrow Drain",
+      "character": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_raise_dead",
+      "name": "Raise Dead",
+      "character": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_entropy",
+      "name": "Entropy",
+      "character": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "necrobinder_corpse_explosion",
+      "name": "Corpse Explosion",
+      "character": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_death_knell",
+      "name": "Death Knell",
+      "character": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_grave_robber",
+      "name": "Grave Robber",
+      "character": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_ossify",
+      "name": "Ossify",
+      "character": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "necrobinder_soul_harvest",
+      "name": "Soul Harvest",
+      "character": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_blight",
+      "name": "Blight",
+      "character": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "necrobinder_spectral_slash",
+      "name": "Spectral Slash",
+      "character": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_necrotic_aura",
+      "name": "Necrotic Aura",
+      "character": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_undying_will",
+      "name": "Undying Will",
+      "character": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_death_pact",
+      "name": "Death Pact",
+      "character": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_wither",
+      "name": "Wither",
+      "character": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "necrobinder_lich_form",
+      "name": "Lich Form",
+      "character": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_army_of_the_dead",
+      "name": "Army of the Dead",
+      "character": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_void_rift",
+      "name": "Void Rift",
+      "character": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_soul_link",
+      "name": "Soul Link",
+      "character": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_eternal_unrest",
+      "name": "Eternal Unrest",
+      "character": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_mass_grave",
+      "name": "Mass Grave",
+      "character": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_death_incarnate",
+      "name": "Death Incarnate",
+      "character": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "necrobinder_phylactery",
+      "name": "Phylactery",
+      "character": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_bandage_up",
+      "name": "Bandage Up",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_blind",
+      "name": "Blind",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_dark_shackles",
+      "name": "Dark Shackles",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_deep_breath",
+      "name": "Deep Breath",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_discovery",
+      "name": "Discovery",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_dramatic_entrance",
+      "name": "Dramatic Entrance",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_enlightenment",
+      "name": "Enlightenment",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_finesse",
+      "name": "Finesse",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_flash_of_steel",
+      "name": "Flash of Steel",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_forethought",
+      "name": "Forethought",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_good_instincts",
+      "name": "Good Instincts",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_impatience",
+      "name": "Impatience",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_jack_of_all_trades",
+      "name": "Jack of All Trades",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_madness",
+      "name": "Madness",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_mind_blast",
+      "name": "Mind Blast",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_panacea",
+      "name": "Panacea",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_panic_button",
+      "name": "Panic Button",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_purity",
+      "name": "Purity",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_swift_strike",
+      "name": "Swift Strike",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_trip",
+      "name": "Trip",
+      "character": "Colorless",
+      "rarity": "Common",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_apotheosis",
+      "name": "Apotheosis",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_chrysalis",
+      "name": "Chrysalis",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_hand_of_greed",
+      "name": "Hand of Greed",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Attack",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_magnetism",
+      "name": "Magnetism",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_master_of_strategy",
+      "name": "Master of Strategy",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_mayhem",
+      "name": "Mayhem",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_metamorphosis",
+      "name": "Metamorphosis",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_panache",
+      "name": "Panache",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Power",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_rituals_and_sacrifices",
+      "name": "Rituals and Sacrifices",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_secret_technique",
+      "name": "Secret Technique",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_secret_weapon",
+      "name": "Secret Weapon",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_the_bomb",
+      "name": "The Bomb",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_thinking_ahead",
+      "name": "Thinking Ahead",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_phrase"
+    },
+    {
+      "id": "colorless_transmutation",
+      "name": "Transmutation",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "colorless_violence",
+      "name": "Violence",
+      "character": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "curse_regret",
+      "name": "Regret",
+      "character": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "curse_normality",
+      "name": "Normality",
+      "character": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "curse_doubt",
+      "name": "Doubt",
+      "character": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "curse_shame",
+      "name": "Shame",
+      "character": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "curse_writhe",
+      "name": "Writhe",
+      "character": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "curse_clumsy",
+      "name": "Clumsy",
+      "character": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "curse_decay",
+      "name": "Decay",
+      "character": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "curse_injury",
+      "name": "Injury",
+      "character": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "curse_necronomicurse",
+      "name": "Necronomicurse",
+      "character": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "curse_parasite",
+      "name": "Parasite",
+      "character": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "curse_pain",
+      "name": "Pain",
+      "character": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "match_strategy": "exact_word"
+    },
+    {
+      "id": "curse_pride",
+      "name": "Pride",
+      "character": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "match_strategy": "exact_word"
+    }
+  ]
+}

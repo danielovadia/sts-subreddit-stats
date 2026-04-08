@@ -1,0 +1,58 @@
+name: Deploy Dashboard to GitHub Pages
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - 'dashboard/**'
+      - 'data/summary.json'
+  workflow_dispatch:
+
+# GitHub Pages deployment permissions
+permissions:
+  contents: read
+  pages:    write
+  id-token: write
+
+# Only one concurrent deployment; skip in-progress, don't cancel running ones
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare site files
+        run: |
+          mkdir -p _site
+          # Copy dashboard files
+          cp -r dashboard/. _site/
+          # Copy summary.json as data.json (fetched by app.js)
+          if [ -f data/summary.json ]; then
+            cp data/summary.json _site/data.json
+          else
+            echo '{"dates":[],"cards":{},"total_comments_by_date":[]}' > _site/data.json
+            echo "Warning: data/summary.json not found, using empty placeholder"
+          fi
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

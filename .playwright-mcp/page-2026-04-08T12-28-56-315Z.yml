@@ -1,0 +1,3566 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: r/slaythespire
+      - heading "STS2 Card Trends" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Tracking which cards the community is talking about — updated daily from Reddit comments
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10]: Cards Tracked
+          - generic [ref=e11]: "263"
+        - generic [ref=e12]: ✦
+        - generic [ref=e13]:
+          - generic [ref=e14]: Date Range
+          - generic [ref=e15]: Mar 5 – Apr 7
+        - generic [ref=e16]: ✦
+        - generic [ref=e17]:
+          - generic [ref=e18]: Total Comments
+          - generic [ref=e19]: 68,000
+  - main [ref=e21]:
+    - region "Biggest Movers This Week" [ref=e22]:
+      - generic [ref=e23]:
+        - heading "Biggest Movers This Week" [level=2] [ref=e24]:
+          - generic [ref=e25]: ⚔
+          - text: Biggest Movers This Week
+          - generic [ref=e26]: ⚔
+        - paragraph [ref=e27]: Cards with the largest week-over-week spike — surprises surface here first
+        - button "Remove Movers" [ref=e28] [cursor=pointer]
+      - list "Biggest movers" [ref=e29]:
+        - listitem "Reprogram — click to highlight on chart" [ref=e30] [cursor=pointer]:
+          - generic [ref=e31]: NEW
+          - generic [ref=e32]: Reprogram
+          - generic [ref=e33]: Defect
+          - generic [ref=e34]: 6 ← 0
+        - listitem "Glass Knife — click to highlight on chart" [ref=e35] [cursor=pointer]:
+          - generic [ref=e36]: NEW
+          - generic [ref=e37]: Glass Knife
+          - generic [ref=e38]: Silent
+          - generic [ref=e39]: 4 ← 0
+        - listitem "Enlightenment — click to highlight on chart" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: NEW
+          - generic [ref=e42]: Enlightenment
+          - generic [ref=e43]: Colorless
+          - generic [ref=e44]: 3 ← 0
+        - listitem "Wild Strike — click to highlight on chart" [ref=e45] [cursor=pointer]:
+          - generic [ref=e46]: NEW
+          - generic [ref=e47]: Wild Strike
+          - generic [ref=e48]: Ironclad
+          - generic [ref=e49]: 3 ← 0
+        - listitem "Poisoned Stab — click to highlight on chart" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: NEW
+          - generic [ref=e52]: Poisoned Stab
+          - generic [ref=e53]: Silent
+          - generic [ref=e54]: 3 ← 0
+        - listitem "Pride — click to highlight on chart" [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]: NEW
+          - generic [ref=e57]: Pride
+          - generic [ref=e58]: Curse
+          - generic [ref=e59]: 2 ← 0
+        - listitem "Amplify — click to highlight on chart" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: NEW
+          - generic [ref=e62]: Amplify
+          - generic [ref=e63]: Defect
+          - generic [ref=e64]: 2 ← 0
+        - listitem "Fission — click to highlight on chart" [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: NEW
+          - generic [ref=e67]: Fission
+          - generic [ref=e68]: Defect
+          - generic [ref=e69]: 2 ← 0
+    - region "Mention Timeline" [ref=e70]:
+      - heading "Mention Timeline" [level=2] [ref=e72]:
+        - generic [ref=e73]: ◈
+        - text: Mention Timeline
+        - generic [ref=e74]: ◈
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]: Characters
+          - generic [ref=e78]:
+            - generic [ref=e79] [cursor=pointer]: Colorless
+            - generic [ref=e81] [cursor=pointer]: Curse
+            - generic [ref=e83] [cursor=pointer]: Defect
+            - generic [ref=e85] [cursor=pointer]: Ironclad
+            - generic [ref=e87] [cursor=pointer]: Necrobinder
+            - generic [ref=e89] [cursor=pointer]: Regent
+            - generic [ref=e91] [cursor=pointer]: Silent
+        - generic [ref=e93]:
+          - generic [ref=e94]: Rarity
+          - combobox "Rarity" [ref=e95] [cursor=pointer]:
+            - option "All Rarities" [selected]
+            - option "Basic"
+            - option "Common"
+            - option "Uncommon"
+            - option "Rare"
+            - option "Curse"
+        - generic [ref=e96]:
+          - generic [ref=e97]: Add Card
+          - searchbox "Add Card" [ref=e99]
+        - generic [ref=e100]:
+          - generic [ref=e101]: Display
+          - generic [ref=e104] [cursor=pointer]: 7-day rolling avg
+        - button "Reset Chart" [ref=e105] [cursor=pointer]
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - generic [ref=e108]: From
+          - textbox "From" [ref=e109]: 2026-03-05
+        - generic [ref=e110]:
+          - generic [ref=e111]: To
+          - textbox "To" [ref=e112]: 2026-04-07
+        - generic [ref=e113]:
+          - generic [ref=e114]: Zoom
+          - generic [ref=e115]:
+            - button "1W" [ref=e116] [cursor=pointer]
+            - button "2W" [ref=e117] [cursor=pointer]
+            - button "1M" [ref=e118] [cursor=pointer]
+            - button "All" [ref=e119] [cursor=pointer]
+      - generic "Active chart lines" [ref=e120]:
+        - generic [ref=e121]:
+          - generic [ref=e123]: Apotheosis
+          - button "Remove Apotheosis from chart" [ref=e124] [cursor=pointer]: ✕
+        - generic [ref=e125]:
+          - generic [ref=e127]: Bandage Up
+          - button "Remove Bandage Up from chart" [ref=e128] [cursor=pointer]: ✕
+        - generic [ref=e129]:
+          - generic [ref=e131]: Blind
+          - button "Remove Blind from chart" [ref=e132] [cursor=pointer]: ✕
+        - generic [ref=e133]:
+          - generic [ref=e135]: Dark Shackles
+          - button "Remove Dark Shackles from chart" [ref=e136] [cursor=pointer]: ✕
+        - generic [ref=e137]:
+          - generic [ref=e139]: Deep Breath
+          - button "Remove Deep Breath from chart" [ref=e140] [cursor=pointer]: ✕
+        - generic [ref=e141]:
+          - generic [ref=e143]: Discovery
+          - button "Remove Discovery from chart" [ref=e144] [cursor=pointer]: ✕
+        - generic [ref=e145]:
+          - generic [ref=e147]: Dramatic Entrance
+          - button "Remove Dramatic Entrance from chart" [ref=e148] [cursor=pointer]: ✕
+        - generic [ref=e149]:
+          - generic [ref=e151]: Enlightenment
+          - button "Remove Enlightenment from chart" [ref=e152] [cursor=pointer]: ✕
+        - generic [ref=e153]:
+          - generic [ref=e155]: Finesse
+          - button "Remove Finesse from chart" [ref=e156] [cursor=pointer]: ✕
+        - generic [ref=e157]:
+          - generic [ref=e159]: Flash of Steel
+          - button "Remove Flash of Steel from chart" [ref=e160] [cursor=pointer]: ✕
+        - generic [ref=e161]:
+          - generic [ref=e163]: Forethought
+          - button "Remove Forethought from chart" [ref=e164] [cursor=pointer]: ✕
+        - generic [ref=e165]:
+          - generic [ref=e167]: Good Instincts
+          - button "Remove Good Instincts from chart" [ref=e168] [cursor=pointer]: ✕
+        - generic [ref=e169]:
+          - generic [ref=e171]: Hand of Greed
+          - button "Remove Hand of Greed from chart" [ref=e172] [cursor=pointer]: ✕
+        - generic [ref=e173]:
+          - generic [ref=e175]: Impatience
+          - button "Remove Impatience from chart" [ref=e176] [cursor=pointer]: ✕
+        - generic [ref=e177]:
+          - generic [ref=e179]: Jack of All Trades
+          - button "Remove Jack of All Trades from chart" [ref=e180] [cursor=pointer]: ✕
+        - generic [ref=e181]:
+          - generic [ref=e183]: Madness
+          - button "Remove Madness from chart" [ref=e184] [cursor=pointer]: ✕
+        - generic [ref=e185]:
+          - generic [ref=e187]: Magnetism
+          - button "Remove Magnetism from chart" [ref=e188] [cursor=pointer]: ✕
+        - generic [ref=e189]:
+          - generic [ref=e191]: Master of Strategy
+          - button "Remove Master of Strategy from chart" [ref=e192] [cursor=pointer]: ✕
+        - generic [ref=e193]:
+          - generic [ref=e195]: Mayhem
+          - button "Remove Mayhem from chart" [ref=e196] [cursor=pointer]: ✕
+        - generic [ref=e197]:
+          - generic [ref=e199]: Metamorphosis
+          - button "Remove Metamorphosis from chart" [ref=e200] [cursor=pointer]: ✕
+        - generic [ref=e201]:
+          - generic [ref=e203]: Mind Blast
+          - button "Remove Mind Blast from chart" [ref=e204] [cursor=pointer]: ✕
+        - generic [ref=e205]:
+          - generic [ref=e207]: Panacea
+          - button "Remove Panacea from chart" [ref=e208] [cursor=pointer]: ✕
+        - generic [ref=e209]:
+          - generic [ref=e211]: Panache
+          - button "Remove Panache from chart" [ref=e212] [cursor=pointer]: ✕
+        - generic [ref=e213]:
+          - generic [ref=e215]: Panic Button
+          - button "Remove Panic Button from chart" [ref=e216] [cursor=pointer]: ✕
+        - generic [ref=e217]:
+          - generic [ref=e219]: Purity
+          - button "Remove Purity from chart" [ref=e220] [cursor=pointer]: ✕
+        - generic [ref=e221]:
+          - generic [ref=e223]: Secret Technique
+          - button "Remove Secret Technique from chart" [ref=e224] [cursor=pointer]: ✕
+        - generic [ref=e225]:
+          - generic [ref=e227]: Secret Weapon
+          - button "Remove Secret Weapon from chart" [ref=e228] [cursor=pointer]: ✕
+        - generic [ref=e229]:
+          - generic [ref=e231]: The Bomb
+          - button "Remove The Bomb from chart" [ref=e232] [cursor=pointer]: ✕
+        - generic [ref=e233]:
+          - generic [ref=e235]: Thinking Ahead
+          - button "Remove Thinking Ahead from chart" [ref=e236] [cursor=pointer]: ✕
+        - generic [ref=e237]:
+          - generic [ref=e239]: Transmutation
+          - button "Remove Transmutation from chart" [ref=e240] [cursor=pointer]: ✕
+        - generic [ref=e241]:
+          - generic [ref=e243]: Trip
+          - button "Remove Trip from chart" [ref=e244] [cursor=pointer]: ✕
+        - generic [ref=e245]:
+          - generic [ref=e247]: Violence
+          - button "Remove Violence from chart" [ref=e248] [cursor=pointer]: ✕
+        - generic [ref=e249]:
+          - generic [ref=e251]: Clumsy
+          - button "Remove Clumsy from chart" [ref=e252] [cursor=pointer]: ✕
+        - generic [ref=e253]:
+          - generic [ref=e255]: Decay
+          - button "Remove Decay from chart" [ref=e256] [cursor=pointer]: ✕
+        - generic [ref=e257]:
+          - generic [ref=e259]: Doubt
+          - button "Remove Doubt from chart" [ref=e260] [cursor=pointer]: ✕
+        - generic [ref=e261]:
+          - generic [ref=e263]: Injury
+          - button "Remove Injury from chart" [ref=e264] [cursor=pointer]: ✕
+        - generic [ref=e265]:
+          - generic [ref=e267]: Necronomicurse
+          - button "Remove Necronomicurse from chart" [ref=e268] [cursor=pointer]: ✕
+        - generic [ref=e269]:
+          - generic [ref=e271]: Normality
+          - button "Remove Normality from chart" [ref=e272] [cursor=pointer]: ✕
+        - generic [ref=e273]:
+          - generic [ref=e275]: Pain
+          - button "Remove Pain from chart" [ref=e276] [cursor=pointer]: ✕
+        - generic [ref=e277]:
+          - generic [ref=e279]: Parasite
+          - button "Remove Parasite from chart" [ref=e280] [cursor=pointer]: ✕
+        - generic [ref=e281]:
+          - generic [ref=e283]: Pride
+          - button "Remove Pride from chart" [ref=e284] [cursor=pointer]: ✕
+        - generic [ref=e285]:
+          - generic [ref=e287]: Regret
+          - button "Remove Regret from chart" [ref=e288] [cursor=pointer]: ✕
+        - generic [ref=e289]:
+          - generic [ref=e291]: Shame
+          - button "Remove Shame from chart" [ref=e292] [cursor=pointer]: ✕
+        - generic [ref=e293]:
+          - generic [ref=e295]: Writhe
+          - button "Remove Writhe from chart" [ref=e296] [cursor=pointer]: ✕
+        - generic [ref=e297]:
+          - generic [ref=e299]: Aggregate
+          - button "Remove Aggregate from chart" [ref=e300] [cursor=pointer]: ✕
+        - generic [ref=e301]:
+          - generic [ref=e303]: Amplify
+          - button "Remove Amplify from chart" [ref=e304] [cursor=pointer]: ✕
+        - generic [ref=e305]:
+          - generic [ref=e307]: Ball Lightning
+          - button "Remove Ball Lightning from chart" [ref=e308] [cursor=pointer]: ✕
+        - generic [ref=e309]:
+          - generic [ref=e311]: Beam Cell
+          - button "Remove Beam Cell from chart" [ref=e312] [cursor=pointer]: ✕
+        - generic [ref=e313]:
+          - generic [ref=e315]: Biased Cognition
+          - button "Remove Biased Cognition from chart" [ref=e316] [cursor=pointer]: ✕
+        - generic [ref=e317]:
+          - generic [ref=e319]: Blizzard
+          - button "Remove Blizzard from chart" [ref=e320] [cursor=pointer]: ✕
+        - generic [ref=e321]:
+          - generic [ref=e323]: Buffer
+          - button "Remove Buffer from chart" [ref=e324] [cursor=pointer]: ✕
+        - generic [ref=e325]:
+          - generic [ref=e327]: Capacitor
+          - button "Remove Capacitor from chart" [ref=e328] [cursor=pointer]: ✕
+        - generic [ref=e329]:
+          - generic [ref=e331]: Chaos
+          - button "Remove Chaos from chart" [ref=e332] [cursor=pointer]: ✕
+        - generic [ref=e333]:
+          - generic [ref=e335]: Charge Battery
+          - button "Remove Charge Battery from chart" [ref=e336] [cursor=pointer]: ✕
+        - generic [ref=e337]:
+          - generic [ref=e339]: Chill
+          - button "Remove Chill from chart" [ref=e340] [cursor=pointer]: ✕
+        - generic [ref=e341]:
+          - generic [ref=e343]: Claw
+          - button "Remove Claw from chart" [ref=e344] [cursor=pointer]: ✕
+        - generic [ref=e345]:
+          - generic [ref=e347]: Cold Snap
+          - button "Remove Cold Snap from chart" [ref=e348] [cursor=pointer]: ✕
+        - generic [ref=e349]:
+          - generic [ref=e351]: Compile Driver
+          - button "Remove Compile Driver from chart" [ref=e352] [cursor=pointer]: ✕
+        - generic [ref=e353]:
+          - generic [ref=e355]: Consume
+          - button "Remove Consume from chart" [ref=e356] [cursor=pointer]: ✕
+        - generic [ref=e357]:
+          - generic [ref=e359]: Coolheaded
+          - button "Remove Coolheaded from chart" [ref=e360] [cursor=pointer]: ✕
+        - generic [ref=e361]:
+          - generic [ref=e363]: Core Surge
+          - button "Remove Core Surge from chart" [ref=e364] [cursor=pointer]: ✕
+        - generic [ref=e365]:
+          - generic [ref=e367]: Creative AI
+          - button "Remove Creative AI from chart" [ref=e368] [cursor=pointer]: ✕
+        - generic [ref=e369]:
+          - generic [ref=e371]: Darkness
+          - button "Remove Darkness from chart" [ref=e372] [cursor=pointer]: ✕
+        - generic [ref=e373]:
+          - generic [ref=e375]: Defragment
+          - button "Remove Defragment from chart" [ref=e376] [cursor=pointer]: ✕
+        - generic [ref=e377]:
+          - generic [ref=e379]: Double Energy
+          - button "Remove Double Energy from chart" [ref=e380] [cursor=pointer]: ✕
+        - generic [ref=e381]:
+          - generic [ref=e383]: Echo Form
+          - button "Remove Echo Form from chart" [ref=e384] [cursor=pointer]: ✕
+        - generic [ref=e385]:
+          - generic [ref=e387]: Electrodynamics
+          - button "Remove Electrodynamics from chart" [ref=e388] [cursor=pointer]: ✕
+        - generic [ref=e389]:
+          - generic [ref=e391]: Equilibrium
+          - button "Remove Equilibrium from chart" [ref=e392] [cursor=pointer]: ✕
+        - generic [ref=e393]:
+          - generic [ref=e395]: Fission
+          - button "Remove Fission from chart" [ref=e396] [cursor=pointer]: ✕
+        - generic [ref=e397]:
+          - generic [ref=e399]: Force Field
+          - button "Remove Force Field from chart" [ref=e400] [cursor=pointer]: ✕
+        - generic [ref=e401]:
+          - generic [ref=e403]: Fusion
+          - button "Remove Fusion from chart" [ref=e404] [cursor=pointer]: ✕
+        - generic [ref=e405]:
+          - generic [ref=e407]: Genetic Algorithm
+          - button "Remove Genetic Algorithm from chart" [ref=e408] [cursor=pointer]: ✕
+        - generic [ref=e409]:
+          - generic [ref=e411]: Glacier
+          - button "Remove Glacier from chart" [ref=e412] [cursor=pointer]: ✕
+        - generic [ref=e413]:
+          - generic [ref=e415]: Go for the Eyes
+          - button "Remove Go for the Eyes from chart" [ref=e416] [cursor=pointer]: ✕
+        - generic [ref=e417]:
+          - generic [ref=e419]: Hello World
+          - button "Remove Hello World from chart" [ref=e420] [cursor=pointer]: ✕
+        - generic [ref=e421]:
+          - generic [ref=e423]: Hologram
+          - button "Remove Hologram from chart" [ref=e424] [cursor=pointer]: ✕
+        - generic [ref=e425]:
+          - generic [ref=e427]: Hyperbeam
+          - button "Remove Hyperbeam from chart" [ref=e428] [cursor=pointer]: ✕
+        - generic [ref=e429]:
+          - generic [ref=e431]: Leap
+          - button "Remove Leap from chart" [ref=e432] [cursor=pointer]: ✕
+        - generic [ref=e433]:
+          - generic [ref=e435]: Lightning Orb
+          - button "Remove Lightning Orb from chart" [ref=e436] [cursor=pointer]: ✕
+        - generic [ref=e437]:
+          - generic [ref=e439]: Loop
+          - button "Remove Loop from chart" [ref=e440] [cursor=pointer]: ✕
+        - generic [ref=e441]:
+          - generic [ref=e443]: Machine Learning
+          - button "Remove Machine Learning from chart" [ref=e444] [cursor=pointer]: ✕
+        - generic [ref=e445]:
+          - generic [ref=e447]: Melter
+          - button "Remove Melter from chart" [ref=e448] [cursor=pointer]: ✕
+        - generic [ref=e449]:
+          - generic [ref=e451]: Meteor Strike
+          - button "Remove Meteor Strike from chart" [ref=e452] [cursor=pointer]: ✕
+        - generic [ref=e453]:
+          - generic [ref=e455]: Multicast
+          - button "Remove Multicast from chart" [ref=e456] [cursor=pointer]: ✕
+        - generic [ref=e457]:
+          - generic [ref=e459]: Overclock
+          - button "Remove Overclock from chart" [ref=e460] [cursor=pointer]: ✕
+        - generic [ref=e461]:
+          - generic [ref=e463]: Plasma
+          - button "Remove Plasma from chart" [ref=e464] [cursor=pointer]: ✕
+        - generic [ref=e465]:
+          - generic [ref=e467]: Rainbow
+          - button "Remove Rainbow from chart" [ref=e468] [cursor=pointer]: ✕
+        - generic [ref=e469]:
+          - generic [ref=e471]: Reboot
+          - button "Remove Reboot from chart" [ref=e472] [cursor=pointer]: ✕
+        - generic [ref=e473]:
+          - generic [ref=e475]: Rebound
+          - button "Remove Rebound from chart" [ref=e476] [cursor=pointer]: ✕
+        - generic [ref=e477]:
+          - generic [ref=e479]: Recursion
+          - button "Remove Recursion from chart" [ref=e480] [cursor=pointer]: ✕
+        - generic [ref=e481]:
+          - generic [ref=e483]: Reinforced Body
+          - button "Remove Reinforced Body from chart" [ref=e484] [cursor=pointer]: ✕
+        - generic [ref=e485]:
+          - generic [ref=e487]: Reprogram
+          - button "Remove Reprogram from chart" [ref=e488] [cursor=pointer]: ✕
+        - generic [ref=e489]:
+          - generic [ref=e491]: Rip and Tear
+          - button "Remove Rip and Tear from chart" [ref=e492] [cursor=pointer]: ✕
+        - generic [ref=e493]:
+          - generic [ref=e495]: Scrape
+          - button "Remove Scrape from chart" [ref=e496] [cursor=pointer]: ✕
+        - generic [ref=e497]:
+          - generic [ref=e499]: Seek
+          - button "Remove Seek from chart" [ref=e500] [cursor=pointer]: ✕
+        - generic [ref=e501]:
+          - generic [ref=e503]: Self Repair
+          - button "Remove Self Repair from chart" [ref=e504] [cursor=pointer]: ✕
+        - generic [ref=e505]:
+          - generic [ref=e507]: Stack
+          - button "Remove Stack from chart" [ref=e508] [cursor=pointer]: ✕
+        - generic [ref=e509]:
+          - generic [ref=e511]: Static Discharge
+          - button "Remove Static Discharge from chart" [ref=e512] [cursor=pointer]: ✕
+        - generic [ref=e513]:
+          - generic [ref=e515]: Storm
+          - button "Remove Storm from chart" [ref=e516] [cursor=pointer]: ✕
+        - generic [ref=e517]:
+          - generic [ref=e519]: Sweeping Beam
+          - button "Remove Sweeping Beam from chart" [ref=e520] [cursor=pointer]: ✕
+        - generic [ref=e521]:
+          - generic [ref=e523]: Tempest
+          - button "Remove Tempest from chart" [ref=e524] [cursor=pointer]: ✕
+        - generic [ref=e525]:
+          - generic [ref=e527]: Thunder Strike
+          - button "Remove Thunder Strike from chart" [ref=e528] [cursor=pointer]: ✕
+        - generic [ref=e529]:
+          - generic [ref=e531]: Turbo
+          - button "Remove Turbo from chart" [ref=e532] [cursor=pointer]: ✕
+        - generic [ref=e533]:
+          - generic [ref=e535]: White Noise
+          - button "Remove White Noise from chart" [ref=e536] [cursor=pointer]: ✕
+        - generic [ref=e537]:
+          - generic [ref=e539]: Zap
+          - button "Remove Zap from chart" [ref=e540] [cursor=pointer]: ✕
+        - generic [ref=e541]:
+          - generic [ref=e543]: Anger
+          - button "Remove Anger from chart" [ref=e544] [cursor=pointer]: ✕
+        - generic [ref=e545]:
+          - generic [ref=e547]: Armaments
+          - button "Remove Armaments from chart" [ref=e548] [cursor=pointer]: ✕
+        - generic [ref=e549]:
+          - generic [ref=e551]: Barricade
+          - button "Remove Barricade from chart" [ref=e552] [cursor=pointer]: ✕
+        - generic [ref=e553]:
+          - generic [ref=e555]: Bash
+          - button "Remove Bash from chart" [ref=e556] [cursor=pointer]: ✕
+        - generic [ref=e557]:
+          - generic [ref=e559]: Battle Trance
+          - button "Remove Battle Trance from chart" [ref=e560] [cursor=pointer]: ✕
+        - generic [ref=e561]:
+          - generic [ref=e563]: Berserk
+          - button "Remove Berserk from chart" [ref=e564] [cursor=pointer]: ✕
+        - generic [ref=e565]:
+          - generic [ref=e567]: Blood for Blood
+          - button "Remove Blood for Blood from chart" [ref=e568] [cursor=pointer]: ✕
+        - generic [ref=e569]:
+          - generic [ref=e571]: Bloodletting
+          - button "Remove Bloodletting from chart" [ref=e572] [cursor=pointer]: ✕
+        - generic [ref=e573]:
+          - generic [ref=e575]: Bludgeon
+          - button "Remove Bludgeon from chart" [ref=e576] [cursor=pointer]: ✕
+        - generic [ref=e577]:
+          - generic [ref=e579]: Body Slam
+          - button "Remove Body Slam from chart" [ref=e580] [cursor=pointer]: ✕
+        - generic [ref=e581]:
+          - generic [ref=e583]: Brutality
+          - button "Remove Brutality from chart" [ref=e584] [cursor=pointer]: ✕
+        - generic [ref=e585]:
+          - generic [ref=e587]: Burning Pact
+          - button "Remove Burning Pact from chart" [ref=e588] [cursor=pointer]: ✕
+        - generic [ref=e589]:
+          - generic [ref=e591]: Carnage
+          - button "Remove Carnage from chart" [ref=e592] [cursor=pointer]: ✕
+        - generic [ref=e593]:
+          - generic [ref=e595]: Clash
+          - button "Remove Clash from chart" [ref=e596] [cursor=pointer]: ✕
+        - generic [ref=e597]:
+          - generic [ref=e599]: Cleave
+          - button "Remove Cleave from chart" [ref=e600] [cursor=pointer]: ✕
+        - generic [ref=e601]:
+          - generic [ref=e603]: Clothesline
+          - button "Remove Clothesline from chart" [ref=e604] [cursor=pointer]: ✕
+        - generic [ref=e605]:
+          - generic [ref=e607]: Combust
+          - button "Remove Combust from chart" [ref=e608] [cursor=pointer]: ✕
+        - generic [ref=e609]:
+          - generic [ref=e611]: Corruption
+          - button "Remove Corruption from chart" [ref=e612] [cursor=pointer]: ✕
+        - generic [ref=e613]:
+          - generic [ref=e615]: Dark Embrace
+          - button "Remove Dark Embrace from chart" [ref=e616] [cursor=pointer]: ✕
+        - generic [ref=e617]:
+          - generic [ref=e619]: Demon Form
+          - button "Remove Demon Form from chart" [ref=e620] [cursor=pointer]: ✕
+        - generic [ref=e621]:
+          - generic [ref=e623]: Disarm
+          - button "Remove Disarm from chart" [ref=e624] [cursor=pointer]: ✕
+        - generic [ref=e625]:
+          - generic [ref=e627]: Double Tap
+          - button "Remove Double Tap from chart" [ref=e628] [cursor=pointer]: ✕
+        - generic [ref=e629]:
+          - generic [ref=e631]: Dropkick
+          - button "Remove Dropkick from chart" [ref=e632] [cursor=pointer]: ✕
+        - generic [ref=e633]:
+          - generic [ref=e635]: Dual Wield
+          - button "Remove Dual Wield from chart" [ref=e636] [cursor=pointer]: ✕
+        - generic [ref=e637]:
+          - generic [ref=e639]: Entrench
+          - button "Remove Entrench from chart" [ref=e640] [cursor=pointer]: ✕
+        - generic [ref=e641]:
+          - generic [ref=e643]: Evolve
+          - button "Remove Evolve from chart" [ref=e644] [cursor=pointer]: ✕
+        - generic [ref=e645]:
+          - generic [ref=e647]: Exhume
+          - button "Remove Exhume from chart" [ref=e648] [cursor=pointer]: ✕
+        - generic [ref=e649]:
+          - generic [ref=e651]: Feed
+          - button "Remove Feed from chart" [ref=e652] [cursor=pointer]: ✕
+        - generic [ref=e653]:
+          - generic [ref=e655]: Feel No Pain
+          - button "Remove Feel No Pain from chart" [ref=e656] [cursor=pointer]: ✕
+        - generic [ref=e657]:
+          - generic [ref=e659]: Fiend Fire
+          - button "Remove Fiend Fire from chart" [ref=e660] [cursor=pointer]: ✕
+        - generic [ref=e661]:
+          - generic [ref=e663]: Fire Breathing
+          - button "Remove Fire Breathing from chart" [ref=e664] [cursor=pointer]: ✕
+        - generic [ref=e665]:
+          - generic [ref=e667]: Flame Barrier
+          - button "Remove Flame Barrier from chart" [ref=e668] [cursor=pointer]: ✕
+        - generic [ref=e669]:
+          - generic [ref=e671]: Flex
+          - button "Remove Flex from chart" [ref=e672] [cursor=pointer]: ✕
+        - generic [ref=e673]:
+          - generic [ref=e675]: Ghostly Armor
+          - button "Remove Ghostly Armor from chart" [ref=e676] [cursor=pointer]: ✕
+        - generic [ref=e677]:
+          - generic [ref=e679]: Havoc
+          - button "Remove Havoc from chart" [ref=e680] [cursor=pointer]: ✕
+        - generic [ref=e681]:
+          - generic [ref=e683]: Headbutt
+          - button "Remove Headbutt from chart" [ref=e684] [cursor=pointer]: ✕
+        - generic [ref=e685]:
+          - generic [ref=e687]: Heavy Blade
+          - button "Remove Heavy Blade from chart" [ref=e688] [cursor=pointer]: ✕
+        - generic [ref=e689]:
+          - generic [ref=e691]: Hemokinesis
+          - button "Remove Hemokinesis from chart" [ref=e692] [cursor=pointer]: ✕
+        - generic [ref=e693]:
+          - generic [ref=e695]: Immolate
+          - button "Remove Immolate from chart" [ref=e696] [cursor=pointer]: ✕
+        - generic [ref=e697]:
+          - generic [ref=e699]: Impervious
+          - button "Remove Impervious from chart" [ref=e700] [cursor=pointer]: ✕
+        - generic [ref=e701]:
+          - generic [ref=e703]: Infernal Blade
+          - button "Remove Infernal Blade from chart" [ref=e704] [cursor=pointer]: ✕
+        - generic [ref=e705]:
+          - generic [ref=e707]: Inflame
+          - button "Remove Inflame from chart" [ref=e708] [cursor=pointer]: ✕
+        - generic [ref=e709]:
+          - generic [ref=e711]: Intimidate
+          - button "Remove Intimidate from chart" [ref=e712] [cursor=pointer]: ✕
+        - generic [ref=e713]:
+          - generic [ref=e715]: Iron Wave
+          - button "Remove Iron Wave from chart" [ref=e716] [cursor=pointer]: ✕
+        - generic [ref=e717]:
+          - generic [ref=e719]: Juggernaut
+          - button "Remove Juggernaut from chart" [ref=e720] [cursor=pointer]: ✕
+        - generic [ref=e721]:
+          - generic [ref=e723]: Limit Break
+          - button "Remove Limit Break from chart" [ref=e724] [cursor=pointer]: ✕
+        - generic [ref=e725]:
+          - generic [ref=e727]: Metallicize
+          - button "Remove Metallicize from chart" [ref=e728] [cursor=pointer]: ✕
+        - generic [ref=e729]:
+          - generic [ref=e731]: Offering
+          - button "Remove Offering from chart" [ref=e732] [cursor=pointer]: ✕
+        - generic [ref=e733]:
+          - generic [ref=e735]: Perfected Strike
+          - button "Remove Perfected Strike from chart" [ref=e736] [cursor=pointer]: ✕
+        - generic [ref=e737]:
+          - generic [ref=e739]: Pommel Strike
+          - button "Remove Pommel Strike from chart" [ref=e740] [cursor=pointer]: ✕
+        - generic [ref=e741]:
+          - generic [ref=e743]: Power Through
+          - button "Remove Power Through from chart" [ref=e744] [cursor=pointer]: ✕
+        - generic [ref=e745]:
+          - generic [ref=e747]: Pummel
+          - button "Remove Pummel from chart" [ref=e748] [cursor=pointer]: ✕
+        - generic [ref=e749]:
+          - generic [ref=e751]: Rage
+          - button "Remove Rage from chart" [ref=e752] [cursor=pointer]: ✕
+        - generic [ref=e753]:
+          - generic [ref=e755]: Rampage
+          - button "Remove Rampage from chart" [ref=e756] [cursor=pointer]: ✕
+        - generic [ref=e757]:
+          - generic [ref=e759]: Reaper
+          - button "Remove Reaper from chart" [ref=e760] [cursor=pointer]: ✕
+        - generic [ref=e761]:
+          - generic [ref=e763]: Reckless Charge
+          - button "Remove Reckless Charge from chart" [ref=e764] [cursor=pointer]: ✕
+        - generic [ref=e765]:
+          - generic [ref=e767]: Rupture
+          - button "Remove Rupture from chart" [ref=e768] [cursor=pointer]: ✕
+        - generic [ref=e769]:
+          - generic [ref=e771]: Searing Blow
+          - button "Remove Searing Blow from chart" [ref=e772] [cursor=pointer]: ✕
+        - generic [ref=e773]:
+          - generic [ref=e775]: Second Wind
+          - button "Remove Second Wind from chart" [ref=e776] [cursor=pointer]: ✕
+        - generic [ref=e777]:
+          - generic [ref=e779]: Seeing Red
+          - button "Remove Seeing Red from chart" [ref=e780] [cursor=pointer]: ✕
+        - generic [ref=e781]:
+          - generic [ref=e783]: Sentinel
+          - button "Remove Sentinel from chart" [ref=e784] [cursor=pointer]: ✕
+        - generic [ref=e785]:
+          - generic [ref=e787]: Sever Soul
+          - button "Remove Sever Soul from chart" [ref=e788] [cursor=pointer]: ✕
+        - generic [ref=e789]:
+          - generic [ref=e791]: Shockwave
+          - button "Remove Shockwave from chart" [ref=e792] [cursor=pointer]: ✕
+        - generic [ref=e793]:
+          - generic [ref=e795]: Shrug It Off
+          - button "Remove Shrug It Off from chart" [ref=e796] [cursor=pointer]: ✕
+        - generic [ref=e797]:
+          - generic [ref=e799]: Spot Weakness
+          - button "Remove Spot Weakness from chart" [ref=e800] [cursor=pointer]: ✕
+        - generic [ref=e801]:
+          - generic [ref=e803]: Sword Boomerang
+          - button "Remove Sword Boomerang from chart" [ref=e804] [cursor=pointer]: ✕
+        - generic [ref=e805]:
+          - generic [ref=e807]: Thunderclap
+          - button "Remove Thunderclap from chart" [ref=e808] [cursor=pointer]: ✕
+        - generic [ref=e809]:
+          - generic [ref=e811]: True Grit
+          - button "Remove True Grit from chart" [ref=e812] [cursor=pointer]: ✕
+        - generic [ref=e813]:
+          - generic [ref=e815]: Twin Strike
+          - button "Remove Twin Strike from chart" [ref=e816] [cursor=pointer]: ✕
+        - generic [ref=e817]:
+          - generic [ref=e819]: Uppercut
+          - button "Remove Uppercut from chart" [ref=e820] [cursor=pointer]: ✕
+        - generic [ref=e821]:
+          - generic [ref=e823]: Warcry
+          - button "Remove Warcry from chart" [ref=e824] [cursor=pointer]: ✕
+        - generic [ref=e825]:
+          - generic [ref=e827]: Whirlwind
+          - button "Remove Whirlwind from chart" [ref=e828] [cursor=pointer]: ✕
+        - generic [ref=e829]:
+          - generic [ref=e831]: Wild Strike
+          - button "Remove Wild Strike from chart" [ref=e832] [cursor=pointer]: ✕
+        - generic [ref=e833]:
+          - generic [ref=e835]: Blight
+          - button "Remove Blight from chart" [ref=e836] [cursor=pointer]: ✕
+        - generic [ref=e837]:
+          - generic [ref=e839]: Bone Shard
+          - button "Remove Bone Shard from chart" [ref=e840] [cursor=pointer]: ✕
+        - generic [ref=e841]:
+          - generic [ref=e843]: Corpse Explosion
+          - button "Remove Corpse Explosion from chart" [ref=e844] [cursor=pointer]: ✕
+        - generic [ref=e845]:
+          - generic [ref=e847]: Dark Pact
+          - button "Remove Dark Pact from chart" [ref=e848] [cursor=pointer]: ✕
+        - generic [ref=e849]:
+          - generic [ref=e851]: Entropy
+          - button "Remove Entropy from chart" [ref=e852] [cursor=pointer]: ✕
+        - generic [ref=e853]:
+          - generic [ref=e855]: Phylactery
+          - button "Remove Phylactery from chart" [ref=e856] [cursor=pointer]: ✕
+        - generic [ref=e857]:
+          - generic [ref=e859]: Reanimate
+          - button "Remove Reanimate from chart" [ref=e860] [cursor=pointer]: ✕
+        - generic [ref=e861]:
+          - generic [ref=e863]: Sacrifice
+          - button "Remove Sacrifice from chart" [ref=e864] [cursor=pointer]: ✕
+        - generic [ref=e865]:
+          - generic [ref=e867]: Wail
+          - button "Remove Wail from chart" [ref=e868] [cursor=pointer]: ✕
+        - generic [ref=e869]:
+          - generic [ref=e871]: Ambush
+          - button "Remove Ambush from chart" [ref=e872] [cursor=pointer]: ✕
+        - generic [ref=e873]:
+          - generic [ref=e875]: Coil
+          - button "Remove Coil from chart" [ref=e876] [cursor=pointer]: ✕
+        - generic [ref=e877]:
+          - generic [ref=e879]: Constrict
+          - button "Remove Constrict from chart" [ref=e880] [cursor=pointer]: ✕
+        - generic [ref=e881]:
+          - generic [ref=e883]: Double Strike
+          - button "Remove Double Strike from chart" [ref=e884] [cursor=pointer]: ✕
+        - generic [ref=e885]:
+          - generic [ref=e887]: Hiss
+          - button "Remove Hiss from chart" [ref=e888] [cursor=pointer]: ✕
+        - generic [ref=e889]:
+          - generic [ref=e891]: Ouroboros
+          - button "Remove Ouroboros from chart" [ref=e892] [cursor=pointer]: ✕
+        - generic [ref=e893]:
+          - generic [ref=e895]: Rattlesnake
+          - button "Remove Rattlesnake from chart" [ref=e896] [cursor=pointer]: ✕
+        - generic [ref=e897]:
+          - generic [ref=e899]: Slither
+          - button "Remove Slither from chart" [ref=e900] [cursor=pointer]: ✕
+        - generic [ref=e901]:
+          - generic [ref=e903]: Snakebite
+          - button "Remove Snakebite from chart" [ref=e904] [cursor=pointer]: ✕
+        - generic [ref=e905]:
+          - generic [ref=e907]: Squeeze
+          - button "Remove Squeeze from chart" [ref=e908] [cursor=pointer]: ✕
+        - generic [ref=e909]:
+          - generic [ref=e911]: A Thousand Cuts
+          - button "Remove A Thousand Cuts from chart" [ref=e912] [cursor=pointer]: ✕
+        - generic [ref=e913]:
+          - generic [ref=e915]: Acrobatics
+          - button "Remove Acrobatics from chart" [ref=e916] [cursor=pointer]: ✕
+        - generic [ref=e917]:
+          - generic [ref=e919]: Adrenaline
+          - button "Remove Adrenaline from chart" [ref=e920] [cursor=pointer]: ✕
+        - generic [ref=e921]:
+          - generic [ref=e923]: After Image
+          - button "Remove After Image from chart" [ref=e924] [cursor=pointer]: ✕
+        - generic [ref=e925]:
+          - generic [ref=e927]: All-Out Attack
+          - button "Remove All-Out Attack from chart" [ref=e928] [cursor=pointer]: ✕
+        - generic [ref=e929]:
+          - generic [ref=e931]: Backflip
+          - button "Remove Backflip from chart" [ref=e932] [cursor=pointer]: ✕
+        - generic [ref=e933]:
+          - generic [ref=e935]: Backstab
+          - button "Remove Backstab from chart" [ref=e936] [cursor=pointer]: ✕
+        - generic [ref=e937]:
+          - generic [ref=e939]: Bane
+          - button "Remove Bane from chart" [ref=e940] [cursor=pointer]: ✕
+        - generic [ref=e941]:
+          - generic [ref=e943]: Blade Dance
+          - button "Remove Blade Dance from chart" [ref=e944] [cursor=pointer]: ✕
+        - generic [ref=e945]:
+          - generic [ref=e947]: Bouncing Flask
+          - button "Remove Bouncing Flask from chart" [ref=e948] [cursor=pointer]: ✕
+        - generic [ref=e949]:
+          - generic [ref=e951]: Bullet Time
+          - button "Remove Bullet Time from chart" [ref=e952] [cursor=pointer]: ✕
+        - generic [ref=e953]:
+          - generic [ref=e955]: Burst
+          - button "Remove Burst from chart" [ref=e956] [cursor=pointer]: ✕
+        - generic [ref=e957]:
+          - generic [ref=e959]: Calculated Gamble
+          - button "Remove Calculated Gamble from chart" [ref=e960] [cursor=pointer]: ✕
+        - generic [ref=e961]:
+          - generic [ref=e963]: Caltrops
+          - button "Remove Caltrops from chart" [ref=e964] [cursor=pointer]: ✕
+        - generic [ref=e965]:
+          - generic [ref=e967]: Catalyst
+          - button "Remove Catalyst from chart" [ref=e968] [cursor=pointer]: ✕
+        - generic [ref=e969]:
+          - generic [ref=e971]: Choke
+          - button "Remove Choke from chart" [ref=e972] [cursor=pointer]: ✕
+        - generic [ref=e973]:
+          - generic [ref=e975]: Cloak and Dagger
+          - button "Remove Cloak and Dagger from chart" [ref=e976] [cursor=pointer]: ✕
+        - generic [ref=e977]:
+          - generic [ref=e979]: Concentrate
+          - button "Remove Concentrate from chart" [ref=e980] [cursor=pointer]: ✕
+        - generic [ref=e981]:
+          - generic [ref=e983]: Corpse Explosion
+          - button "Remove Corpse Explosion from chart" [ref=e984] [cursor=pointer]: ✕
+        - generic [ref=e985]:
+          - generic [ref=e987]: Crippling Cloud
+          - button "Remove Crippling Cloud from chart" [ref=e988] [cursor=pointer]: ✕
+        - generic [ref=e989]:
+          - generic [ref=e991]: Dagger Spray
+          - button "Remove Dagger Spray from chart" [ref=e992] [cursor=pointer]: ✕
+        - generic [ref=e993]:
+          - generic [ref=e995]: Dagger Throw
+          - button "Remove Dagger Throw from chart" [ref=e996] [cursor=pointer]: ✕
+        - generic [ref=e997]:
+          - generic [ref=e999]: Dash
+          - button "Remove Dash from chart" [ref=e1000] [cursor=pointer]: ✕
+        - generic [ref=e1001]:
+          - generic [ref=e1003]: Deadly Poison
+          - button "Remove Deadly Poison from chart" [ref=e1004] [cursor=pointer]: ✕
+        - generic [ref=e1005]:
+          - generic [ref=e1007]: Deflect
+          - button "Remove Deflect from chart" [ref=e1008] [cursor=pointer]: ✕
+        - generic [ref=e1009]:
+          - generic [ref=e1011]: Die Die Die
+          - button "Remove Die Die Die from chart" [ref=e1012] [cursor=pointer]: ✕
+        - generic [ref=e1013]:
+          - generic [ref=e1015]: Distraction
+          - button "Remove Distraction from chart" [ref=e1016] [cursor=pointer]: ✕
+        - generic [ref=e1017]:
+          - generic [ref=e1019]: Dodge and Roll
+          - button "Remove Dodge and Roll from chart" [ref=e1020] [cursor=pointer]: ✕
+        - generic [ref=e1021]:
+          - generic [ref=e1023]: Endless Agony
+          - button "Remove Endless Agony from chart" [ref=e1024] [cursor=pointer]: ✕
+        - generic [ref=e1025]:
+          - generic [ref=e1027]: Envenom
+          - button "Remove Envenom from chart" [ref=e1028] [cursor=pointer]: ✕
+        - generic [ref=e1029]:
+          - generic [ref=e1031]: Escape Plan
+          - button "Remove Escape Plan from chart" [ref=e1032] [cursor=pointer]: ✕
+        - generic [ref=e1033]:
+          - generic [ref=e1035]: Eviscerate
+          - button "Remove Eviscerate from chart" [ref=e1036] [cursor=pointer]: ✕
+        - generic [ref=e1037]:
+          - generic [ref=e1039]: Expertise
+          - button "Remove Expertise from chart" [ref=e1040] [cursor=pointer]: ✕
+        - generic [ref=e1041]:
+          - generic [ref=e1043]: Finisher
+          - button "Remove Finisher from chart" [ref=e1044] [cursor=pointer]: ✕
+        - generic [ref=e1045]:
+          - generic [ref=e1047]: Flechettes
+          - button "Remove Flechettes from chart" [ref=e1048] [cursor=pointer]: ✕
+        - generic [ref=e1049]:
+          - generic [ref=e1051]: Flying Knee
+          - button "Remove Flying Knee from chart" [ref=e1052] [cursor=pointer]: ✕
+        - generic [ref=e1053]:
+          - generic [ref=e1055]: Footwork
+          - button "Remove Footwork from chart" [ref=e1056] [cursor=pointer]: ✕
+        - generic [ref=e1057]:
+          - generic [ref=e1059]: Glass Knife
+          - button "Remove Glass Knife from chart" [ref=e1060] [cursor=pointer]: ✕
+        - generic [ref=e1061]:
+          - generic [ref=e1063]: Grand Finale
+          - button "Remove Grand Finale from chart" [ref=e1064] [cursor=pointer]: ✕
+        - generic [ref=e1065]:
+          - generic [ref=e1067]: Heel Hook
+          - button "Remove Heel Hook from chart" [ref=e1068] [cursor=pointer]: ✕
+        - generic [ref=e1069]:
+          - generic [ref=e1071]: Infinite Blades
+          - button "Remove Infinite Blades from chart" [ref=e1072] [cursor=pointer]: ✕
+        - generic [ref=e1073]:
+          - generic [ref=e1075]: Leg Sweep
+          - button "Remove Leg Sweep from chart" [ref=e1076] [cursor=pointer]: ✕
+        - generic [ref=e1077]:
+          - generic [ref=e1079]: Malaise
+          - button "Remove Malaise from chart" [ref=e1080] [cursor=pointer]: ✕
+        - generic [ref=e1081]:
+          - generic [ref=e1083]: Masterful Stab
+          - button "Remove Masterful Stab from chart" [ref=e1084] [cursor=pointer]: ✕
+        - generic [ref=e1085]:
+          - generic [ref=e1087]: Noxious Fumes
+          - button "Remove Noxious Fumes from chart" [ref=e1088] [cursor=pointer]: ✕
+        - generic [ref=e1089]:
+          - generic [ref=e1091]: Outmaneuver
+          - button "Remove Outmaneuver from chart" [ref=e1092] [cursor=pointer]: ✕
+        - generic [ref=e1093]:
+          - generic [ref=e1095]: Phantasmal Killer
+          - button "Remove Phantasmal Killer from chart" [ref=e1096] [cursor=pointer]: ✕
+        - generic [ref=e1097]:
+          - generic [ref=e1099]: Piercing Wail
+          - button "Remove Piercing Wail from chart" [ref=e1100] [cursor=pointer]: ✕
+        - generic [ref=e1101]:
+          - generic [ref=e1103]: Poisoned Stab
+          - button "Remove Poisoned Stab from chart" [ref=e1104] [cursor=pointer]: ✕
+        - generic [ref=e1105]:
+          - generic [ref=e1107]: Predator
+          - button "Remove Predator from chart" [ref=e1108] [cursor=pointer]: ✕
+        - generic [ref=e1109]:
+          - generic [ref=e1111]: Prepared
+          - button "Remove Prepared from chart" [ref=e1112] [cursor=pointer]: ✕
+        - generic [ref=e1113]:
+          - generic [ref=e1115]: Quick Slash
+          - button "Remove Quick Slash from chart" [ref=e1116] [cursor=pointer]: ✕
+        - generic [ref=e1117]:
+          - generic [ref=e1119]: Reflex
+          - button "Remove Reflex from chart" [ref=e1120] [cursor=pointer]: ✕
+        - generic [ref=e1121]:
+          - generic [ref=e1123]: Riddle with Holes
+          - button "Remove Riddle with Holes from chart" [ref=e1124] [cursor=pointer]: ✕
+        - generic [ref=e1125]:
+          - generic [ref=e1127]: Setup
+          - button "Remove Setup from chart" [ref=e1128] [cursor=pointer]: ✕
+        - generic [ref=e1129]:
+          - generic [ref=e1131]: Skewer
+          - button "Remove Skewer from chart" [ref=e1132] [cursor=pointer]: ✕
+        - generic [ref=e1133]:
+          - generic [ref=e1135]: Slice
+          - button "Remove Slice from chart" [ref=e1136] [cursor=pointer]: ✕
+        - generic [ref=e1137]:
+          - generic [ref=e1139]: Sneaky Strike
+          - button "Remove Sneaky Strike from chart" [ref=e1140] [cursor=pointer]: ✕
+        - generic [ref=e1141]:
+          - generic [ref=e1143]: Storm of Steel
+          - button "Remove Storm of Steel from chart" [ref=e1144] [cursor=pointer]: ✕
+        - generic [ref=e1145]:
+          - generic [ref=e1147]: Sucker Punch
+          - button "Remove Sucker Punch from chart" [ref=e1148] [cursor=pointer]: ✕
+        - generic [ref=e1149]:
+          - generic [ref=e1151]: Tactician
+          - button "Remove Tactician from chart" [ref=e1152] [cursor=pointer]: ✕
+        - generic [ref=e1153]:
+          - generic [ref=e1155]: Terror
+          - button "Remove Terror from chart" [ref=e1156] [cursor=pointer]: ✕
+        - generic [ref=e1157]:
+          - generic [ref=e1159]: Tools of the Trade
+          - button "Remove Tools of the Trade from chart" [ref=e1160] [cursor=pointer]: ✕
+        - generic [ref=e1161]:
+          - generic [ref=e1163]: Unload
+          - button "Remove Unload from chart" [ref=e1164] [cursor=pointer]: ✕
+        - generic [ref=e1165]:
+          - generic [ref=e1167]: Well-Laid Plans
+          - button "Remove Well-Laid Plans from chart" [ref=e1168] [cursor=pointer]: ✕
+        - generic [ref=e1169]:
+          - generic [ref=e1171]: Wraith Form
+          - button "Remove Wraith Form from chart" [ref=e1172] [cursor=pointer]: ✕
+      - img "Card mention trend chart" [ref=e1174]
+    - region "All-Time Leaderboard" [ref=e1175]:
+      - generic [ref=e1176]:
+        - heading "All-Time Leaderboard" [level=2] [ref=e1177]:
+          - generic [ref=e1178]: 🏆
+          - text: All-Time Leaderboard
+          - generic [ref=e1179]: 🏆
+        - paragraph [ref=e1180]: Click any row to toggle it on the chart above
+      - table "Card mention leaderboard" [ref=e1182]:
+        - rowgroup [ref=e1183]:
+          - row "# Card Name Character Rarity Total ↓ 7-day Avg Trend" [ref=e1184]:
+            - columnheader "#" [ref=e1185]
+            - columnheader "Card Name" [ref=e1186] [cursor=pointer]
+            - columnheader "Character" [ref=e1187] [cursor=pointer]
+            - columnheader "Rarity" [ref=e1188] [cursor=pointer]
+            - columnheader "Total ↓" [ref=e1189] [cursor=pointer]
+            - columnheader "7-day Avg" [ref=e1190] [cursor=pointer]: 7-day Avg
+            - columnheader "Trend" [ref=e1191]
+        - rowgroup [ref=e1192]:
+          - row "1 Claw Defect Common 687 17.3 →" [ref=e1193] [cursor=pointer]:
+            - cell "1" [ref=e1194]
+            - cell "Claw" [ref=e1195]: Claw
+            - cell "Defect" [ref=e1197]
+            - cell "Common" [ref=e1198]:
+              - generic [ref=e1201]: Common
+            - cell "687" [ref=e1202]
+            - cell "17.3" [ref=e1203]
+            - cell "→" [ref=e1204]:
+              - generic [ref=e1205]: →
+          - row "2 Snakebite Regent Common 637 18.6 ↓" [ref=e1206] [cursor=pointer]:
+            - cell "2" [ref=e1207]
+            - cell "Snakebite" [ref=e1208]: Snakebite
+            - cell "Regent" [ref=e1210]
+            - cell "Common" [ref=e1211]:
+              - generic [ref=e1214]: Common
+            - cell "637" [ref=e1215]
+            - cell "18.6" [ref=e1216]
+            - cell "↓" [ref=e1217]:
+              - generic [ref=e1218]: ↓
+          - row "3 Prepared Silent Common 606 11.6 ↓" [ref=e1219] [cursor=pointer]:
+            - cell "3" [ref=e1220]
+            - cell "Prepared" [ref=e1221]: Prepared
+            - cell "Silent" [ref=e1223]
+            - cell "Common" [ref=e1224]:
+              - generic [ref=e1227]: Common
+            - cell "606" [ref=e1228]
+            - cell "11.6" [ref=e1229]
+            - cell "↓" [ref=e1230]:
+              - generic [ref=e1231]: ↓
+          - row "4 Setup Silent Uncommon 429 13.7 →" [ref=e1232] [cursor=pointer]:
+            - cell "4" [ref=e1233]
+            - cell "Setup" [ref=e1234]: Setup
+            - cell "Silent" [ref=e1236]
+            - cell "Uncommon" [ref=e1237]:
+              - generic [ref=e1240]: Uncommon
+            - cell "429" [ref=e1241]
+            - cell "13.7" [ref=e1242]
+            - cell "→" [ref=e1243]:
+              - generic [ref=e1244]: →
+          - row "5 Stack Defect Common 377 12.4 ↑" [ref=e1245] [cursor=pointer]:
+            - cell "5" [ref=e1246]
+            - cell "Stack" [ref=e1247]: Stack
+            - cell "Defect" [ref=e1249]
+            - cell "Common" [ref=e1250]:
+              - generic [ref=e1253]: Common
+            - cell "377" [ref=e1254]
+            - cell "12.4" [ref=e1255]
+            - cell "↑" [ref=e1256]:
+              - generic [ref=e1257]: ↑
+          - row "6 Burst Silent Rare 288 10.1 ↑" [ref=e1258] [cursor=pointer]:
+            - cell "6" [ref=e1259]
+            - cell "Burst" [ref=e1260]: Burst
+            - cell "Silent" [ref=e1262]
+            - cell "Rare" [ref=e1263]:
+              - generic [ref=e1266]: Rare
+            - cell "288" [ref=e1267]
+            - cell "10.1" [ref=e1268]
+            - cell "↑" [ref=e1269]:
+              - generic [ref=e1270]: ↑
+          - row "7 Pommel Strike Ironclad Common 278 4.4 ↓" [ref=e1271] [cursor=pointer]:
+            - cell "7" [ref=e1272]
+            - cell "Pommel Strike" [ref=e1273]: Pommel Strike
+            - cell "Ironclad" [ref=e1275]
+            - cell "Common" [ref=e1276]:
+              - generic [ref=e1279]: Common
+            - cell "278" [ref=e1280]
+            - cell "4.4" [ref=e1281]
+            - cell "↓" [ref=e1282]:
+              - generic [ref=e1283]: ↓
+          - row "8 Loop Defect Uncommon 253 4.6 ↓" [ref=e1284] [cursor=pointer]:
+            - cell "8" [ref=e1285]
+            - cell "Loop" [ref=e1286]: Loop
+            - cell "Defect" [ref=e1288]
+            - cell "Uncommon" [ref=e1289]:
+              - generic [ref=e1292]: Uncommon
+            - cell "253" [ref=e1293]
+            - cell "4.6" [ref=e1294]
+            - cell "↓" [ref=e1295]:
+              - generic [ref=e1296]: ↓
+          - row "9 Barricade Ironclad Rare 239 9.3 →" [ref=e1297] [cursor=pointer]:
+            - cell "9" [ref=e1298]
+            - cell "Barricade" [ref=e1299]: Barricade
+            - cell "Ironclad" [ref=e1301]
+            - cell "Rare" [ref=e1302]:
+              - generic [ref=e1305]: Rare
+            - cell "239" [ref=e1306]
+            - cell "9.3" [ref=e1307]
+            - cell "→" [ref=e1308]:
+              - generic [ref=e1309]: →
+          - row "10 Acrobatics Silent Common 235 6.7 →" [ref=e1310] [cursor=pointer]:
+            - cell "10" [ref=e1311]
+            - cell "Acrobatics" [ref=e1312]: Acrobatics
+            - cell "Silent" [ref=e1314]
+            - cell "Common" [ref=e1315]:
+              - generic [ref=e1318]: Common
+            - cell "235" [ref=e1319]
+            - cell "6.7" [ref=e1320]
+            - cell "→" [ref=e1321]:
+              - generic [ref=e1322]: →
+          - row "11 Reaper Ironclad Rare 231 8.1 ↑" [ref=e1323] [cursor=pointer]:
+            - cell "11" [ref=e1324]
+            - cell "Reaper" [ref=e1325]: Reaper
+            - cell "Ironclad" [ref=e1327]
+            - cell "Rare" [ref=e1328]:
+              - generic [ref=e1331]: Rare
+            - cell "231" [ref=e1332]
+            - cell "8.1" [ref=e1333]
+            - cell "↑" [ref=e1334]:
+              - generic [ref=e1335]: ↑
+          - row "12 Echo Form Defect Rare 230 7.7 →" [ref=e1336] [cursor=pointer]:
+            - cell "12" [ref=e1337]
+            - cell "Echo Form" [ref=e1338]: Echo Form
+            - cell "Defect" [ref=e1340]
+            - cell "Rare" [ref=e1341]:
+              - generic [ref=e1344]: Rare
+            - cell "230" [ref=e1345]
+            - cell "7.7" [ref=e1346]
+            - cell "→" [ref=e1347]:
+              - generic [ref=e1348]: →
+          - row "13 Corruption Ironclad Rare 207 5.9 →" [ref=e1349] [cursor=pointer]:
+            - cell "13" [ref=e1350]
+            - cell "Corruption" [ref=e1351]: Corruption
+            - cell "Ironclad" [ref=e1353]
+            - cell "Rare" [ref=e1354]:
+              - generic [ref=e1357]: Rare
+            - cell "207" [ref=e1358]
+            - cell "5.9" [ref=e1359]
+            - cell "→" [ref=e1360]:
+              - generic [ref=e1361]: →
+          - row "14 Pain Curse Curse 204 6.7 →" [ref=e1362] [cursor=pointer]:
+            - cell "14" [ref=e1363]
+            - cell "Pain" [ref=e1364]: Pain
+            - cell "Curse" [ref=e1366]
+            - cell "Curse" [ref=e1367]:
+              - generic [ref=e1370]: Curse
+            - cell "204" [ref=e1371]
+            - cell "6.7" [ref=e1372]
+            - cell "→" [ref=e1373]:
+              - generic [ref=e1374]: →
+          - row "15 Bash Ironclad Basic 180 8.7 ↑" [ref=e1375] [cursor=pointer]:
+            - cell "15" [ref=e1376]
+            - cell "Bash" [ref=e1377]: Bash
+            - cell "Ironclad" [ref=e1379]
+            - cell "Basic" [ref=e1380]:
+              - generic [ref=e1383]: Basic
+            - cell "180" [ref=e1384]
+            - cell "8.7" [ref=e1385]
+            - cell "↑" [ref=e1386]:
+              - generic [ref=e1387]: ↑
+          - row "16 Demon Form Ironclad Rare 180 11.6 ↑" [ref=e1388] [cursor=pointer]:
+            - cell "16" [ref=e1389]
+            - cell "Demon Form" [ref=e1390]: Demon Form
+            - cell "Ironclad" [ref=e1392]
+            - cell "Rare" [ref=e1393]:
+              - generic [ref=e1396]: Rare
+            - cell "180" [ref=e1397]
+            - cell "11.6" [ref=e1398]
+            - cell "↑" [ref=e1399]:
+              - generic [ref=e1400]: ↑
+          - row "17 Bloodletting Ironclad Uncommon 170 2.7 ↓" [ref=e1401] [cursor=pointer]:
+            - cell "17" [ref=e1402]
+            - cell "Bloodletting" [ref=e1403]: Bloodletting
+            - cell "Ironclad" [ref=e1405]
+            - cell "Uncommon" [ref=e1406]:
+              - generic [ref=e1409]: Uncommon
+            - cell "170" [ref=e1410]
+            - cell "2.7" [ref=e1411]
+            - cell "↓" [ref=e1412]:
+              - generic [ref=e1413]: ↓
+          - row "18 Perfected Strike Ironclad Common 160 4.7 →" [ref=e1414] [cursor=pointer]:
+            - cell "18" [ref=e1415]
+            - cell "Perfected Strike" [ref=e1416]: Perfected Strike
+            - cell "Ironclad" [ref=e1418]
+            - cell "Common" [ref=e1419]:
+              - generic [ref=e1422]: Common
+            - cell "160" [ref=e1423]
+            - cell "4.7" [ref=e1424]
+            - cell "→" [ref=e1425]:
+              - generic [ref=e1426]: →
+          - row "19 Blade Dance Silent Common 159 5.1 ↑" [ref=e1427] [cursor=pointer]:
+            - cell "19" [ref=e1428]
+            - cell "Blade Dance" [ref=e1429]: Blade Dance
+            - cell "Silent" [ref=e1431]
+            - cell "Common" [ref=e1432]:
+              - generic [ref=e1435]: Common
+            - cell "159" [ref=e1436]
+            - cell "5.1" [ref=e1437]
+            - cell "↑" [ref=e1438]:
+              - generic [ref=e1439]: ↑
+          - row "20 Zap Defect Rare 155 11.6 ↑" [ref=e1440] [cursor=pointer]:
+            - cell "20" [ref=e1441]
+            - cell "Zap" [ref=e1442]: Zap
+            - cell "Defect" [ref=e1444]
+            - cell "Rare" [ref=e1445]:
+              - generic [ref=e1448]: Rare
+            - cell "155" [ref=e1449]
+            - cell "11.6" [ref=e1450]
+            - cell "↑" [ref=e1451]:
+              - generic [ref=e1452]: ↑
+          - row "21 Offering Ironclad Rare 148 4.7 →" [ref=e1453] [cursor=pointer]:
+            - cell "21" [ref=e1454]
+            - cell "Offering" [ref=e1455]: Offering
+            - cell "Ironclad" [ref=e1457]
+            - cell "Rare" [ref=e1458]:
+              - generic [ref=e1461]: Rare
+            - cell "148" [ref=e1462]
+            - cell "4.7" [ref=e1463]
+            - cell "→" [ref=e1464]:
+              - generic [ref=e1465]: →
+          - row "22 Catalyst Silent Uncommon 145 1.3 ↓" [ref=e1466] [cursor=pointer]:
+            - cell "22" [ref=e1467]
+            - cell "Catalyst" [ref=e1468]: Catalyst
+            - cell "Silent" [ref=e1470]
+            - cell "Uncommon" [ref=e1471]:
+              - generic [ref=e1474]: Uncommon
+            - cell "145" [ref=e1475]
+            - cell "1.3" [ref=e1476]
+            - cell "↓" [ref=e1477]:
+              - generic [ref=e1478]: ↓
+          - row "23 Bludgeon Ironclad Rare 135 6.1 ↑" [ref=e1479] [cursor=pointer]:
+            - cell "23" [ref=e1480]
+            - cell "Bludgeon" [ref=e1481]: Bludgeon
+            - cell "Ironclad" [ref=e1483]
+            - cell "Rare" [ref=e1484]:
+              - generic [ref=e1487]: Rare
+            - cell "135" [ref=e1488]
+            - cell "6.1" [ref=e1489]
+            - cell "↑" [ref=e1490]:
+              - generic [ref=e1491]: ↑
+          - row "24 Adrenaline Silent Rare 134 5.3 ↑" [ref=e1492] [cursor=pointer]:
+            - cell "24" [ref=e1493]
+            - cell "Adrenaline" [ref=e1494]: Adrenaline
+            - cell "Silent" [ref=e1496]
+            - cell "Rare" [ref=e1497]:
+              - generic [ref=e1500]: Rare
+            - cell "134" [ref=e1501]
+            - cell "5.3" [ref=e1502]
+            - cell "↑" [ref=e1503]:
+              - generic [ref=e1504]: ↑
+          - row "25 Deadly Poison Silent Common 121 1.9 →" [ref=e1505] [cursor=pointer]:
+            - cell "25" [ref=e1506]
+            - cell "Deadly Poison" [ref=e1507]: Deadly Poison
+            - cell "Silent" [ref=e1509]
+            - cell "Common" [ref=e1510]:
+              - generic [ref=e1513]: Common
+            - cell "121" [ref=e1514]
+            - cell "1.9" [ref=e1515]
+            - cell "→" [ref=e1516]:
+              - generic [ref=e1517]: →
+          - row "26 Doubt Curse Curse 115 3.3 ↑" [ref=e1518] [cursor=pointer]:
+            - cell "26" [ref=e1519]
+            - cell "Doubt" [ref=e1520]: Doubt
+            - cell "Curse" [ref=e1522]
+            - cell "Curse" [ref=e1523]:
+              - generic [ref=e1526]: Curse
+            - cell "115" [ref=e1527]
+            - cell "3.3" [ref=e1528]
+            - cell "↑" [ref=e1529]:
+              - generic [ref=e1530]: ↑
+          - row "27 Turbo Defect Common 115 6.1 ↑" [ref=e1531] [cursor=pointer]:
+            - cell "27" [ref=e1532]
+            - cell "Turbo" [ref=e1533]: Turbo
+            - cell "Defect" [ref=e1535]
+            - cell "Common" [ref=e1536]:
+              - generic [ref=e1539]: Common
+            - cell "115" [ref=e1540]
+            - cell "6.1" [ref=e1541]
+            - cell "↑" [ref=e1542]:
+              - generic [ref=e1543]: ↑
+          - row "28 Body Slam Ironclad Common 115 4.0 ↑" [ref=e1544] [cursor=pointer]:
+            - cell "28" [ref=e1545]
+            - cell "Body Slam" [ref=e1546]: Body Slam
+            - cell "Ironclad" [ref=e1548]
+            - cell "Common" [ref=e1549]:
+              - generic [ref=e1552]: Common
+            - cell "115" [ref=e1553]
+            - cell "4.0" [ref=e1554]
+            - cell "↑" [ref=e1555]:
+              - generic [ref=e1556]: ↑
+          - row "29 Hologram Defect Common 111 3.9 →" [ref=e1557] [cursor=pointer]:
+            - cell "29" [ref=e1558]
+            - cell "Hologram" [ref=e1559]: Hologram
+            - cell "Defect" [ref=e1561]
+            - cell "Common" [ref=e1562]:
+              - generic [ref=e1565]: Common
+            - cell "111" [ref=e1566]
+            - cell "3.9" [ref=e1567]
+            - cell "→" [ref=e1568]:
+              - generic [ref=e1569]: →
+          - row "30 Sacrifice Necrobinder Common 110 4.6 ↑" [ref=e1570] [cursor=pointer]:
+            - cell "30" [ref=e1571]
+            - cell "Sacrifice" [ref=e1572]: Sacrifice
+            - cell "Necrobinder" [ref=e1574]
+            - cell "Common" [ref=e1575]:
+              - generic [ref=e1578]: Common
+            - cell "110" [ref=e1579]
+            - cell "4.6" [ref=e1580]
+            - cell "↑" [ref=e1581]:
+              - generic [ref=e1582]: ↑
+          - row "31 Anger Ironclad Common 109 3.3 →" [ref=e1583] [cursor=pointer]:
+            - cell "31" [ref=e1584]
+            - cell "Anger" [ref=e1585]: Anger
+            - cell "Ironclad" [ref=e1587]
+            - cell "Common" [ref=e1588]:
+              - generic [ref=e1591]: Common
+            - cell "109" [ref=e1592]
+            - cell "3.3" [ref=e1593]
+            - cell "→" [ref=e1594]:
+              - generic [ref=e1595]: →
+          - row "32 Storm Defect Uncommon 108 2.4 ↓" [ref=e1596] [cursor=pointer]:
+            - cell "32" [ref=e1597]
+            - cell "Storm" [ref=e1598]: Storm
+            - cell "Defect" [ref=e1600]
+            - cell "Uncommon" [ref=e1601]:
+              - generic [ref=e1604]: Uncommon
+            - cell "108" [ref=e1605]
+            - cell "2.4" [ref=e1606]
+            - cell "↓" [ref=e1607]:
+              - generic [ref=e1608]: ↓
+          - row "33 Rage Ironclad Uncommon 106 2.3 ↓" [ref=e1609] [cursor=pointer]:
+            - cell "33" [ref=e1610]
+            - cell "Rage" [ref=e1611]: Rage
+            - cell "Ironclad" [ref=e1613]
+            - cell "Uncommon" [ref=e1614]:
+              - generic [ref=e1617]: Uncommon
+            - cell "106" [ref=e1618]
+            - cell "2.3" [ref=e1619]
+            - cell "↓" [ref=e1620]:
+              - generic [ref=e1621]: ↓
+          - row "34 Squeeze Regent Uncommon 106 3.3 ↓" [ref=e1622] [cursor=pointer]:
+            - cell "34" [ref=e1623]
+            - cell "Squeeze" [ref=e1624]: Squeeze
+            - cell "Regent" [ref=e1626]
+            - cell "Uncommon" [ref=e1627]:
+              - generic [ref=e1630]: Uncommon
+            - cell "106" [ref=e1631]
+            - cell "3.3" [ref=e1632]
+            - cell "↓" [ref=e1633]:
+              - generic [ref=e1634]: ↓
+          - row "35 Wraith Form Silent Rare 104 2.9 ↑" [ref=e1635] [cursor=pointer]:
+            - cell "35" [ref=e1636]
+            - cell "Wraith Form" [ref=e1637]: Wraith Form
+            - cell "Silent" [ref=e1639]
+            - cell "Rare" [ref=e1640]:
+              - generic [ref=e1643]: Rare
+            - cell "104" [ref=e1644]
+            - cell "2.9" [ref=e1645]
+            - cell "↑" [ref=e1646]:
+              - generic [ref=e1647]: ↑
+          - row "36 Creative AI Defect Rare 102 3.9 →" [ref=e1648] [cursor=pointer]:
+            - cell "36" [ref=e1649]
+            - cell "Creative AI" [ref=e1650]: Creative AI
+            - cell "Defect" [ref=e1652]
+            - cell "Rare" [ref=e1653]:
+              - generic [ref=e1656]: Rare
+            - cell "102" [ref=e1657]
+            - cell "3.9" [ref=e1658]
+            - cell "→" [ref=e1659]:
+              - generic [ref=e1660]: →
+          - row "37 Hyperbeam Defect Rare 100 9.4 ↑" [ref=e1661] [cursor=pointer]:
+            - cell "37" [ref=e1662]
+            - cell "Hyperbeam" [ref=e1663]: Hyperbeam
+            - cell "Defect" [ref=e1665]
+            - cell "Rare" [ref=e1666]:
+              - generic [ref=e1669]: Rare
+            - cell "100" [ref=e1670]
+            - cell "9.4" [ref=e1671]
+            - cell "↑" [ref=e1672]:
+              - generic [ref=e1673]: ↑
+          - row "38 Feed Ironclad Rare 99 3.9 ↑" [ref=e1674] [cursor=pointer]:
+            - cell "38" [ref=e1675]
+            - cell "Feed" [ref=e1676]: Feed
+            - cell "Ironclad" [ref=e1678]
+            - cell "Rare" [ref=e1679]:
+              - generic [ref=e1682]: Rare
+            - cell "99" [ref=e1683]
+            - cell "3.9" [ref=e1684]
+            - cell "↑" [ref=e1685]:
+              - generic [ref=e1686]: ↑
+          - row "39 Grand Finale Silent Rare 99 1.9 ↓" [ref=e1687] [cursor=pointer]:
+            - cell "39" [ref=e1688]
+            - cell "Grand Finale" [ref=e1689]: Grand Finale
+            - cell "Silent" [ref=e1691]
+            - cell "Rare" [ref=e1692]:
+              - generic [ref=e1695]: Rare
+            - cell "99" [ref=e1696]
+            - cell "1.9" [ref=e1697]
+            - cell "↓" [ref=e1698]:
+              - generic [ref=e1699]: ↓
+          - row "40 Tactician Silent Uncommon 98 2.9 →" [ref=e1700] [cursor=pointer]:
+            - cell "40" [ref=e1701]
+            - cell "Tactician" [ref=e1702]: Tactician
+            - cell "Silent" [ref=e1704]
+            - cell "Uncommon" [ref=e1705]:
+              - generic [ref=e1708]: Uncommon
+            - cell "98" [ref=e1709]
+            - cell "2.9" [ref=e1710]
+            - cell "→" [ref=e1711]:
+              - generic [ref=e1712]: →
+          - row "41 Bullet Time Silent Rare 96 2.4 →" [ref=e1713] [cursor=pointer]:
+            - cell "41" [ref=e1714]
+            - cell "Bullet Time" [ref=e1715]: Bullet Time
+            - cell "Silent" [ref=e1717]
+            - cell "Rare" [ref=e1718]:
+              - generic [ref=e1721]: Rare
+            - cell "96" [ref=e1722]
+            - cell "2.4" [ref=e1723]
+            - cell "→" [ref=e1724]:
+              - generic [ref=e1725]: →
+          - row "42 Finisher Silent Uncommon 91 2.3 →" [ref=e1726] [cursor=pointer]:
+            - cell "42" [ref=e1727]
+            - cell "Finisher" [ref=e1728]: Finisher
+            - cell "Silent" [ref=e1730]
+            - cell "Uncommon" [ref=e1731]:
+              - generic [ref=e1734]: Uncommon
+            - cell "91" [ref=e1735]
+            - cell "2.3" [ref=e1736]
+            - cell "→" [ref=e1737]:
+              - generic [ref=e1738]: →
+          - row "43 Rupture Ironclad Uncommon 89 4.0 ↑" [ref=e1739] [cursor=pointer]:
+            - cell "43" [ref=e1740]
+            - cell "Rupture" [ref=e1741]: Rupture
+            - cell "Ironclad" [ref=e1743]
+            - cell "Uncommon" [ref=e1744]:
+              - generic [ref=e1747]: Uncommon
+            - cell "89" [ref=e1748]
+            - cell "4.0" [ref=e1749]
+            - cell "↑" [ref=e1750]:
+              - generic [ref=e1751]: ↑
+          - row "44 Dark Embrace Ironclad Uncommon 88 3.0 →" [ref=e1752] [cursor=pointer]:
+            - cell "44" [ref=e1753]
+            - cell "Dark Embrace" [ref=e1754]: Dark Embrace
+            - cell "Ironclad" [ref=e1756]
+            - cell "Uncommon" [ref=e1757]:
+              - generic [ref=e1760]: Uncommon
+            - cell "88" [ref=e1761]
+            - cell "3.0" [ref=e1762]
+            - cell "→" [ref=e1763]:
+              - generic [ref=e1764]: →
+          - row "45 Whirlwind Ironclad Uncommon 87 2.4 →" [ref=e1765] [cursor=pointer]:
+            - cell "45" [ref=e1766]
+            - cell "Whirlwind" [ref=e1767]: Whirlwind
+            - cell "Ironclad" [ref=e1769]
+            - cell "Uncommon" [ref=e1770]:
+              - generic [ref=e1773]: Uncommon
+            - cell "87" [ref=e1774]
+            - cell "2.4" [ref=e1775]
+            - cell "→" [ref=e1776]:
+              - generic [ref=e1777]: →
+          - row "46 Chill Defect Uncommon 86 2.9 ↑" [ref=e1778] [cursor=pointer]:
+            - cell "46" [ref=e1779]
+            - cell "Chill" [ref=e1780]: Chill
+            - cell "Defect" [ref=e1782]
+            - cell "Uncommon" [ref=e1783]:
+              - generic [ref=e1786]: Uncommon
+            - cell "86" [ref=e1787]
+            - cell "2.9" [ref=e1788]
+            - cell "↑" [ref=e1789]:
+              - generic [ref=e1790]: ↑
+          - row "47 Scrape Defect Uncommon 86 1.9 ↓" [ref=e1791] [cursor=pointer]:
+            - cell "47" [ref=e1792]
+            - cell "Scrape" [ref=e1793]: Scrape
+            - cell "Defect" [ref=e1795]
+            - cell "Uncommon" [ref=e1796]:
+              - generic [ref=e1799]: Uncommon
+            - cell "86" [ref=e1800]
+            - cell "1.9" [ref=e1801]
+            - cell "↓" [ref=e1802]:
+              - generic [ref=e1803]: ↓
+          - row "48 Terror Silent Uncommon 86 3.9 ↑" [ref=e1804] [cursor=pointer]:
+            - cell "48" [ref=e1805]
+            - cell "Terror" [ref=e1806]: Terror
+            - cell "Silent" [ref=e1808]
+            - cell "Uncommon" [ref=e1809]:
+              - generic [ref=e1812]: Uncommon
+            - cell "86" [ref=e1813]
+            - cell "3.9" [ref=e1814]
+            - cell "↑" [ref=e1815]:
+              - generic [ref=e1816]: ↑
+          - row "49 Envenom Silent Rare 85 1.9 ↑" [ref=e1817] [cursor=pointer]:
+            - cell "49" [ref=e1818]
+            - cell "Envenom" [ref=e1819]: Envenom
+            - cell "Silent" [ref=e1821]
+            - cell "Rare" [ref=e1822]:
+              - generic [ref=e1825]: Rare
+            - cell "85" [ref=e1826]
+            - cell "1.9" [ref=e1827]
+            - cell "↑" [ref=e1828]:
+              - generic [ref=e1829]: ↑
+          - row "50 Headbutt Ironclad Common 82 2.4 ↓" [ref=e1830] [cursor=pointer]:
+            - cell "50" [ref=e1831]
+            - cell "Headbutt" [ref=e1832]: Headbutt
+            - cell "Ironclad" [ref=e1834]
+            - cell "Common" [ref=e1835]:
+              - generic [ref=e1838]: Common
+            - cell "82" [ref=e1839]
+            - cell "2.4" [ref=e1840]
+            - cell "↓" [ref=e1841]:
+              - generic [ref=e1842]: ↓
+          - row "51 Feel No Pain Ironclad Uncommon 81 2.6 ↓" [ref=e1843] [cursor=pointer]:
+            - cell "51" [ref=e1844]
+            - cell "Feel No Pain" [ref=e1845]: Feel No Pain
+            - cell "Ironclad" [ref=e1847]
+            - cell "Uncommon" [ref=e1848]:
+              - generic [ref=e1851]: Uncommon
+            - cell "81" [ref=e1852]
+            - cell "2.6" [ref=e1853]
+            - cell "↓" [ref=e1854]:
+              - generic [ref=e1855]: ↓
+          - row "52 Bouncing Flask Silent Uncommon 79 2.9 ↑" [ref=e1856] [cursor=pointer]:
+            - cell "52" [ref=e1857]
+            - cell "Bouncing Flask" [ref=e1858]: Bouncing Flask
+            - cell "Silent" [ref=e1860]
+            - cell "Uncommon" [ref=e1861]:
+              - generic [ref=e1864]: Uncommon
+            - cell "79" [ref=e1865]
+            - cell "2.9" [ref=e1866]
+            - cell "↑" [ref=e1867]:
+              - generic [ref=e1868]: ↑
+          - row "53 Noxious Fumes Silent Uncommon 79 2.0 ↓" [ref=e1869] [cursor=pointer]:
+            - cell "53" [ref=e1870]
+            - cell "Noxious Fumes" [ref=e1871]: Noxious Fumes
+            - cell "Silent" [ref=e1873]
+            - cell "Uncommon" [ref=e1874]:
+              - generic [ref=e1877]: Uncommon
+            - cell "79" [ref=e1878]
+            - cell "2.0" [ref=e1879]
+            - cell "↓" [ref=e1880]:
+              - generic [ref=e1881]: ↓
+          - row "54 Limit Break Ironclad Rare 78 2.9 ↑" [ref=e1882] [cursor=pointer]:
+            - cell "54" [ref=e1883]
+            - cell "Limit Break" [ref=e1884]: Limit Break
+            - cell "Ironclad" [ref=e1886]
+            - cell "Rare" [ref=e1887]:
+              - generic [ref=e1890]: Rare
+            - cell "78" [ref=e1891]
+            - cell "2.9" [ref=e1892]
+            - cell "↑" [ref=e1893]:
+              - generic [ref=e1894]: ↑
+          - row "55 True Grit Ironclad Common 78 3.6 →" [ref=e1895] [cursor=pointer]:
+            - cell "55" [ref=e1896]
+            - cell "True Grit" [ref=e1897]: True Grit
+            - cell "Ironclad" [ref=e1899]
+            - cell "Common" [ref=e1900]:
+              - generic [ref=e1903]: Common
+            - cell "78" [ref=e1904]
+            - cell "3.6" [ref=e1905]
+            - cell "→" [ref=e1906]:
+              - generic [ref=e1907]: →
+          - row "56 Calculated Gamble Silent Uncommon 77 1.1 ↓" [ref=e1908] [cursor=pointer]:
+            - cell "56" [ref=e1909]
+            - cell "Calculated Gamble" [ref=e1910]: Calculated Gamble
+            - cell "Silent" [ref=e1912]
+            - cell "Uncommon" [ref=e1913]:
+              - generic [ref=e1916]: Uncommon
+            - cell "77" [ref=e1917]
+            - cell "1.1" [ref=e1918]
+            - cell "↓" [ref=e1919]:
+              - generic [ref=e1920]: ↓
+          - row "57 Mayhem Colorless Rare 75 2.1 ↓" [ref=e1921] [cursor=pointer]:
+            - cell "57" [ref=e1922]
+            - cell "Mayhem" [ref=e1923]: Mayhem
+            - cell "Colorless" [ref=e1925]
+            - cell "Rare" [ref=e1926]:
+              - generic [ref=e1929]: Rare
+            - cell "75" [ref=e1930]
+            - cell "2.1" [ref=e1931]
+            - cell "↓" [ref=e1932]:
+              - generic [ref=e1933]: ↓
+          - row "58 Darkness Defect Uncommon 75 1.9 ↓" [ref=e1934] [cursor=pointer]:
+            - cell "58" [ref=e1935]
+            - cell "Darkness" [ref=e1936]: Darkness
+            - cell "Defect" [ref=e1938]
+            - cell "Uncommon" [ref=e1939]:
+              - generic [ref=e1942]: Uncommon
+            - cell "75" [ref=e1943]
+            - cell "1.9" [ref=e1944]
+            - cell "↓" [ref=e1945]:
+              - generic [ref=e1946]: ↓
+          - row "59 Havoc Ironclad Common 74 3.4 ↑" [ref=e1947] [cursor=pointer]:
+            - cell "59" [ref=e1948]
+            - cell "Havoc" [ref=e1949]: Havoc
+            - cell "Ironclad" [ref=e1951]
+            - cell "Common" [ref=e1952]:
+              - generic [ref=e1955]: Common
+            - cell "74" [ref=e1956]
+            - cell "3.4" [ref=e1957]
+            - cell "↑" [ref=e1958]:
+              - generic [ref=e1959]: ↑
+          - row "60 Bane Silent Common 74 1.3 ↓" [ref=e1960] [cursor=pointer]:
+            - cell "60" [ref=e1961]
+            - cell "Bane" [ref=e1962]: Bane
+            - cell "Silent" [ref=e1964]
+            - cell "Common" [ref=e1965]:
+              - generic [ref=e1968]: Common
+            - cell "74" [ref=e1969]
+            - cell "1.3" [ref=e1970]
+            - cell "↓" [ref=e1971]:
+              - generic [ref=e1972]: ↓
+          - row "61 Shame Curse Curse 73 1.3 ↓" [ref=e1973] [cursor=pointer]:
+            - cell "61" [ref=e1974]
+            - cell "Shame" [ref=e1975]: Shame
+            - cell "Curse" [ref=e1977]
+            - cell "Curse" [ref=e1978]:
+              - generic [ref=e1981]: Curse
+            - cell "73" [ref=e1982]
+            - cell "1.3" [ref=e1983]
+            - cell "↓" [ref=e1984]:
+              - generic [ref=e1985]: ↓
+          - row "62 Fiend Fire Ironclad Rare 68 2.4 ↑" [ref=e1986] [cursor=pointer]:
+            - cell "62" [ref=e1987]
+            - cell "Fiend Fire" [ref=e1988]: Fiend Fire
+            - cell "Ironclad" [ref=e1990]
+            - cell "Rare" [ref=e1991]:
+              - generic [ref=e1994]: Rare
+            - cell "68" [ref=e1995]
+            - cell "2.4" [ref=e1996]
+            - cell "↑" [ref=e1997]:
+              - generic [ref=e1998]: ↑
+          - row "63 Parasite Curse Curse 67 2.3 →" [ref=e1999] [cursor=pointer]:
+            - cell "63" [ref=e2000]
+            - cell "Parasite" [ref=e2001]: Parasite
+            - cell "Curse" [ref=e2003]
+            - cell "Curse" [ref=e2004]:
+              - generic [ref=e2007]: Curse
+            - cell "67" [ref=e2008]
+            - cell "2.3" [ref=e2009]
+            - cell "→" [ref=e2010]:
+              - generic [ref=e2011]: →
+          - row "64 Buffer Defect Uncommon 67 2.1 →" [ref=e2012] [cursor=pointer]:
+            - cell "64" [ref=e2013]
+            - cell "Buffer" [ref=e2014]: Buffer
+            - cell "Defect" [ref=e2016]
+            - cell "Uncommon" [ref=e2017]:
+              - generic [ref=e2020]: Uncommon
+            - cell "67" [ref=e2021]
+            - cell "2.1" [ref=e2022]
+            - cell "→" [ref=e2023]:
+              - generic [ref=e2024]: →
+          - row "65 Reflex Silent Uncommon 63 4.0 ↑" [ref=e2025] [cursor=pointer]:
+            - cell "65" [ref=e2026]
+            - cell "Reflex" [ref=e2027]: Reflex
+            - cell "Silent" [ref=e2029]
+            - cell "Uncommon" [ref=e2030]:
+              - generic [ref=e2033]: Uncommon
+            - cell "63" [ref=e2034]
+            - cell "4.0" [ref=e2035]
+            - cell "↑" [ref=e2036]:
+              - generic [ref=e2037]: ↑
+          - row "66 Clumsy Curse Curse 62 2.6 ↑" [ref=e2038] [cursor=pointer]:
+            - cell "66" [ref=e2039]
+            - cell "Clumsy" [ref=e2040]: Clumsy
+            - cell "Curse" [ref=e2042]
+            - cell "Curse" [ref=e2043]:
+              - generic [ref=e2046]: Curse
+            - cell "62" [ref=e2047]
+            - cell "2.6" [ref=e2048]
+            - cell "↑" [ref=e2049]:
+              - generic [ref=e2050]: ↑
+          - row "67 Rampage Ironclad Uncommon 62 2.9 ↑" [ref=e2051] [cursor=pointer]:
+            - cell "67" [ref=e2052]
+            - cell "Rampage" [ref=e2053]: Rampage
+            - cell "Ironclad" [ref=e2055]
+            - cell "Uncommon" [ref=e2056]:
+              - generic [ref=e2059]: Uncommon
+            - cell "62" [ref=e2060]
+            - cell "2.9" [ref=e2061]
+            - cell "↑" [ref=e2062]:
+              - generic [ref=e2063]: ↑
+          - row "68 Second Wind Ironclad Uncommon 60 2.6 ↑" [ref=e2064] [cursor=pointer]:
+            - cell "68" [ref=e2065]
+            - cell "Second Wind" [ref=e2066]: Second Wind
+            - cell "Ironclad" [ref=e2068]
+            - cell "Uncommon" [ref=e2069]:
+              - generic [ref=e2072]: Uncommon
+            - cell "60" [ref=e2073]
+            - cell "2.6" [ref=e2074]
+            - cell "↑" [ref=e2075]:
+              - generic [ref=e2076]: ↑
+          - row "69 Clash Ironclad Common 58 1.3 ↓" [ref=e2077] [cursor=pointer]:
+            - cell "69" [ref=e2078]
+            - cell "Clash" [ref=e2079]: Clash
+            - cell "Ironclad" [ref=e2081]
+            - cell "Common" [ref=e2082]:
+              - generic [ref=e2085]: Common
+            - cell "58" [ref=e2086]
+            - cell "1.3" [ref=e2087]
+            - cell "↓" [ref=e2088]:
+              - generic [ref=e2089]: ↓
+          - row "70 Impervious Ironclad Rare 56 1.7 ↓" [ref=e2090] [cursor=pointer]:
+            - cell "70" [ref=e2091]
+            - cell "Impervious" [ref=e2092]: Impervious
+            - cell "Ironclad" [ref=e2094]
+            - cell "Rare" [ref=e2095]:
+              - generic [ref=e2098]: Rare
+            - cell "56" [ref=e2099]
+            - cell "1.7" [ref=e2100]
+            - cell "↓" [ref=e2101]:
+              - generic [ref=e2102]: ↓
+          - row "71 Apotheosis Colorless Rare 55 2.4 ↑" [ref=e2103] [cursor=pointer]:
+            - cell "71" [ref=e2104]
+            - cell "Apotheosis" [ref=e2105]: Apotheosis
+            - cell "Colorless" [ref=e2107]
+            - cell "Rare" [ref=e2108]:
+              - generic [ref=e2111]: Rare
+            - cell "55" [ref=e2112]
+            - cell "2.4" [ref=e2113]
+            - cell "↑" [ref=e2114]:
+              - generic [ref=e2115]: ↑
+          - row "72 Glacier Defect Uncommon 54 2.3 ↑" [ref=e2116] [cursor=pointer]:
+            - cell "72" [ref=e2117]
+            - cell "Glacier" [ref=e2118]: Glacier
+            - cell "Defect" [ref=e2120]
+            - cell "Uncommon" [ref=e2121]:
+              - generic [ref=e2124]: Uncommon
+            - cell "54" [ref=e2125]
+            - cell "2.3" [ref=e2126]
+            - cell "↑" [ref=e2127]:
+              - generic [ref=e2128]: ↑
+          - row "73 Flex Ironclad Common 54 1.9 ↑" [ref=e2129] [cursor=pointer]:
+            - cell "73" [ref=e2130]
+            - cell "Flex" [ref=e2131]: Flex
+            - cell "Ironclad" [ref=e2133]
+            - cell "Common" [ref=e2134]:
+              - generic [ref=e2137]: Common
+            - cell "54" [ref=e2138]
+            - cell "1.9" [ref=e2139]
+            - cell "↑" [ref=e2140]:
+              - generic [ref=e2141]: ↑
+          - row "74 Wail Necrobinder Common 54 1.4 ↓" [ref=e2142] [cursor=pointer]:
+            - cell "74" [ref=e2143]
+            - cell "Wail" [ref=e2144]: Wail
+            - cell "Necrobinder" [ref=e2146]
+            - cell "Common" [ref=e2147]:
+              - generic [ref=e2150]: Common
+            - cell "54" [ref=e2151]
+            - cell "1.4" [ref=e2152]
+            - cell "↓" [ref=e2153]:
+              - generic [ref=e2154]: ↓
+          - row "75 Plasma Defect Rare 53 2.6 ↑" [ref=e2155] [cursor=pointer]:
+            - cell "75" [ref=e2156]
+            - cell "Plasma" [ref=e2157]: Plasma
+            - cell "Defect" [ref=e2159]
+            - cell "Rare" [ref=e2160]:
+              - generic [ref=e2163]: Rare
+            - cell "53" [ref=e2164]
+            - cell "2.6" [ref=e2165]
+            - cell "↑" [ref=e2166]:
+              - generic [ref=e2167]: ↑
+          - row "76 Flash of Steel Colorless Common 52 1.7 ↓" [ref=e2168] [cursor=pointer]:
+            - cell "76" [ref=e2169]
+            - cell "Flash of Steel" [ref=e2170]: Flash of Steel
+            - cell "Colorless" [ref=e2172]
+            - cell "Common" [ref=e2173]:
+              - generic [ref=e2176]: Common
+            - cell "52" [ref=e2177]
+            - cell "1.7" [ref=e2178]
+            - cell "↓" [ref=e2179]:
+              - generic [ref=e2180]: ↓
+          - row "77 Slither Regent Common 52 5.3 ↑" [ref=e2181] [cursor=pointer]:
+            - cell "77" [ref=e2182]
+            - cell "Slither" [ref=e2183]: Slither
+            - cell "Regent" [ref=e2185]
+            - cell "Common" [ref=e2186]:
+              - generic [ref=e2189]: Common
+            - cell "52" [ref=e2190]
+            - cell "5.3" [ref=e2191]
+            - cell "↑" [ref=e2192]:
+              - generic [ref=e2193]: ↑
+          - row "78 Backflip Silent Common 51 1.4 ↑" [ref=e2194] [cursor=pointer]:
+            - cell "78" [ref=e2195]
+            - cell "Backflip" [ref=e2196]: Backflip
+            - cell "Silent" [ref=e2198]
+            - cell "Common" [ref=e2199]:
+              - generic [ref=e2202]: Common
+            - cell "51" [ref=e2203]
+            - cell "1.4" [ref=e2204]
+            - cell "↑" [ref=e2205]:
+              - generic [ref=e2206]: ↑
+          - row "79 Meteor Strike Defect Rare 50 3.6 ↑" [ref=e2207] [cursor=pointer]:
+            - cell "79" [ref=e2208]
+            - cell "Meteor Strike" [ref=e2209]: Meteor Strike
+            - cell "Defect" [ref=e2211]
+            - cell "Rare" [ref=e2212]:
+              - generic [ref=e2215]: Rare
+            - cell "50" [ref=e2216]
+            - cell "3.6" [ref=e2217]
+            - cell "↑" [ref=e2218]:
+              - generic [ref=e2219]: ↑
+          - row "80 Backstab Silent Uncommon 50 3.4 ↑" [ref=e2220] [cursor=pointer]:
+            - cell "80" [ref=e2221]
+            - cell "Backstab" [ref=e2222]: Backstab
+            - cell "Silent" [ref=e2224]
+            - cell "Uncommon" [ref=e2225]:
+              - generic [ref=e2228]: Uncommon
+            - cell "50" [ref=e2229]
+            - cell "3.4" [ref=e2230]
+            - cell "↑" [ref=e2231]:
+              - generic [ref=e2232]: ↑
+          - row "81 Malaise Silent Uncommon 50 2.7 ↑" [ref=e2233] [cursor=pointer]:
+            - cell "81" [ref=e2234]
+            - cell "Malaise" [ref=e2235]: Malaise
+            - cell "Silent" [ref=e2237]
+            - cell "Uncommon" [ref=e2238]:
+              - generic [ref=e2241]: Uncommon
+            - cell "50" [ref=e2242]
+            - cell "2.7" [ref=e2243]
+            - cell "↑" [ref=e2244]:
+              - generic [ref=e2245]: ↑
+          - row "82 Blind Colorless Common 49 1.0 →" [ref=e2246] [cursor=pointer]:
+            - cell "82" [ref=e2247]
+            - cell "Blind" [ref=e2248]: Blind
+            - cell "Colorless" [ref=e2250]
+            - cell "Common" [ref=e2251]:
+              - generic [ref=e2254]: Common
+            - cell "49" [ref=e2255]
+            - cell "1.0" [ref=e2256]
+            - cell "→" [ref=e2257]:
+              - generic [ref=e2258]: →
+          - row "83 Overclock Defect Uncommon 49 2.0 ↑" [ref=e2259] [cursor=pointer]:
+            - cell "83" [ref=e2260]
+            - cell "Overclock" [ref=e2261]: Overclock
+            - cell "Defect" [ref=e2263]
+            - cell "Uncommon" [ref=e2264]:
+              - generic [ref=e2267]: Uncommon
+            - cell "49" [ref=e2268]
+            - cell "2.0" [ref=e2269]
+            - cell "↑" [ref=e2270]:
+              - generic [ref=e2271]: ↑
+          - row "84 Battle Trance Ironclad Uncommon 49 1.1 →" [ref=e2272] [cursor=pointer]:
+            - cell "84" [ref=e2273]
+            - cell "Battle Trance" [ref=e2274]: Battle Trance
+            - cell "Ironclad" [ref=e2276]
+            - cell "Uncommon" [ref=e2277]:
+              - generic [ref=e2280]: Uncommon
+            - cell "49" [ref=e2281]
+            - cell "1.1" [ref=e2282]
+            - cell "→" [ref=e2283]:
+              - generic [ref=e2284]: →
+          - row "85 Heavy Blade Ironclad Common 49 1.9 ↑" [ref=e2285] [cursor=pointer]:
+            - cell "85" [ref=e2286]
+            - cell "Heavy Blade" [ref=e2287]: Heavy Blade
+            - cell "Ironclad" [ref=e2289]
+            - cell "Common" [ref=e2290]:
+              - generic [ref=e2293]: Common
+            - cell "49" [ref=e2294]
+            - cell "1.9" [ref=e2295]
+            - cell "↑" [ref=e2296]:
+              - generic [ref=e2297]: ↑
+          - row "86 Blight Necrobinder Uncommon 49 2.1 ↑" [ref=e2298] [cursor=pointer]:
+            - cell "86" [ref=e2299]
+            - cell "Blight" [ref=e2300]: Blight
+            - cell "Necrobinder" [ref=e2302]
+            - cell "Uncommon" [ref=e2303]:
+              - generic [ref=e2306]: Uncommon
+            - cell "49" [ref=e2307]
+            - cell "2.1" [ref=e2308]
+            - cell "↑" [ref=e2309]:
+              - generic [ref=e2310]: ↑
+          - row "87 Regret Curse Curse 48 1.6 ↑" [ref=e2311] [cursor=pointer]:
+            - cell "87" [ref=e2312]
+            - cell "Regret" [ref=e2313]: Regret
+            - cell "Curse" [ref=e2315]
+            - cell "Curse" [ref=e2316]:
+              - generic [ref=e2319]: Curse
+            - cell "48" [ref=e2320]
+            - cell "1.6" [ref=e2321]
+            - cell "↑" [ref=e2322]:
+              - generic [ref=e2323]: ↑
+          - row "88 Power Through Ironclad Uncommon 48 2.7 ↑" [ref=e2324] [cursor=pointer]:
+            - cell "88" [ref=e2325]
+            - cell "Power Through" [ref=e2326]: Power Through
+            - cell "Ironclad" [ref=e2328]
+            - cell "Uncommon" [ref=e2329]:
+              - generic [ref=e2332]: Uncommon
+            - cell "48" [ref=e2333]
+            - cell "2.7" [ref=e2334]
+            - cell "↑" [ref=e2335]:
+              - generic [ref=e2336]: ↑
+          - row "89 Inflame Ironclad Uncommon 46 1.7 ↑" [ref=e2337] [cursor=pointer]:
+            - cell "89" [ref=e2338]
+            - cell "Inflame" [ref=e2339]: Inflame
+            - cell "Ironclad" [ref=e2341]
+            - cell "Uncommon" [ref=e2342]:
+              - generic [ref=e2345]: Uncommon
+            - cell "46" [ref=e2346]
+            - cell "1.7" [ref=e2347]
+            - cell "↑" [ref=e2348]:
+              - generic [ref=e2349]: ↑
+          - row "90 Panic Button Colorless Common 45 2.0 ↑" [ref=e2350] [cursor=pointer]:
+            - cell "90" [ref=e2351]
+            - cell "Panic Button" [ref=e2352]: Panic Button
+            - cell "Colorless" [ref=e2354]
+            - cell "Common" [ref=e2355]:
+              - generic [ref=e2358]: Common
+            - cell "45" [ref=e2359]
+            - cell "2.0" [ref=e2360]
+            - cell "↑" [ref=e2361]:
+              - generic [ref=e2362]: ↑
+          - row "91 Entrench Ironclad Uncommon 45 1.3 ↓" [ref=e2363] [cursor=pointer]:
+            - cell "91" [ref=e2364]
+            - cell "Entrench" [ref=e2365]: Entrench
+            - cell "Ironclad" [ref=e2367]
+            - cell "Uncommon" [ref=e2368]:
+              - generic [ref=e2371]: Uncommon
+            - cell "45" [ref=e2372]
+            - cell "1.3" [ref=e2373]
+            - cell "↓" [ref=e2374]:
+              - generic [ref=e2375]: ↓
+          - row "92 Dash Silent Uncommon 43 2.3 ↑" [ref=e2376] [cursor=pointer]:
+            - cell "92" [ref=e2377]
+            - cell "Dash" [ref=e2378]: Dash
+            - cell "Silent" [ref=e2380]
+            - cell "Uncommon" [ref=e2381]:
+              - generic [ref=e2384]: Uncommon
+            - cell "43" [ref=e2385]
+            - cell "2.3" [ref=e2386]
+            - cell "↑" [ref=e2387]:
+              - generic [ref=e2388]: ↑
+          - row "93 Piercing Wail Silent Common 43 1.1 ↓" [ref=e2389] [cursor=pointer]:
+            - cell "93" [ref=e2390]
+            - cell "Piercing Wail" [ref=e2391]: Piercing Wail
+            - cell "Silent" [ref=e2393]
+            - cell "Common" [ref=e2394]:
+              - generic [ref=e2397]: Common
+            - cell "43" [ref=e2398]
+            - cell "1.1" [ref=e2399]
+            - cell "↓" [ref=e2400]:
+              - generic [ref=e2401]: ↓
+          - row "94 Immolate Ironclad Rare 42 1.7 ↑" [ref=e2402] [cursor=pointer]:
+            - cell "94" [ref=e2403]
+            - cell "Immolate" [ref=e2404]: Immolate
+            - cell "Ironclad" [ref=e2406]
+            - cell "Rare" [ref=e2407]:
+              - generic [ref=e2410]: Rare
+            - cell "42" [ref=e2411]
+            - cell "1.7" [ref=e2412]
+            - cell "↑" [ref=e2413]:
+              - generic [ref=e2414]: ↑
+          - row "95 Twin Strike Ironclad Common 42 1.6 →" [ref=e2415] [cursor=pointer]:
+            - cell "95" [ref=e2416]
+            - cell "Twin Strike" [ref=e2417]: Twin Strike
+            - cell "Ironclad" [ref=e2419]
+            - cell "Common" [ref=e2420]:
+              - generic [ref=e2423]: Common
+            - cell "42" [ref=e2424]
+            - cell "1.6" [ref=e2425]
+            - cell "→" [ref=e2426]:
+              - generic [ref=e2427]: →
+          - row "96 Normality Curse Curse 41 1.1 ↓" [ref=e2428] [cursor=pointer]:
+            - cell "96" [ref=e2429]
+            - cell "Normality" [ref=e2430]: Normality
+            - cell "Curse" [ref=e2432]
+            - cell "Curse" [ref=e2433]:
+              - generic [ref=e2436]: Curse
+            - cell "41" [ref=e2437]
+            - cell "1.1" [ref=e2438]
+            - cell "↓" [ref=e2439]:
+              - generic [ref=e2440]: ↓
+          - row "97 Evolve Ironclad Uncommon 41 1.7 →" [ref=e2441] [cursor=pointer]:
+            - cell "97" [ref=e2442]
+            - cell "Evolve" [ref=e2443]: Evolve
+            - cell "Ironclad" [ref=e2445]
+            - cell "Uncommon" [ref=e2446]:
+              - generic [ref=e2449]: Uncommon
+            - cell "41" [ref=e2450]
+            - cell "1.7" [ref=e2451]
+            - cell "→" [ref=e2452]:
+              - generic [ref=e2453]: →
+          - row "98 Leg Sweep Silent Uncommon 41 2.0 ↑" [ref=e2454] [cursor=pointer]:
+            - cell "98" [ref=e2455]
+            - cell "Leg Sweep" [ref=e2456]: Leg Sweep
+            - cell "Silent" [ref=e2458]
+            - cell "Uncommon" [ref=e2459]:
+              - generic [ref=e2462]: Uncommon
+            - cell "41" [ref=e2463]
+            - cell "2.0" [ref=e2464]
+            - cell "↑" [ref=e2465]:
+              - generic [ref=e2466]: ↑
+          - row "99 Defragment Defect Uncommon 40 1.6 →" [ref=e2467] [cursor=pointer]:
+            - cell "99" [ref=e2468]
+            - cell "Defragment" [ref=e2469]: Defragment
+            - cell "Defect" [ref=e2471]
+            - cell "Uncommon" [ref=e2472]:
+              - generic [ref=e2475]: Uncommon
+            - cell "40" [ref=e2476]
+            - cell "1.6" [ref=e2477]
+            - cell "→" [ref=e2478]:
+              - generic [ref=e2479]: →
+          - row "100 Shockwave Ironclad Uncommon 40 2.0 ↑" [ref=e2480] [cursor=pointer]:
+            - cell "100" [ref=e2481]
+            - cell "Shockwave" [ref=e2482]: Shockwave
+            - cell "Ironclad" [ref=e2484]
+            - cell "Uncommon" [ref=e2485]:
+              - generic [ref=e2488]: Uncommon
+            - cell "40" [ref=e2489]
+            - cell "2.0" [ref=e2490]
+            - cell "↑" [ref=e2491]:
+              - generic [ref=e2492]: ↑
+          - row "101 Biased Cognition Defect Rare 39 0.7 ↓" [ref=e2493] [cursor=pointer]:
+            - cell "101" [ref=e2494]
+            - cell "Biased Cognition" [ref=e2495]: Biased Cognition
+            - cell "Defect" [ref=e2497]
+            - cell "Rare" [ref=e2498]:
+              - generic [ref=e2501]: Rare
+            - cell "39" [ref=e2502]
+            - cell "0.7" [ref=e2503]
+            - cell "↓" [ref=e2504]:
+              - generic [ref=e2505]: ↓
+          - row "102 Footwork Silent Uncommon 39 1.4 ↓" [ref=e2506] [cursor=pointer]:
+            - cell "102" [ref=e2507]
+            - cell "Footwork" [ref=e2508]: Footwork
+            - cell "Silent" [ref=e2510]
+            - cell "Uncommon" [ref=e2511]:
+              - generic [ref=e2514]: Uncommon
+            - cell "39" [ref=e2515]
+            - cell "1.4" [ref=e2516]
+            - cell "↓" [ref=e2517]:
+              - generic [ref=e2518]: ↓
+          - row "103 Discovery Colorless Common 38 0.6 ↓" [ref=e2519] [cursor=pointer]:
+            - cell "103" [ref=e2520]
+            - cell "Discovery" [ref=e2521]: Discovery
+            - cell "Colorless" [ref=e2523]
+            - cell "Common" [ref=e2524]:
+              - generic [ref=e2527]: Common
+            - cell "38" [ref=e2528]
+            - cell "0.6" [ref=e2529]
+            - cell "↓" [ref=e2530]:
+              - generic [ref=e2531]: ↓
+          - row "104 Coolheaded Defect Common 37 1.0 ↑" [ref=e2532] [cursor=pointer]:
+            - cell "104" [ref=e2533]
+            - cell "Coolheaded" [ref=e2534]: Coolheaded
+            - cell "Defect" [ref=e2536]
+            - cell "Common" [ref=e2537]:
+              - generic [ref=e2540]: Common
+            - cell "37" [ref=e2541]
+            - cell "1.0" [ref=e2542]
+            - cell "↑" [ref=e2543]:
+              - generic [ref=e2544]: ↑
+          - row "105 Rainbow Defect Uncommon 37 1.4 ↑" [ref=e2545] [cursor=pointer]:
+            - cell "105" [ref=e2546]
+            - cell "Rainbow" [ref=e2547]: Rainbow
+            - cell "Defect" [ref=e2549]
+            - cell "Uncommon" [ref=e2550]:
+              - generic [ref=e2553]: Uncommon
+            - cell "37" [ref=e2554]
+            - cell "1.4" [ref=e2555]
+            - cell "↑" [ref=e2556]:
+              - generic [ref=e2557]: ↑
+          - row "106 White Noise Defect Uncommon 37 2.4 ↑" [ref=e2558] [cursor=pointer]:
+            - cell "106" [ref=e2559]
+            - cell "White Noise" [ref=e2560]: White Noise
+            - cell "Defect" [ref=e2562]
+            - cell "Uncommon" [ref=e2563]:
+              - generic [ref=e2566]: Uncommon
+            - cell "37" [ref=e2567]
+            - cell "2.4" [ref=e2568]
+            - cell "↑" [ref=e2569]:
+              - generic [ref=e2570]: ↑
+          - row "107 Burning Pact Ironclad Uncommon 37 1.6 ↑" [ref=e2571] [cursor=pointer]:
+            - cell "107" [ref=e2572]
+            - cell "Burning Pact" [ref=e2573]: Burning Pact
+            - cell "Ironclad" [ref=e2575]
+            - cell "Uncommon" [ref=e2576]:
+              - generic [ref=e2579]: Uncommon
+            - cell "37" [ref=e2580]
+            - cell "1.6" [ref=e2581]
+            - cell "↑" [ref=e2582]:
+              - generic [ref=e2583]: ↑
+          - row "108 Metallicize Ironclad Uncommon 37 0.7 ↓" [ref=e2584] [cursor=pointer]:
+            - cell "108" [ref=e2585]
+            - cell "Metallicize" [ref=e2586]: Metallicize
+            - cell "Ironclad" [ref=e2588]
+            - cell "Uncommon" [ref=e2589]:
+              - generic [ref=e2592]: Uncommon
+            - cell "37" [ref=e2593]
+            - cell "0.7" [ref=e2594]
+            - cell "↓" [ref=e2595]:
+              - generic [ref=e2596]: ↓
+          - row "109 Shrug It Off Ironclad Common 37 0.9 ↑" [ref=e2597] [cursor=pointer]:
+            - cell "109" [ref=e2598]
+            - cell "Shrug It Off" [ref=e2599]: Shrug It Off
+            - cell "Ironclad" [ref=e2601]
+            - cell "Common" [ref=e2602]:
+              - generic [ref=e2605]: Common
+            - cell "37" [ref=e2606]
+            - cell "0.9" [ref=e2607]
+            - cell "↑" [ref=e2608]:
+              - generic [ref=e2609]: ↑
+          - row "110 Storm of Steel Silent Rare 36 0.6 ↓" [ref=e2610] [cursor=pointer]:
+            - cell "110" [ref=e2611]
+            - cell "Storm of Steel" [ref=e2612]: Storm of Steel
+            - cell "Silent" [ref=e2614]
+            - cell "Rare" [ref=e2615]:
+              - generic [ref=e2618]: Rare
+            - cell "36" [ref=e2619]
+            - cell "0.6" [ref=e2620]
+            - cell "↓" [ref=e2621]:
+              - generic [ref=e2622]: ↓
+          - row "111 Iron Wave Ironclad Common 35 0.6 ↓" [ref=e2623] [cursor=pointer]:
+            - cell "111" [ref=e2624]
+            - cell "Iron Wave" [ref=e2625]: Iron Wave
+            - cell "Ironclad" [ref=e2627]
+            - cell "Common" [ref=e2628]:
+              - generic [ref=e2631]: Common
+            - cell "35" [ref=e2632]
+            - cell "0.6" [ref=e2633]
+            - cell "↓" [ref=e2634]:
+              - generic [ref=e2635]: ↓
+          - row "112 Uppercut Ironclad Uncommon 35 2.0 →" [ref=e2636] [cursor=pointer]:
+            - cell "112" [ref=e2637]
+            - cell "Uppercut" [ref=e2638]: Uppercut
+            - cell "Ironclad" [ref=e2640]
+            - cell "Uncommon" [ref=e2641]:
+              - generic [ref=e2644]: Uncommon
+            - cell "35" [ref=e2645]
+            - cell "2.0" [ref=e2646]
+            - cell "→" [ref=e2647]:
+              - generic [ref=e2648]: →
+          - row "113 Flame Barrier Ironclad Uncommon 34 1.1 →" [ref=e2649] [cursor=pointer]:
+            - cell "113" [ref=e2650]
+            - cell "Flame Barrier" [ref=e2651]: Flame Barrier
+            - cell "Ironclad" [ref=e2653]
+            - cell "Uncommon" [ref=e2654]:
+              - generic [ref=e2657]: Uncommon
+            - cell "34" [ref=e2658]
+            - cell "1.1" [ref=e2659]
+            - cell "→" [ref=e2660]:
+              - generic [ref=e2661]: →
+          - row "114 Dagger Throw Silent Common 34 0.4 ↓" [ref=e2662] [cursor=pointer]:
+            - cell "114" [ref=e2663]
+            - cell "Dagger Throw" [ref=e2664]: Dagger Throw
+            - cell "Silent" [ref=e2666]
+            - cell "Common" [ref=e2667]:
+              - generic [ref=e2670]: Common
+            - cell "34" [ref=e2671]
+            - cell "0.4" [ref=e2672]
+            - cell "↓" [ref=e2673]:
+              - generic [ref=e2674]: ↓
+          - row "115 Outmaneuver Silent Common 34 0.7 ↑" [ref=e2675] [cursor=pointer]:
+            - cell "115" [ref=e2676]
+            - cell "Outmaneuver" [ref=e2677]: Outmaneuver
+            - cell "Silent" [ref=e2679]
+            - cell "Common" [ref=e2680]:
+              - generic [ref=e2683]: Common
+            - cell "34" [ref=e2684]
+            - cell "0.7" [ref=e2685]
+            - cell "↑" [ref=e2686]:
+              - generic [ref=e2687]: ↑
+          - row "116 Electrodynamics Defect Rare 33 0.9 →" [ref=e2688] [cursor=pointer]:
+            - cell "116" [ref=e2689]
+            - cell "Electrodynamics" [ref=e2690]: Electrodynamics
+            - cell "Defect" [ref=e2692]
+            - cell "Rare" [ref=e2693]:
+              - generic [ref=e2696]: Rare
+            - cell "33" [ref=e2697]
+            - cell "0.9" [ref=e2698]
+            - cell "→" [ref=e2699]:
+              - generic [ref=e2700]: →
+          - row "117 After Image Silent Rare 33 0.9 →" [ref=e2701] [cursor=pointer]:
+            - cell "117" [ref=e2702]
+            - cell "After Image" [ref=e2703]: After Image
+            - cell "Silent" [ref=e2705]
+            - cell "Rare" [ref=e2706]:
+              - generic [ref=e2709]: Rare
+            - cell "33" [ref=e2710]
+            - cell "0.9" [ref=e2711]
+            - cell "→" [ref=e2712]:
+              - generic [ref=e2713]: →
+          - row "118 Concentrate Silent Uncommon 33 0.1 ↓" [ref=e2714] [cursor=pointer]:
+            - cell "118" [ref=e2715]
+            - cell "Concentrate" [ref=e2716]: Concentrate
+            - cell "Silent" [ref=e2718]
+            - cell "Uncommon" [ref=e2719]:
+              - generic [ref=e2722]: Uncommon
+            - cell "33" [ref=e2723]
+            - cell "0.1" [ref=e2724]
+            - cell "↓" [ref=e2725]:
+              - generic [ref=e2726]: ↓
+          - row "119 Searing Blow Ironclad Uncommon 32 2.0 ↑" [ref=e2727] [cursor=pointer]:
+            - cell "119" [ref=e2728]
+            - cell "Searing Blow" [ref=e2729]: Searing Blow
+            - cell "Ironclad" [ref=e2731]
+            - cell "Uncommon" [ref=e2732]:
+              - generic [ref=e2735]: Uncommon
+            - cell "32" [ref=e2736]
+            - cell "2.0" [ref=e2737]
+            - cell "↑" [ref=e2738]:
+              - generic [ref=e2739]: ↑
+          - row "120 Tools of the Trade Silent Rare 32 1.0 ↓" [ref=e2740] [cursor=pointer]:
+            - cell "120" [ref=e2741]
+            - cell "Tools of the Trade" [ref=e2742]: Tools of the Trade
+            - cell "Silent" [ref=e2744]
+            - cell "Rare" [ref=e2745]:
+              - generic [ref=e2748]: Rare
+            - cell "32" [ref=e2749]
+            - cell "1.0" [ref=e2750]
+            - cell "↓" [ref=e2751]:
+              - generic [ref=e2752]: ↓
+          - row "121 Capacitor Defect Uncommon 31 1.4 ↑" [ref=e2753] [cursor=pointer]:
+            - cell "121" [ref=e2754]
+            - cell "Capacitor" [ref=e2755]: Capacitor
+            - cell "Defect" [ref=e2757]
+            - cell "Uncommon" [ref=e2758]:
+              - generic [ref=e2761]: Uncommon
+            - cell "31" [ref=e2762]
+            - cell "1.4" [ref=e2763]
+            - cell "↑" [ref=e2764]:
+              - generic [ref=e2765]: ↑
+          - row "122 Consume Defect Uncommon 31 1.1 →" [ref=e2766] [cursor=pointer]:
+            - cell "122" [ref=e2767]
+            - cell "Consume" [ref=e2768]: Consume
+            - cell "Defect" [ref=e2770]
+            - cell "Uncommon" [ref=e2771]:
+              - generic [ref=e2774]: Uncommon
+            - cell "31" [ref=e2775]
+            - cell "1.1" [ref=e2776]
+            - cell "→" [ref=e2777]:
+              - generic [ref=e2778]: →
+          - row "123 Blizzard Defect Uncommon 30 1.0 ↑" [ref=e2779] [cursor=pointer]:
+            - cell "123" [ref=e2780]
+            - cell "Blizzard" [ref=e2781]: Blizzard
+            - cell "Defect" [ref=e2783]
+            - cell "Uncommon" [ref=e2784]:
+              - generic [ref=e2787]: Uncommon
+            - cell "30" [ref=e2788]
+            - cell "1.0" [ref=e2789]
+            - cell "↑" [ref=e2790]:
+              - generic [ref=e2791]: ↑
+          - row "124 Chaos Defect Uncommon 30 0.6 ↓" [ref=e2792] [cursor=pointer]:
+            - cell "124" [ref=e2793]
+            - cell "Chaos" [ref=e2794]: Chaos
+            - cell "Defect" [ref=e2796]
+            - cell "Uncommon" [ref=e2797]:
+              - generic [ref=e2800]: Uncommon
+            - cell "30" [ref=e2801]
+            - cell "0.6" [ref=e2802]
+            - cell "↓" [ref=e2803]:
+              - generic [ref=e2804]: ↓
+          - row "125 Lightning Orb Defect Uncommon 30 1.3 →" [ref=e2805] [cursor=pointer]:
+            - cell "125" [ref=e2806]
+            - cell "Lightning Orb" [ref=e2807]: Lightning Orb
+            - cell "Defect" [ref=e2809]
+            - cell "Uncommon" [ref=e2810]:
+              - generic [ref=e2813]: Uncommon
+            - cell "30" [ref=e2814]
+            - cell "1.3" [ref=e2815]
+            - cell "→" [ref=e2816]:
+              - generic [ref=e2817]: →
+          - row "126 Tempest Defect Uncommon 30 1.3 ↑" [ref=e2818] [cursor=pointer]:
+            - cell "126" [ref=e2819]
+            - cell "Tempest" [ref=e2820]: Tempest
+            - cell "Defect" [ref=e2822]
+            - cell "Uncommon" [ref=e2823]:
+              - generic [ref=e2826]: Uncommon
+            - cell "30" [ref=e2827]
+            - cell "1.3" [ref=e2828]
+            - cell "↑" [ref=e2829]:
+              - generic [ref=e2830]: ↑
+          - row "127 Skewer Silent Uncommon 30 0.4 ↓" [ref=e2831] [cursor=pointer]:
+            - cell "127" [ref=e2832]
+            - cell "Skewer" [ref=e2833]: Skewer
+            - cell "Silent" [ref=e2835]
+            - cell "Uncommon" [ref=e2836]:
+              - generic [ref=e2839]: Uncommon
+            - cell "30" [ref=e2840]
+            - cell "0.4" [ref=e2841]
+            - cell "↓" [ref=e2842]:
+              - generic [ref=e2843]: ↓
+          - row "128 Entropy Necrobinder Uncommon 29 0.3 ↓" [ref=e2844] [cursor=pointer]:
+            - cell "128" [ref=e2845]
+            - cell "Entropy" [ref=e2846]: Entropy
+            - cell "Necrobinder" [ref=e2848]
+            - cell "Uncommon" [ref=e2849]:
+              - generic [ref=e2852]: Uncommon
+            - cell "29" [ref=e2853]
+            - cell "0.3" [ref=e2854]
+            - cell "↓" [ref=e2855]:
+              - generic [ref=e2856]: ↓
+          - row "129 Mind Blast Colorless Common 28 1.9 ↑" [ref=e2857] [cursor=pointer]:
+            - cell "129" [ref=e2858]
+            - cell "Mind Blast" [ref=e2859]: Mind Blast
+            - cell "Colorless" [ref=e2861]
+            - cell "Common" [ref=e2862]:
+              - generic [ref=e2865]: Common
+            - cell "28" [ref=e2866]
+            - cell "1.9" [ref=e2867]
+            - cell "↑" [ref=e2868]:
+              - generic [ref=e2869]: ↑
+          - row "130 Fire Breathing Ironclad Uncommon 28 0.3 ↓" [ref=e2870] [cursor=pointer]:
+            - cell "130" [ref=e2871]
+            - cell "Fire Breathing" [ref=e2872]: Fire Breathing
+            - cell "Ironclad" [ref=e2874]
+            - cell "Uncommon" [ref=e2875]:
+              - generic [ref=e2878]: Uncommon
+            - cell "28" [ref=e2879]
+            - cell "0.3" [ref=e2880]
+            - cell "↓" [ref=e2881]:
+              - generic [ref=e2882]: ↓
+          - row "131 Flechettes Silent Uncommon 28 0.1 ↓" [ref=e2883] [cursor=pointer]:
+            - cell "131" [ref=e2884]
+            - cell "Flechettes" [ref=e2885]: Flechettes
+            - cell "Silent" [ref=e2887]
+            - cell "Uncommon" [ref=e2888]:
+              - generic [ref=e2891]: Uncommon
+            - cell "28" [ref=e2892]
+            - cell "0.1" [ref=e2893]
+            - cell "↓" [ref=e2894]:
+              - generic [ref=e2895]: ↓
+          - row "132 Slice Silent Common 28 0.9 ↓" [ref=e2896] [cursor=pointer]:
+            - cell "132" [ref=e2897]
+            - cell "Slice" [ref=e2898]: Slice
+            - cell "Silent" [ref=e2900]
+            - cell "Common" [ref=e2901]:
+              - generic [ref=e2904]: Common
+            - cell "28" [ref=e2905]
+            - cell "0.9" [ref=e2906]
+            - cell "↓" [ref=e2907]:
+              - generic [ref=e2908]: ↓
+          - row "133 Ball Lightning Defect Common 27 0.4 ↓" [ref=e2909] [cursor=pointer]:
+            - cell "133" [ref=e2910]
+            - cell "Ball Lightning" [ref=e2911]: Ball Lightning
+            - cell "Defect" [ref=e2913]
+            - cell "Common" [ref=e2914]:
+              - generic [ref=e2917]: Common
+            - cell "27" [ref=e2918]
+            - cell "0.4" [ref=e2919]
+            - cell "↓" [ref=e2920]:
+              - generic [ref=e2921]: ↓
+          - row "134 Genetic Algorithm Defect Uncommon 27 0.7 ↓" [ref=e2922] [cursor=pointer]:
+            - cell "134" [ref=e2923]
+            - cell "Genetic Algorithm" [ref=e2924]: Genetic Algorithm
+            - cell "Defect" [ref=e2926]
+            - cell "Uncommon" [ref=e2927]:
+              - generic [ref=e2930]: Uncommon
+            - cell "27" [ref=e2931]
+            - cell "0.7" [ref=e2932]
+            - cell "↓" [ref=e2933]:
+              - generic [ref=e2934]: ↓
+          - row "135 Armaments Ironclad Common 27 1.3 ↑" [ref=e2935] [cursor=pointer]:
+            - cell "135" [ref=e2936]
+            - cell "Armaments" [ref=e2937]: Armaments
+            - cell "Ironclad" [ref=e2939]
+            - cell "Common" [ref=e2940]:
+              - generic [ref=e2943]: Common
+            - cell "27" [ref=e2944]
+            - cell "1.3" [ref=e2945]
+            - cell "↑" [ref=e2946]:
+              - generic [ref=e2947]: ↑
+          - row "136 Thunderclap Ironclad Common 27 1.3 ↑" [ref=e2948] [cursor=pointer]:
+            - cell "136" [ref=e2949]
+            - cell "Thunderclap" [ref=e2950]: Thunderclap
+            - cell "Ironclad" [ref=e2952]
+            - cell "Common" [ref=e2953]:
+              - generic [ref=e2956]: Common
+            - cell "27" [ref=e2957]
+            - cell "1.3" [ref=e2958]
+            - cell "↑" [ref=e2959]:
+              - generic [ref=e2960]: ↑
+          - row "137 Seek Defect Rare 26 0.4 ↑" [ref=e2961] [cursor=pointer]:
+            - cell "137" [ref=e2962]
+            - cell "Seek" [ref=e2963]: Seek
+            - cell "Defect" [ref=e2965]
+            - cell "Rare" [ref=e2966]:
+              - generic [ref=e2969]: Rare
+            - cell "26" [ref=e2970]
+            - cell "0.4" [ref=e2971]
+            - cell "↑" [ref=e2972]:
+              - generic [ref=e2973]: ↑
+          - row "138 Juggernaut Ironclad Rare 26 0.6 →" [ref=e2974] [cursor=pointer]:
+            - cell "138" [ref=e2975]
+            - cell "Juggernaut" [ref=e2976]: Juggernaut
+            - cell "Ironclad" [ref=e2978]
+            - cell "Rare" [ref=e2979]:
+              - generic [ref=e2982]: Rare
+            - cell "26" [ref=e2983]
+            - cell "0.6" [ref=e2984]
+            - cell "→" [ref=e2985]:
+              - generic [ref=e2986]: →
+          - row "139 Spot Weakness Ironclad Uncommon 26 1.1 ↑" [ref=e2987] [cursor=pointer]:
+            - cell "139" [ref=e2988]
+            - cell "Spot Weakness" [ref=e2989]: Spot Weakness
+            - cell "Ironclad" [ref=e2991]
+            - cell "Uncommon" [ref=e2992]:
+              - generic [ref=e2995]: Uncommon
+            - cell "26" [ref=e2996]
+            - cell "1.1" [ref=e2997]
+            - cell "↑" [ref=e2998]:
+              - generic [ref=e2999]: ↑
+          - row "140 Dagger Spray Silent Common 26 0.7 →" [ref=e3000] [cursor=pointer]:
+            - cell "140" [ref=e3001]
+            - cell "Dagger Spray" [ref=e3002]: Dagger Spray
+            - cell "Silent" [ref=e3004]
+            - cell "Common" [ref=e3005]:
+              - generic [ref=e3008]: Common
+            - cell "26" [ref=e3009]
+            - cell "0.7" [ref=e3010]
+            - cell "→" [ref=e3011]:
+              - generic [ref=e3012]: →
+          - row "141 Machine Learning Defect Rare 25 1.4 ↑" [ref=e3013] [cursor=pointer]:
+            - cell "141" [ref=e3014]
+            - cell "Machine Learning" [ref=e3015]: Machine Learning
+            - cell "Defect" [ref=e3017]
+            - cell "Rare" [ref=e3018]:
+              - generic [ref=e3021]: Rare
+            - cell "25" [ref=e3022]
+            - cell "1.4" [ref=e3023]
+            - cell "↑" [ref=e3024]:
+              - generic [ref=e3025]: ↑
+          - row "142 Dual Wield Ironclad Uncommon 25 1.3 ↑" [ref=e3026] [cursor=pointer]:
+            - cell "142" [ref=e3027]
+            - cell "Dual Wield" [ref=e3028]: Dual Wield
+            - cell "Ironclad" [ref=e3030]
+            - cell "Uncommon" [ref=e3031]:
+              - generic [ref=e3034]: Uncommon
+            - cell "25" [ref=e3035]
+            - cell "1.3" [ref=e3036]
+            - cell "↑" [ref=e3037]:
+              - generic [ref=e3038]: ↑
+          - row "143 Madness Colorless Common 24 0.7 ↓" [ref=e3039] [cursor=pointer]:
+            - cell "143" [ref=e3040]
+            - cell "Madness" [ref=e3041]: Madness
+            - cell "Colorless" [ref=e3043]
+            - cell "Common" [ref=e3044]:
+              - generic [ref=e3047]: Common
+            - cell "24" [ref=e3048]
+            - cell "0.7" [ref=e3049]
+            - cell "↓" [ref=e3050]:
+              - generic [ref=e3051]: ↓
+          - row "144 Double Energy Defect Uncommon 24 0.9 ↑" [ref=e3052] [cursor=pointer]:
+            - cell "144" [ref=e3053]
+            - cell "Double Energy" [ref=e3054]: Double Energy
+            - cell "Defect" [ref=e3056]
+            - cell "Uncommon" [ref=e3057]:
+              - generic [ref=e3060]: Uncommon
+            - cell "24" [ref=e3061]
+            - cell "0.9" [ref=e3062]
+            - cell "↑" [ref=e3063]:
+              - generic [ref=e3064]: ↑
+          - row "145 Carnage Ironclad Uncommon 24 0.6 ↓" [ref=e3065] [cursor=pointer]:
+            - cell "145" [ref=e3066]
+            - cell "Carnage" [ref=e3067]: Carnage
+            - cell "Ironclad" [ref=e3069]
+            - cell "Uncommon" [ref=e3070]:
+              - generic [ref=e3073]: Uncommon
+            - cell "24" [ref=e3074]
+            - cell "0.6" [ref=e3075]
+            - cell "↓" [ref=e3076]:
+              - generic [ref=e3077]: ↓
+          - row "146 Infinite Blades Silent Uncommon 24 1.3 ↑" [ref=e3078] [cursor=pointer]:
+            - cell "146" [ref=e3079]
+            - cell "Infinite Blades" [ref=e3080]: Infinite Blades
+            - cell "Silent" [ref=e3082]
+            - cell "Uncommon" [ref=e3083]:
+              - generic [ref=e3086]: Uncommon
+            - cell "24" [ref=e3087]
+            - cell "1.3" [ref=e3088]
+            - cell "↑" [ref=e3089]:
+              - generic [ref=e3090]: ↑
+          - row "147 Cold Snap Defect Common 23 1.3 ↑" [ref=e3091] [cursor=pointer]:
+            - cell "147" [ref=e3092]
+            - cell "Cold Snap" [ref=e3093]: Cold Snap
+            - cell "Defect" [ref=e3095]
+            - cell "Common" [ref=e3096]:
+              - generic [ref=e3099]: Common
+            - cell "23" [ref=e3100]
+            - cell "1.3" [ref=e3101]
+            - cell "↑" [ref=e3102]:
+              - generic [ref=e3103]: ↑
+          - row "148 Panache Colorless Rare 22 1.0 →" [ref=e3104] [cursor=pointer]:
+            - cell "148" [ref=e3105]
+            - cell "Panache" [ref=e3106]: Panache
+            - cell "Colorless" [ref=e3108]
+            - cell "Rare" [ref=e3109]:
+              - generic [ref=e3112]: Rare
+            - cell "22" [ref=e3113]
+            - cell "1.0" [ref=e3114]
+            - cell "→" [ref=e3115]:
+              - generic [ref=e3116]: →
+          - row "149 Blood for Blood Ironclad Uncommon 22 0.3 ↓" [ref=e3117] [cursor=pointer]:
+            - cell "149" [ref=e3118]
+            - cell "Blood for Blood" [ref=e3119]: Blood for Blood
+            - cell "Ironclad" [ref=e3121]
+            - cell "Uncommon" [ref=e3122]:
+              - generic [ref=e3125]: Uncommon
+            - cell "22" [ref=e3126]
+            - cell "0.3" [ref=e3127]
+            - cell "↓" [ref=e3128]:
+              - generic [ref=e3129]: ↓
+          - row "150 Combust Ironclad Uncommon 22 1.4 ↑" [ref=e3130] [cursor=pointer]:
+            - cell "150" [ref=e3131]
+            - cell "Combust" [ref=e3132]: Combust
+            - cell "Ironclad" [ref=e3134]
+            - cell "Uncommon" [ref=e3135]:
+              - generic [ref=e3138]: Uncommon
+            - cell "22" [ref=e3139]
+            - cell "1.4" [ref=e3140]
+            - cell "↑" [ref=e3141]:
+              - generic [ref=e3142]: ↑
+          - row "151 Reanimate Necrobinder Common 22 1.0 ↑" [ref=e3143] [cursor=pointer]:
+            - cell "151" [ref=e3144]
+            - cell "Reanimate" [ref=e3145]: Reanimate
+            - cell "Necrobinder" [ref=e3147]
+            - cell "Common" [ref=e3148]:
+              - generic [ref=e3151]: Common
+            - cell "22" [ref=e3152]
+            - cell "1.0" [ref=e3153]
+            - cell "↑" [ref=e3154]:
+              - generic [ref=e3155]: ↑
+          - row "152 Finesse Colorless Common 21 1.4 ↑" [ref=e3156] [cursor=pointer]:
+            - cell "152" [ref=e3157]
+            - cell "Finesse" [ref=e3158]: Finesse
+            - cell "Colorless" [ref=e3160]
+            - cell "Common" [ref=e3161]:
+              - generic [ref=e3164]: Common
+            - cell "21" [ref=e3165]
+            - cell "1.4" [ref=e3166]
+            - cell "↑" [ref=e3167]:
+              - generic [ref=e3168]: ↑
+          - row "153 Master of Strategy Colorless Rare 21 1.1 ↑" [ref=e3169] [cursor=pointer]:
+            - cell "153" [ref=e3170]
+            - cell "Master of Strategy" [ref=e3171]: Master of Strategy
+            - cell "Colorless" [ref=e3173]
+            - cell "Rare" [ref=e3174]:
+              - generic [ref=e3177]: Rare
+            - cell "21" [ref=e3178]
+            - cell "1.1" [ref=e3179]
+            - cell "↑" [ref=e3180]:
+              - generic [ref=e3181]: ↑
+          - row "154 Compile Driver Defect Common 21 0.6 ↓" [ref=e3182] [cursor=pointer]:
+            - cell "154" [ref=e3183]
+            - cell "Compile Driver" [ref=e3184]: Compile Driver
+            - cell "Defect" [ref=e3186]
+            - cell "Common" [ref=e3187]:
+              - generic [ref=e3190]: Common
+            - cell "21" [ref=e3191]
+            - cell "0.6" [ref=e3192]
+            - cell "↓" [ref=e3193]:
+              - generic [ref=e3194]: ↓
+          - row "155 Exhume Ironclad Rare 21 2.4 ↑" [ref=e3195] [cursor=pointer]:
+            - cell "155" [ref=e3196]
+            - cell "Exhume" [ref=e3197]: Exhume
+            - cell "Ironclad" [ref=e3199]
+            - cell "Rare" [ref=e3200]:
+              - generic [ref=e3203]: Rare
+            - cell "21" [ref=e3204]
+            - cell "2.4" [ref=e3205]
+            - cell "↑" [ref=e3206]:
+              - generic [ref=e3207]: ↑
+          - row "156 Dodge and Roll Silent Common 21 0.9 ↑" [ref=e3208] [cursor=pointer]:
+            - cell "156" [ref=e3209]
+            - cell "Dodge and Roll" [ref=e3210]: Dodge and Roll
+            - cell "Silent" [ref=e3212]
+            - cell "Common" [ref=e3213]:
+              - generic [ref=e3216]: Common
+            - cell "21" [ref=e3217]
+            - cell "0.9" [ref=e3218]
+            - cell "↑" [ref=e3219]:
+              - generic [ref=e3220]: ↑
+          - row "157 Thunder Strike Defect Uncommon 20 0.0 ↓" [ref=e3221] [cursor=pointer]:
+            - cell "157" [ref=e3222]
+            - cell "Thunder Strike" [ref=e3223]: Thunder Strike
+            - cell "Defect" [ref=e3225]
+            - cell "Uncommon" [ref=e3226]:
+              - generic [ref=e3229]: Uncommon
+            - cell "20" [ref=e3230]
+            - cell "0.0" [ref=e3231]
+            - cell "↓" [ref=e3232]:
+              - generic [ref=e3233]: ↓
+          - row "158 Hemokinesis Ironclad Uncommon 20 1.1 ↑" [ref=e3234] [cursor=pointer]:
+            - cell "158" [ref=e3235]
+            - cell "Hemokinesis" [ref=e3236]: Hemokinesis
+            - cell "Ironclad" [ref=e3238]
+            - cell "Uncommon" [ref=e3239]:
+              - generic [ref=e3242]: Uncommon
+            - cell "20" [ref=e3243]
+            - cell "1.1" [ref=e3244]
+            - cell "↑" [ref=e3245]:
+              - generic [ref=e3246]: ↑
+          - row "159 Escape Plan Silent Uncommon 20 0.7 →" [ref=e3247] [cursor=pointer]:
+            - cell "159" [ref=e3248]
+            - cell "Escape Plan" [ref=e3249]: Escape Plan
+            - cell "Silent" [ref=e3251]
+            - cell "Uncommon" [ref=e3252]:
+              - generic [ref=e3255]: Uncommon
+            - cell "20" [ref=e3256]
+            - cell "0.7" [ref=e3257]
+            - cell "→" [ref=e3258]:
+              - generic [ref=e3259]: →
+          - row "160 Decay Curse Curse 19 0.6 ↑" [ref=e3260] [cursor=pointer]:
+            - cell "160" [ref=e3261]
+            - cell "Decay" [ref=e3262]: Decay
+            - cell "Curse" [ref=e3264]
+            - cell "Curse" [ref=e3265]:
+              - generic [ref=e3268]: Curse
+            - cell "19" [ref=e3269]
+            - cell "0.6" [ref=e3270]
+            - cell "↑" [ref=e3271]:
+              - generic [ref=e3272]: ↑
+          - row "161 Reprogram Defect Uncommon 19 0.9 ↑" [ref=e3273] [cursor=pointer]:
+            - cell "161" [ref=e3274]
+            - cell "Reprogram" [ref=e3275]: Reprogram
+            - cell "Defect" [ref=e3277]
+            - cell "Uncommon" [ref=e3278]:
+              - generic [ref=e3281]: Uncommon
+            - cell "19" [ref=e3282]
+            - cell "0.9" [ref=e3283]
+            - cell "↑" [ref=e3284]:
+              - generic [ref=e3285]: ↑
+          - row "162 Beam Cell Defect Common 18 1.0 ↑" [ref=e3286] [cursor=pointer]:
+            - cell "162" [ref=e3287]
+            - cell "Beam Cell" [ref=e3288]: Beam Cell
+            - cell "Defect" [ref=e3290]
+            - cell "Common" [ref=e3291]:
+              - generic [ref=e3294]: Common
+            - cell "18" [ref=e3295]
+            - cell "1.0" [ref=e3296]
+            - cell "↑" [ref=e3297]:
+              - generic [ref=e3298]: ↑
+          - row "163 Leap Defect Common 18 0.3 ↓" [ref=e3299] [cursor=pointer]:
+            - cell "163" [ref=e3300]
+            - cell "Leap" [ref=e3301]: Leap
+            - cell "Defect" [ref=e3303]
+            - cell "Common" [ref=e3304]:
+              - generic [ref=e3307]: Common
+            - cell "18" [ref=e3308]
+            - cell "0.3" [ref=e3309]
+            - cell "↓" [ref=e3310]:
+              - generic [ref=e3311]: ↓
+          - row "164 Reboot Defect Uncommon 18 0.7 ↑" [ref=e3312] [cursor=pointer]:
+            - cell "164" [ref=e3313]
+            - cell "Reboot" [ref=e3314]: Reboot
+            - cell "Defect" [ref=e3316]
+            - cell "Uncommon" [ref=e3317]:
+              - generic [ref=e3320]: Uncommon
+            - cell "18" [ref=e3321]
+            - cell "0.7" [ref=e3322]
+            - cell "↑" [ref=e3323]:
+              - generic [ref=e3324]: ↑
+          - row "165 Sword Boomerang Ironclad Common 18 0.9 ↑" [ref=e3325] [cursor=pointer]:
+            - cell "165" [ref=e3326]
+            - cell "Sword Boomerang" [ref=e3327]: Sword Boomerang
+            - cell "Ironclad" [ref=e3329]
+            - cell "Common" [ref=e3330]:
+              - generic [ref=e3333]: Common
+            - cell "18" [ref=e3334]
+            - cell "0.9" [ref=e3335]
+            - cell "↑" [ref=e3336]:
+              - generic [ref=e3337]: ↑
+          - row "166 Cloak and Dagger Silent Common 18 0.4 ↑" [ref=e3338] [cursor=pointer]:
+            - cell "166" [ref=e3339]
+            - cell "Cloak and Dagger" [ref=e3340]: Cloak and Dagger
+            - cell "Silent" [ref=e3342]
+            - cell "Common" [ref=e3343]:
+              - generic [ref=e3346]: Common
+            - cell "18" [ref=e3347]
+            - cell "0.4" [ref=e3348]
+            - cell "↑" [ref=e3349]:
+              - generic [ref=e3350]: ↑
+          - row "167 Dramatic Entrance Colorless Common 17 0.7 ↓" [ref=e3351] [cursor=pointer]:
+            - cell "167" [ref=e3352]
+            - cell "Dramatic Entrance" [ref=e3353]: Dramatic Entrance
+            - cell "Colorless" [ref=e3355]
+            - cell "Common" [ref=e3356]:
+              - generic [ref=e3359]: Common
+            - cell "17" [ref=e3360]
+            - cell "0.7" [ref=e3361]
+            - cell "↓" [ref=e3362]:
+              - generic [ref=e3363]: ↓
+          - row "168 Dropkick Ironclad Uncommon 17 0.0 ↓" [ref=e3364] [cursor=pointer]:
+            - cell "168" [ref=e3365]
+            - cell "Dropkick" [ref=e3366]: Dropkick
+            - cell "Ironclad" [ref=e3368]
+            - cell "Uncommon" [ref=e3369]:
+              - generic [ref=e3372]: Uncommon
+            - cell "17" [ref=e3373]
+            - cell "0.0" [ref=e3374]
+            - cell "↓" [ref=e3375]:
+              - generic [ref=e3376]: ↓
+          - row "169 Sucker Punch Silent Common 17 0.1 ↓" [ref=e3377] [cursor=pointer]:
+            - cell "169" [ref=e3378]
+            - cell "Sucker Punch" [ref=e3379]: Sucker Punch
+            - cell "Silent" [ref=e3381]
+            - cell "Common" [ref=e3382]:
+              - generic [ref=e3385]: Common
+            - cell "17" [ref=e3386]
+            - cell "0.1" [ref=e3387]
+            - cell "↓" [ref=e3388]:
+              - generic [ref=e3389]: ↓
+          - row "170 The Bomb Colorless Rare 16 1.0 ↑" [ref=e3390] [cursor=pointer]:
+            - cell "170" [ref=e3391]
+            - cell "The Bomb" [ref=e3392]: The Bomb
+            - cell "Colorless" [ref=e3394]
+            - cell "Rare" [ref=e3395]:
+              - generic [ref=e3398]: Rare
+            - cell "16" [ref=e3399]
+            - cell "1.0" [ref=e3400]
+            - cell "↑" [ref=e3401]:
+              - generic [ref=e3402]: ↑
+          - row "171 Charge Battery Defect Common 16 0.3 ↓" [ref=e3403] [cursor=pointer]:
+            - cell "171" [ref=e3404]
+            - cell "Charge Battery" [ref=e3405]: Charge Battery
+            - cell "Defect" [ref=e3407]
+            - cell "Common" [ref=e3408]:
+              - generic [ref=e3411]: Common
+            - cell "16" [ref=e3412]
+            - cell "0.3" [ref=e3413]
+            - cell "↓" [ref=e3414]:
+              - generic [ref=e3415]: ↓
+          - row "172 Fission Defect Uncommon 16 0.3 ↑" [ref=e3416] [cursor=pointer]:
+            - cell "172" [ref=e3417]
+            - cell "Fission" [ref=e3418]: Fission
+            - cell "Defect" [ref=e3420]
+            - cell "Uncommon" [ref=e3421]:
+              - generic [ref=e3424]: Uncommon
+            - cell "16" [ref=e3425]
+            - cell "0.3" [ref=e3426]
+            - cell "↑" [ref=e3427]:
+              - generic [ref=e3428]: ↑
+          - row "173 Sweeping Beam Defect Common 16 0.3 ↓" [ref=e3429] [cursor=pointer]:
+            - cell "173" [ref=e3430]
+            - cell "Sweeping Beam" [ref=e3431]: Sweeping Beam
+            - cell "Defect" [ref=e3433]
+            - cell "Common" [ref=e3434]:
+              - generic [ref=e3437]: Common
+            - cell "16" [ref=e3438]
+            - cell "0.3" [ref=e3439]
+            - cell "↓" [ref=e3440]:
+              - generic [ref=e3441]: ↓
+          - row "174 Pummel Ironclad Uncommon 16 0.4 ↑" [ref=e3442] [cursor=pointer]:
+            - cell "174" [ref=e3443]
+            - cell "Pummel" [ref=e3444]: Pummel
+            - cell "Ironclad" [ref=e3446]
+            - cell "Uncommon" [ref=e3447]:
+              - generic [ref=e3450]: Uncommon
+            - cell "16" [ref=e3451]
+            - cell "0.4" [ref=e3452]
+            - cell "↑" [ref=e3453]:
+              - generic [ref=e3454]: ↑
+          - row "175 Necronomicurse Curse Curse 15 0.4 ↓" [ref=e3455] [cursor=pointer]:
+            - cell "175" [ref=e3456]
+            - cell "Necronomicurse" [ref=e3457]: Necronomicurse
+            - cell "Curse" [ref=e3459]
+            - cell "Curse" [ref=e3460]:
+              - generic [ref=e3463]: Curse
+            - cell "15" [ref=e3464]
+            - cell "0.4" [ref=e3465]
+            - cell "↓" [ref=e3466]:
+              - generic [ref=e3467]: ↓
+          - row "176 Multicast Defect Rare 15 0.9 ↑" [ref=e3468] [cursor=pointer]:
+            - cell "176" [ref=e3469]
+            - cell "Multicast" [ref=e3470]: Multicast
+            - cell "Defect" [ref=e3472]
+            - cell "Rare" [ref=e3473]:
+              - generic [ref=e3476]: Rare
+            - cell "15" [ref=e3477]
+            - cell "0.9" [ref=e3478]
+            - cell "↑" [ref=e3479]:
+              - generic [ref=e3480]: ↑
+          - row "177 Well-Laid Plans Silent Uncommon 15 0.7 ↑" [ref=e3481] [cursor=pointer]:
+            - cell "177" [ref=e3482]
+            - cell "Well-Laid Plans" [ref=e3483]: Well-Laid Plans
+            - cell "Silent" [ref=e3485]
+            - cell "Uncommon" [ref=e3486]:
+              - generic [ref=e3489]: Uncommon
+            - cell "15" [ref=e3490]
+            - cell "0.7" [ref=e3491]
+            - cell "↑" [ref=e3492]:
+              - generic [ref=e3493]: ↑
+          - row "178 Purity Colorless Common 14 0.1 ↓" [ref=e3494] [cursor=pointer]:
+            - cell "178" [ref=e3495]
+            - cell "Purity" [ref=e3496]: Purity
+            - cell "Colorless" [ref=e3498]
+            - cell "Common" [ref=e3499]:
+              - generic [ref=e3502]: Common
+            - cell "14" [ref=e3503]
+            - cell "0.1" [ref=e3504]
+            - cell "↓" [ref=e3505]:
+              - generic [ref=e3506]: ↓
+          - row "179 Core Surge Defect Rare 14 0.1 ↓" [ref=e3507] [cursor=pointer]:
+            - cell "179" [ref=e3508]
+            - cell "Core Surge" [ref=e3509]: Core Surge
+            - cell "Defect" [ref=e3511]
+            - cell "Rare" [ref=e3512]:
+              - generic [ref=e3515]: Rare
+            - cell "14" [ref=e3516]
+            - cell "0.1" [ref=e3517]
+            - cell "↓" [ref=e3518]:
+              - generic [ref=e3519]: ↓
+          - row "180 Fusion Defect Uncommon 14 0.3 ↓" [ref=e3520] [cursor=pointer]:
+            - cell "180" [ref=e3521]
+            - cell "Fusion" [ref=e3522]: Fusion
+            - cell "Defect" [ref=e3524]
+            - cell "Uncommon" [ref=e3525]:
+              - generic [ref=e3528]: Uncommon
+            - cell "14" [ref=e3529]
+            - cell "0.3" [ref=e3530]
+            - cell "↓" [ref=e3531]:
+              - generic [ref=e3532]: ↓
+          - row "181 Recursion Defect Common 14 0.4 →" [ref=e3533] [cursor=pointer]:
+            - cell "181" [ref=e3534]
+            - cell "Recursion" [ref=e3535]: Recursion
+            - cell "Defect" [ref=e3537]
+            - cell "Common" [ref=e3538]:
+              - generic [ref=e3541]: Common
+            - cell "14" [ref=e3542]
+            - cell "0.4" [ref=e3543]
+            - cell "→" [ref=e3544]:
+              - generic [ref=e3545]: →
+          - row "182 Self Repair Defect Uncommon 14 0.6 ↑" [ref=e3546] [cursor=pointer]:
+            - cell "182" [ref=e3547]
+            - cell "Self Repair" [ref=e3548]: Self Repair
+            - cell "Defect" [ref=e3550]
+            - cell "Uncommon" [ref=e3551]:
+              - generic [ref=e3554]: Uncommon
+            - cell "14" [ref=e3555]
+            - cell "0.6" [ref=e3556]
+            - cell "↑" [ref=e3557]:
+              - generic [ref=e3558]: ↑
+          - row "183 Cleave Ironclad Common 14 0.9 ↑" [ref=e3559] [cursor=pointer]:
+            - cell "183" [ref=e3560]
+            - cell "Cleave" [ref=e3561]: Cleave
+            - cell "Ironclad" [ref=e3563]
+            - cell "Common" [ref=e3564]:
+              - generic [ref=e3567]: Common
+            - cell "14" [ref=e3568]
+            - cell "0.9" [ref=e3569]
+            - cell "↑" [ref=e3570]:
+              - generic [ref=e3571]: ↑
+          - row "184 Deflect Silent Common 14 0.6 ↑" [ref=e3572] [cursor=pointer]:
+            - cell "184" [ref=e3573]
+            - cell "Deflect" [ref=e3574]: Deflect
+            - cell "Silent" [ref=e3576]
+            - cell "Common" [ref=e3577]:
+              - generic [ref=e3580]: Common
+            - cell "14" [ref=e3581]
+            - cell "0.6" [ref=e3582]
+            - cell "↑" [ref=e3583]:
+              - generic [ref=e3584]: ↑
+          - row "185 Distraction Silent Uncommon 14 0.3 ↓" [ref=e3585] [cursor=pointer]:
+            - cell "185" [ref=e3586]
+            - cell "Distraction" [ref=e3587]: Distraction
+            - cell "Silent" [ref=e3589]
+            - cell "Uncommon" [ref=e3590]:
+              - generic [ref=e3593]: Uncommon
+            - cell "14" [ref=e3594]
+            - cell "0.3" [ref=e3595]
+            - cell "↓" [ref=e3596]:
+              - generic [ref=e3597]: ↓
+          - row "186 Enlightenment Colorless Common 13 0.4 ↑" [ref=e3598] [cursor=pointer]:
+            - cell "186" [ref=e3599]
+            - cell "Enlightenment" [ref=e3600]: Enlightenment
+            - cell "Colorless" [ref=e3602]
+            - cell "Common" [ref=e3603]:
+              - generic [ref=e3606]: Common
+            - cell "13" [ref=e3607]
+            - cell "0.4" [ref=e3608]
+            - cell "↑" [ref=e3609]:
+              - generic [ref=e3610]: ↑
+          - row "187 Metamorphosis Colorless Rare 13 0.7 ↑" [ref=e3611] [cursor=pointer]:
+            - cell "187" [ref=e3612]
+            - cell "Metamorphosis" [ref=e3613]: Metamorphosis
+            - cell "Colorless" [ref=e3615]
+            - cell "Rare" [ref=e3616]:
+              - generic [ref=e3619]: Rare
+            - cell "13" [ref=e3620]
+            - cell "0.7" [ref=e3621]
+            - cell "↑" [ref=e3622]:
+              - generic [ref=e3623]: ↑
+          - row "188 Go for the Eyes Defect Common 13 0.4 ↑" [ref=e3624] [cursor=pointer]:
+            - cell "188" [ref=e3625]
+            - cell "Go for the Eyes" [ref=e3626]: Go for the Eyes
+            - cell "Defect" [ref=e3628]
+            - cell "Common" [ref=e3629]:
+              - generic [ref=e3632]: Common
+            - cell "13" [ref=e3633]
+            - cell "0.4" [ref=e3634]
+            - cell "↑" [ref=e3635]:
+              - generic [ref=e3636]: ↑
+          - row "189 Wild Strike Ironclad Common 13 0.4 ↑" [ref=e3637] [cursor=pointer]:
+            - cell "189" [ref=e3638]
+            - cell "Wild Strike" [ref=e3639]: Wild Strike
+            - cell "Ironclad" [ref=e3641]
+            - cell "Common" [ref=e3642]:
+              - generic [ref=e3645]: Common
+            - cell "13" [ref=e3646]
+            - cell "0.4" [ref=e3647]
+            - cell "↑" [ref=e3648]:
+              - generic [ref=e3649]: ↑
+          - row "190 Sneaky Strike Silent Common 13 0.4 ↑" [ref=e3650] [cursor=pointer]:
+            - cell "190" [ref=e3651]
+            - cell "Sneaky Strike" [ref=e3652]: Sneaky Strike
+            - cell "Silent" [ref=e3654]
+            - cell "Common" [ref=e3655]:
+              - generic [ref=e3658]: Common
+            - cell "13" [ref=e3659]
+            - cell "0.4" [ref=e3660]
+            - cell "↑" [ref=e3661]:
+              - generic [ref=e3662]: ↑
+          - row "191 Injury Curse Curse 12 0.9 ↑" [ref=e3663] [cursor=pointer]:
+            - cell "191" [ref=e3664]
+            - cell "Injury" [ref=e3665]: Injury
+            - cell "Curse" [ref=e3667]
+            - cell "Curse" [ref=e3668]:
+              - generic [ref=e3671]: Curse
+            - cell "12" [ref=e3672]
+            - cell "0.9" [ref=e3673]
+            - cell "↑" [ref=e3674]:
+              - generic [ref=e3675]: ↑
+          - row "192 Hello World Defect Uncommon 12 0.9 ↑" [ref=e3676] [cursor=pointer]:
+            - cell "192" [ref=e3677]
+            - cell "Hello World" [ref=e3678]: Hello World
+            - cell "Defect" [ref=e3680]
+            - cell "Uncommon" [ref=e3681]:
+              - generic [ref=e3684]: Uncommon
+            - cell "12" [ref=e3685]
+            - cell "0.9" [ref=e3686]
+            - cell "↑" [ref=e3687]:
+              - generic [ref=e3688]: ↑
+          - row "193 Bone Shard Necrobinder Common 12 0.0 ↓" [ref=e3689] [cursor=pointer]:
+            - cell "193" [ref=e3690]
+            - cell "Bone Shard" [ref=e3691]: Bone Shard
+            - cell "Necrobinder" [ref=e3693]
+            - cell "Common" [ref=e3694]:
+              - generic [ref=e3697]: Common
+            - cell "12" [ref=e3698]
+            - cell "0.0" [ref=e3699]
+            - cell "↓" [ref=e3700]:
+              - generic [ref=e3701]: ↓
+          - row "194 Choke Silent Uncommon 12 0.7 ↑" [ref=e3702] [cursor=pointer]:
+            - cell "194" [ref=e3703]
+            - cell "Choke" [ref=e3704]: Choke
+            - cell "Silent" [ref=e3706]
+            - cell "Uncommon" [ref=e3707]:
+              - generic [ref=e3710]: Uncommon
+            - cell "12" [ref=e3711]
+            - cell "0.7" [ref=e3712]
+            - cell "↑" [ref=e3713]:
+              - generic [ref=e3714]: ↑
+          - row "195 Predator Silent Uncommon 12 0.3 →" [ref=e3715] [cursor=pointer]:
+            - cell "195" [ref=e3716]
+            - cell "Predator" [ref=e3717]: Predator
+            - cell "Silent" [ref=e3719]
+            - cell "Uncommon" [ref=e3720]:
+              - generic [ref=e3723]: Uncommon
+            - cell "12" [ref=e3724]
+            - cell "0.3" [ref=e3725]
+            - cell "→" [ref=e3726]:
+              - generic [ref=e3727]: →
+          - row "196 Unload Silent Rare 12 0.3 ↑" [ref=e3728] [cursor=pointer]:
+            - cell "196" [ref=e3729]
+            - cell "Unload" [ref=e3730]: Unload
+            - cell "Silent" [ref=e3732]
+            - cell "Rare" [ref=e3733]:
+              - generic [ref=e3736]: Rare
+            - cell "12" [ref=e3737]
+            - cell "0.3" [ref=e3738]
+            - cell "↑" [ref=e3739]:
+              - generic [ref=e3740]: ↑
+          - row "197 Writhe Curse Curse 11 0.1 ↓" [ref=e3741] [cursor=pointer]:
+            - cell "197" [ref=e3742]
+            - cell "Writhe" [ref=e3743]: Writhe
+            - cell "Curse" [ref=e3745]
+            - cell "Curse" [ref=e3746]:
+              - generic [ref=e3749]: Curse
+            - cell "11" [ref=e3750]
+            - cell "0.1" [ref=e3751]
+            - cell "↓" [ref=e3752]:
+              - generic [ref=e3753]: ↓
+          - row "198 Amplify Defect Rare 11 0.3 ↑" [ref=e3754] [cursor=pointer]:
+            - cell "198" [ref=e3755]
+            - cell "Amplify" [ref=e3756]: Amplify
+            - cell "Defect" [ref=e3758]
+            - cell "Rare" [ref=e3759]:
+              - generic [ref=e3762]: Rare
+            - cell "11" [ref=e3763]
+            - cell "0.3" [ref=e3764]
+            - cell "↑" [ref=e3765]:
+              - generic [ref=e3766]: ↑
+          - row "199 Corpse Explosion Necrobinder Uncommon 11 0.1 ↑" [ref=e3767] [cursor=pointer]:
+            - cell "199" [ref=e3768]
+            - cell "Corpse Explosion" [ref=e3769]: Corpse Explosion
+            - cell "Necrobinder" [ref=e3771]
+            - cell "Uncommon" [ref=e3772]:
+              - generic [ref=e3775]: Uncommon
+            - cell "11" [ref=e3776]
+            - cell "0.1" [ref=e3777]
+            - cell "↑" [ref=e3778]:
+              - generic [ref=e3779]: ↑
+          - row "200 Corpse Explosion Silent Rare 11 0.1 ↑" [ref=e3780] [cursor=pointer]:
+            - cell "200" [ref=e3781]
+            - cell "Corpse Explosion" [ref=e3782]: Corpse Explosion
+            - cell "Silent" [ref=e3784]
+            - cell "Rare" [ref=e3785]:
+              - generic [ref=e3788]: Rare
+            - cell "11" [ref=e3789]
+            - cell "0.1" [ref=e3790]
+            - cell "↑" [ref=e3791]:
+              - generic [ref=e3792]: ↑
+          - row "201 Phantasmal Killer Silent Rare 11 0.0 ↓" [ref=e3793] [cursor=pointer]:
+            - cell "201" [ref=e3794]
+            - cell "Phantasmal Killer" [ref=e3795]: Phantasmal Killer
+            - cell "Silent" [ref=e3797]
+            - cell "Rare" [ref=e3798]:
+              - generic [ref=e3801]: Rare
+            - cell "11" [ref=e3802]
+            - cell "0.0" [ref=e3803]
+            - cell "↓" [ref=e3804]:
+              - generic [ref=e3805]: ↓
+          - row "202 Dark Shackles Colorless Common 10 0.1 ↓" [ref=e3806] [cursor=pointer]:
+            - cell "202" [ref=e3807]
+            - cell "Dark Shackles" [ref=e3808]: Dark Shackles
+            - cell "Colorless" [ref=e3810]
+            - cell "Common" [ref=e3811]:
+              - generic [ref=e3814]: Common
+            - cell "10" [ref=e3815]
+            - cell "0.1" [ref=e3816]
+            - cell "↓" [ref=e3817]:
+              - generic [ref=e3818]: ↓
+          - row "203 Trip Colorless Common 10 0.0 ↓" [ref=e3819] [cursor=pointer]:
+            - cell "203" [ref=e3820]
+            - cell "Trip" [ref=e3821]: Trip
+            - cell "Colorless" [ref=e3823]
+            - cell "Common" [ref=e3824]:
+              - generic [ref=e3827]: Common
+            - cell "10" [ref=e3828]
+            - cell "0.0" [ref=e3829]
+            - cell "↓" [ref=e3830]:
+              - generic [ref=e3831]: ↓
+          - row "204 Clothesline Ironclad Common 10 0.6 ↑" [ref=e3832] [cursor=pointer]:
+            - cell "204" [ref=e3833]
+            - cell "Clothesline" [ref=e3834]: Clothesline
+            - cell "Ironclad" [ref=e3836]
+            - cell "Common" [ref=e3837]:
+              - generic [ref=e3840]: Common
+            - cell "10" [ref=e3841]
+            - cell "0.6" [ref=e3842]
+            - cell "↑" [ref=e3843]:
+              - generic [ref=e3844]: ↑
+          - row "205 Double Tap Ironclad Rare 10 0.0 ↓" [ref=e3845] [cursor=pointer]:
+            - cell "205" [ref=e3846]
+            - cell "Double Tap" [ref=e3847]: Double Tap
+            - cell "Ironclad" [ref=e3849]
+            - cell "Rare" [ref=e3850]:
+              - generic [ref=e3853]: Rare
+            - cell "10" [ref=e3854]
+            - cell "0.0" [ref=e3855]
+            - cell "↓" [ref=e3856]:
+              - generic [ref=e3857]: ↓
+          - row "206 Infernal Blade Ironclad Uncommon 10 0.3 ↓" [ref=e3858] [cursor=pointer]:
+            - cell "206" [ref=e3859]
+            - cell "Infernal Blade" [ref=e3860]: Infernal Blade
+            - cell "Ironclad" [ref=e3862]
+            - cell "Uncommon" [ref=e3863]:
+              - generic [ref=e3866]: Uncommon
+            - cell "10" [ref=e3867]
+            - cell "0.3" [ref=e3868]
+            - cell "↓" [ref=e3869]:
+              - generic [ref=e3870]: ↓
+          - row "207 Eviscerate Silent Uncommon 10 0.4 →" [ref=e3871] [cursor=pointer]:
+            - cell "207" [ref=e3872]
+            - cell "Eviscerate" [ref=e3873]: Eviscerate
+            - cell "Silent" [ref=e3875]
+            - cell "Uncommon" [ref=e3876]:
+              - generic [ref=e3879]: Uncommon
+            - cell "10" [ref=e3880]
+            - cell "0.4" [ref=e3881]
+            - cell "→" [ref=e3882]:
+              - generic [ref=e3883]: →
+          - row "208 Poisoned Stab Silent Common 10 0.4 ↑" [ref=e3884] [cursor=pointer]:
+            - cell "208" [ref=e3885]
+            - cell "Poisoned Stab" [ref=e3886]: Poisoned Stab
+            - cell "Silent" [ref=e3888]
+            - cell "Common" [ref=e3889]:
+              - generic [ref=e3892]: Common
+            - cell "10" [ref=e3893]
+            - cell "0.4" [ref=e3894]
+            - cell "↑" [ref=e3895]:
+              - generic [ref=e3896]: ↑
+          - row "209 Hand of Greed Colorless Rare 9 0.3 →" [ref=e3897] [cursor=pointer]:
+            - cell "209" [ref=e3898]
+            - cell "Hand of Greed" [ref=e3899]: Hand of Greed
+            - cell "Colorless" [ref=e3901]
+            - cell "Rare" [ref=e3902]:
+              - generic [ref=e3905]: Rare
+            - cell "9" [ref=e3906]
+            - cell "0.3" [ref=e3907]
+            - cell "→" [ref=e3908]:
+              - generic [ref=e3909]: →
+          - row "210 Aggregate Defect Uncommon 9 0.1 ↓" [ref=e3910] [cursor=pointer]:
+            - cell "210" [ref=e3911]
+            - cell "Aggregate" [ref=e3912]: Aggregate
+            - cell "Defect" [ref=e3914]
+            - cell "Uncommon" [ref=e3915]:
+              - generic [ref=e3918]: Uncommon
+            - cell "9" [ref=e3919]
+            - cell "0.1" [ref=e3920]
+            - cell "↓" [ref=e3921]:
+              - generic [ref=e3922]: ↓
+          - row "211 Equilibrium Defect Uncommon 9 0.4 ↑" [ref=e3923] [cursor=pointer]:
+            - cell "211" [ref=e3924]
+            - cell "Equilibrium" [ref=e3925]: Equilibrium
+            - cell "Defect" [ref=e3927]
+            - cell "Uncommon" [ref=e3928]:
+              - generic [ref=e3931]: Uncommon
+            - cell "9" [ref=e3932]
+            - cell "0.4" [ref=e3933]
+            - cell "↑" [ref=e3934]:
+              - generic [ref=e3935]: ↑
+          - row "212 Berserk Ironclad Rare 9 0.0 ↓" [ref=e3936] [cursor=pointer]:
+            - cell "212" [ref=e3937]
+            - cell "Berserk" [ref=e3938]: Berserk
+            - cell "Ironclad" [ref=e3940]
+            - cell "Rare" [ref=e3941]:
+              - generic [ref=e3944]: Rare
+            - cell "9" [ref=e3945]
+            - cell "0.0" [ref=e3946]
+            - cell "↓" [ref=e3947]:
+              - generic [ref=e3948]: ↓
+          - row "213 Coil Regent Common 9 0.4 ↑" [ref=e3949] [cursor=pointer]:
+            - cell "213" [ref=e3950]
+            - cell "Coil" [ref=e3951]: Coil
+            - cell "Regent" [ref=e3953]
+            - cell "Common" [ref=e3954]:
+              - generic [ref=e3957]: Common
+            - cell "9" [ref=e3958]
+            - cell "0.4" [ref=e3959]
+            - cell "↑" [ref=e3960]:
+              - generic [ref=e3961]: ↑
+          - row "214 Caltrops Silent Uncommon 9 0.4 ↓" [ref=e3962] [cursor=pointer]:
+            - cell "214" [ref=e3963]
+            - cell "Caltrops" [ref=e3964]: Caltrops
+            - cell "Silent" [ref=e3966]
+            - cell "Uncommon" [ref=e3967]:
+              - generic [ref=e3970]: Uncommon
+            - cell "9" [ref=e3971]
+            - cell "0.4" [ref=e3972]
+            - cell "↓" [ref=e3973]:
+              - generic [ref=e3974]: ↓
+          - row "215 Rip and Tear Defect Uncommon 8 0.4 ↑" [ref=e3975] [cursor=pointer]:
+            - cell "215" [ref=e3976]
+            - cell "Rip and Tear" [ref=e3977]: Rip and Tear
+            - cell "Defect" [ref=e3979]
+            - cell "Uncommon" [ref=e3980]:
+              - generic [ref=e3983]: Uncommon
+            - cell "8" [ref=e3984]
+            - cell "0.4" [ref=e3985]
+            - cell "↑" [ref=e3986]:
+              - generic [ref=e3987]: ↑
+          - row "216 Disarm Ironclad Uncommon 8 0.3 ↓" [ref=e3988] [cursor=pointer]:
+            - cell "216" [ref=e3989]
+            - cell "Disarm" [ref=e3990]: Disarm
+            - cell "Ironclad" [ref=e3992]
+            - cell "Uncommon" [ref=e3993]:
+              - generic [ref=e3996]: Uncommon
+            - cell "8" [ref=e3997]
+            - cell "0.3" [ref=e3998]
+            - cell "↓" [ref=e3999]:
+              - generic [ref=e4000]: ↓
+          - row "217 Intimidate Ironclad Uncommon 8 0.1 ↓" [ref=e4001] [cursor=pointer]:
+            - cell "217" [ref=e4002]
+            - cell "Intimidate" [ref=e4003]: Intimidate
+            - cell "Ironclad" [ref=e4005]
+            - cell "Uncommon" [ref=e4006]:
+              - generic [ref=e4009]: Uncommon
+            - cell "8" [ref=e4010]
+            - cell "0.1" [ref=e4011]
+            - cell "↓" [ref=e4012]:
+              - generic [ref=e4013]: ↓
+          - row "218 Glass Knife Silent Rare 8 0.6 ↑" [ref=e4014] [cursor=pointer]:
+            - cell "218" [ref=e4015]
+            - cell "Glass Knife" [ref=e4016]: Glass Knife
+            - cell "Silent" [ref=e4018]
+            - cell "Rare" [ref=e4019]:
+              - generic [ref=e4022]: Rare
+            - cell "8" [ref=e4023]
+            - cell "0.6" [ref=e4024]
+            - cell "↑" [ref=e4025]:
+              - generic [ref=e4026]: ↑
+          - row "219 Thinking Ahead Colorless Rare 7 0.3 →" [ref=e4027] [cursor=pointer]:
+            - cell "219" [ref=e4028]
+            - cell "Thinking Ahead" [ref=e4029]: Thinking Ahead
+            - cell "Colorless" [ref=e4031]
+            - cell "Rare" [ref=e4032]:
+              - generic [ref=e4035]: Rare
+            - cell "7" [ref=e4036]
+            - cell "0.3" [ref=e4037]
+            - cell "→" [ref=e4038]:
+              - generic [ref=e4039]: →
+          - row "220 Violence Colorless Rare 7 0.1 →" [ref=e4040] [cursor=pointer]:
+            - cell "220" [ref=e4041]
+            - cell "Violence" [ref=e4042]: Violence
+            - cell "Colorless" [ref=e4044]
+            - cell "Rare" [ref=e4045]:
+              - generic [ref=e4048]: Rare
+            - cell "7" [ref=e4049]
+            - cell "0.1" [ref=e4050]
+            - cell "→" [ref=e4051]:
+              - generic [ref=e4052]: →
+          - row "221 Rebound Defect Common 7 0.3 ↓" [ref=e4053] [cursor=pointer]:
+            - cell "221" [ref=e4054]
+            - cell "Rebound" [ref=e4055]: Rebound
+            - cell "Defect" [ref=e4057]
+            - cell "Common" [ref=e4058]:
+              - generic [ref=e4061]: Common
+            - cell "7" [ref=e4062]
+            - cell "0.3" [ref=e4063]
+            - cell "↓" [ref=e4064]:
+              - generic [ref=e4065]: ↓
+          - row "222 Phylactery Necrobinder Rare 7 0.3 ↓" [ref=e4066] [cursor=pointer]:
+            - cell "222" [ref=e4067]
+            - cell "Phylactery" [ref=e4068]: Phylactery
+            - cell "Necrobinder" [ref=e4070]
+            - cell "Rare" [ref=e4071]:
+              - generic [ref=e4074]: Rare
+            - cell "7" [ref=e4075]
+            - cell "0.3" [ref=e4076]
+            - cell "↓" [ref=e4077]:
+              - generic [ref=e4078]: ↓
+          - row "223 Double Strike Regent Common 7 0.1 ↓" [ref=e4079] [cursor=pointer]:
+            - cell "223" [ref=e4080]
+            - cell "Double Strike" [ref=e4081]: Double Strike
+            - cell "Regent" [ref=e4083]
+            - cell "Common" [ref=e4084]:
+              - generic [ref=e4087]: Common
+            - cell "7" [ref=e4088]
+            - cell "0.1" [ref=e4089]
+            - cell "↓" [ref=e4090]:
+              - generic [ref=e4091]: ↓
+          - row "224 A Thousand Cuts Silent Rare 7 0.1 ↑" [ref=e4092] [cursor=pointer]:
+            - cell "224" [ref=e4093]
+            - cell "A Thousand Cuts" [ref=e4094]: A Thousand Cuts
+            - cell "Silent" [ref=e4096]
+            - cell "Rare" [ref=e4097]:
+              - generic [ref=e4100]: Rare
+            - cell "7" [ref=e4101]
+            - cell "0.1" [ref=e4102]
+            - cell "↑" [ref=e4103]:
+              - generic [ref=e4104]: ↑
+          - row "225 Expertise Silent Uncommon 7 0.3 →" [ref=e4105] [cursor=pointer]:
+            - cell "225" [ref=e4106]
+            - cell "Expertise" [ref=e4107]: Expertise
+            - cell "Silent" [ref=e4109]
+            - cell "Uncommon" [ref=e4110]:
+              - generic [ref=e4113]: Uncommon
+            - cell "7" [ref=e4114]
+            - cell "0.3" [ref=e4115]
+            - cell "→" [ref=e4116]:
+              - generic [ref=e4117]: →
+          - row "226 Jack of All Trades Colorless Common 6 0.1 ↓" [ref=e4118] [cursor=pointer]:
+            - cell "226" [ref=e4119]
+            - cell "Jack of All Trades" [ref=e4120]: Jack of All Trades
+            - cell "Colorless" [ref=e4122]
+            - cell "Common" [ref=e4123]:
+              - generic [ref=e4126]: Common
+            - cell "6" [ref=e4127]
+            - cell "0.1" [ref=e4128]
+            - cell "↓" [ref=e4129]:
+              - generic [ref=e4130]: ↓
+          - row "227 Panacea Colorless Common 6 0.1 ↑" [ref=e4131] [cursor=pointer]:
+            - cell "227" [ref=e4132]
+            - cell "Panacea" [ref=e4133]: Panacea
+            - cell "Colorless" [ref=e4135]
+            - cell "Common" [ref=e4136]:
+              - generic [ref=e4139]: Common
+            - cell "6" [ref=e4140]
+            - cell "0.1" [ref=e4141]
+            - cell "↑" [ref=e4142]:
+              - generic [ref=e4143]: ↑
+          - row "228 Secret Technique Colorless Rare 6 0.1 ↑" [ref=e4144] [cursor=pointer]:
+            - cell "228" [ref=e4145]
+            - cell "Secret Technique" [ref=e4146]: Secret Technique
+            - cell "Colorless" [ref=e4148]
+            - cell "Rare" [ref=e4149]:
+              - generic [ref=e4152]: Rare
+            - cell "6" [ref=e4153]
+            - cell "0.1" [ref=e4154]
+            - cell "↑" [ref=e4155]:
+              - generic [ref=e4156]: ↑
+          - row "229 Pride Curse Curse 6 0.3 ↑" [ref=e4157] [cursor=pointer]:
+            - cell "229" [ref=e4158]
+            - cell "Pride" [ref=e4159]: Pride
+            - cell "Curse" [ref=e4161]
+            - cell "Curse" [ref=e4162]:
+              - generic [ref=e4165]: Curse
+            - cell "6" [ref=e4166]
+            - cell "0.3" [ref=e4167]
+            - cell "↑" [ref=e4168]:
+              - generic [ref=e4169]: ↑
+          - row "230 Seeing Red Ironclad Uncommon 6 0.0 →" [ref=e4170] [cursor=pointer]:
+            - cell "230" [ref=e4171]
+            - cell "Seeing Red" [ref=e4172]: Seeing Red
+            - cell "Ironclad" [ref=e4174]
+            - cell "Uncommon" [ref=e4175]:
+              - generic [ref=e4178]: Uncommon
+            - cell "6" [ref=e4179]
+            - cell "0.0" [ref=e4180]
+            - cell "→" [ref=e4181]:
+              - generic [ref=e4182]: →
+          - row "231 Sentinel Ironclad Uncommon 6 0.0 ↓" [ref=e4183] [cursor=pointer]:
+            - cell "231" [ref=e4184]
+            - cell "Sentinel" [ref=e4185]: Sentinel
+            - cell "Ironclad" [ref=e4187]
+            - cell "Uncommon" [ref=e4188]:
+              - generic [ref=e4191]: Uncommon
+            - cell "6" [ref=e4192]
+            - cell "0.0" [ref=e4193]
+            - cell "↓" [ref=e4194]:
+              - generic [ref=e4195]: ↓
+          - row "232 Ouroboros Regent Rare 6 0.1 ↑" [ref=e4196] [cursor=pointer]:
+            - cell "232" [ref=e4197]
+            - cell "Ouroboros" [ref=e4198]: Ouroboros
+            - cell "Regent" [ref=e4200]
+            - cell "Rare" [ref=e4201]:
+              - generic [ref=e4204]: Rare
+            - cell "6" [ref=e4205]
+            - cell "0.1" [ref=e4206]
+            - cell "↑" [ref=e4207]:
+              - generic [ref=e4208]: ↑
+          - row "233 Endless Agony Silent Uncommon 6 0.3 →" [ref=e4209] [cursor=pointer]:
+            - cell "233" [ref=e4210]
+            - cell "Endless Agony" [ref=e4211]: Endless Agony
+            - cell "Silent" [ref=e4213]
+            - cell "Uncommon" [ref=e4214]:
+              - generic [ref=e4217]: Uncommon
+            - cell "6" [ref=e4218]
+            - cell "0.3" [ref=e4219]
+            - cell "→" [ref=e4220]:
+              - generic [ref=e4221]: →
+          - row "234 Heel Hook Silent Uncommon 6 0.1 →" [ref=e4222] [cursor=pointer]:
+            - cell "234" [ref=e4223]
+            - cell "Heel Hook" [ref=e4224]: Heel Hook
+            - cell "Silent" [ref=e4226]
+            - cell "Uncommon" [ref=e4227]:
+              - generic [ref=e4230]: Uncommon
+            - cell "6" [ref=e4231]
+            - cell "0.1" [ref=e4232]
+            - cell "→" [ref=e4233]:
+              - generic [ref=e4234]: →
+          - row "235 Deep Breath Colorless Common 5 0.0 ↓" [ref=e4235] [cursor=pointer]:
+            - cell "235" [ref=e4236]
+            - cell "Deep Breath" [ref=e4237]: Deep Breath
+            - cell "Colorless" [ref=e4239]
+            - cell "Common" [ref=e4240]:
+              - generic [ref=e4243]: Common
+            - cell "5" [ref=e4244]
+            - cell "0.0" [ref=e4245]
+            - cell "↓" [ref=e4246]:
+              - generic [ref=e4247]: ↓
+          - row "236 Secret Weapon Colorless Rare 5 0.0 →" [ref=e4248] [cursor=pointer]:
+            - cell "236" [ref=e4249]
+            - cell "Secret Weapon" [ref=e4250]: Secret Weapon
+            - cell "Colorless" [ref=e4252]
+            - cell "Rare" [ref=e4253]:
+              - generic [ref=e4256]: Rare
+            - cell "5" [ref=e4257]
+            - cell "0.0" [ref=e4258]
+            - cell "→" [ref=e4259]:
+              - generic [ref=e4260]: →
+          - row "237 Ghostly Armor Ironclad Uncommon 5 0.3 ↓" [ref=e4261] [cursor=pointer]:
+            - cell "237" [ref=e4262]
+            - cell "Ghostly Armor" [ref=e4263]: Ghostly Armor
+            - cell "Ironclad" [ref=e4265]
+            - cell "Uncommon" [ref=e4266]:
+              - generic [ref=e4269]: Uncommon
+            - cell "5" [ref=e4270]
+            - cell "0.3" [ref=e4271]
+            - cell "↓" [ref=e4272]:
+              - generic [ref=e4273]: ↓
+          - row "238 Reinforced Body Defect Uncommon 4 0.1 →" [ref=e4274] [cursor=pointer]:
+            - cell "238" [ref=e4275]
+            - cell "Reinforced Body" [ref=e4276]: Reinforced Body
+            - cell "Defect" [ref=e4278]
+            - cell "Uncommon" [ref=e4279]:
+              - generic [ref=e4282]: Uncommon
+            - cell "4" [ref=e4283]
+            - cell "0.1" [ref=e4284]
+            - cell "→" [ref=e4285]:
+              - generic [ref=e4286]: →
+          - row "239 Brutality Ironclad Rare 4 0.0 ↓" [ref=e4287] [cursor=pointer]:
+            - cell "239" [ref=e4288]
+            - cell "Brutality" [ref=e4289]: Brutality
+            - cell "Ironclad" [ref=e4291]
+            - cell "Rare" [ref=e4292]:
+              - generic [ref=e4295]: Rare
+            - cell "4" [ref=e4296]
+            - cell "0.0" [ref=e4297]
+            - cell "↓" [ref=e4298]:
+              - generic [ref=e4299]: ↓
+          - row "240 Sever Soul Ironclad Uncommon 4 0.0 ↓" [ref=e4300] [cursor=pointer]:
+            - cell "240" [ref=e4301]
+            - cell "Sever Soul" [ref=e4302]: Sever Soul
+            - cell "Ironclad" [ref=e4304]
+            - cell "Uncommon" [ref=e4305]:
+              - generic [ref=e4308]: Uncommon
+            - cell "4" [ref=e4309]
+            - cell "0.0" [ref=e4310]
+            - cell "↓" [ref=e4311]:
+              - generic [ref=e4312]: ↓
+          - row "241 Warcry Ironclad Common 4 0.0 →" [ref=e4313] [cursor=pointer]:
+            - cell "241" [ref=e4314]
+            - cell "Warcry" [ref=e4315]: Warcry
+            - cell "Ironclad" [ref=e4317]
+            - cell "Common" [ref=e4318]:
+              - generic [ref=e4321]: Common
+            - cell "4" [ref=e4322]
+            - cell "0.0" [ref=e4323]
+            - cell "→" [ref=e4324]:
+              - generic [ref=e4325]: →
+          - row "242 Crippling Cloud Silent Uncommon 4 0.1 ↑" [ref=e4326] [cursor=pointer]:
+            - cell "242" [ref=e4327]
+            - cell "Crippling Cloud" [ref=e4328]: Crippling Cloud
+            - cell "Silent" [ref=e4330]
+            - cell "Uncommon" [ref=e4331]:
+              - generic [ref=e4334]: Uncommon
+            - cell "4" [ref=e4335]
+            - cell "0.1" [ref=e4336]
+            - cell "↑" [ref=e4337]:
+              - generic [ref=e4338]: ↑
+          - row "243 Die Die Die Silent Rare 4 0.3 ↑" [ref=e4339] [cursor=pointer]:
+            - cell "243" [ref=e4340]
+            - cell "Die Die Die" [ref=e4341]: Die Die Die
+            - cell "Silent" [ref=e4343]
+            - cell "Rare" [ref=e4344]:
+              - generic [ref=e4347]: Rare
+            - cell "4" [ref=e4348]
+            - cell "0.3" [ref=e4349]
+            - cell "↑" [ref=e4350]:
+              - generic [ref=e4351]: ↑
+          - row "244 Impatience Colorless Common 3 0.1 ↑" [ref=e4352] [cursor=pointer]:
+            - cell "244" [ref=e4353]
+            - cell "Impatience" [ref=e4354]: Impatience
+            - cell "Colorless" [ref=e4356]
+            - cell "Common" [ref=e4357]:
+              - generic [ref=e4360]: Common
+            - cell "3" [ref=e4361]
+            - cell "0.1" [ref=e4362]
+            - cell "↑" [ref=e4363]:
+              - generic [ref=e4364]: ↑
+          - row "245 Melter Defect Uncommon 3 0.1 ↑" [ref=e4365] [cursor=pointer]:
+            - cell "245" [ref=e4366]
+            - cell "Melter" [ref=e4367]: Melter
+            - cell "Defect" [ref=e4369]
+            - cell "Uncommon" [ref=e4370]:
+              - generic [ref=e4373]: Uncommon
+            - cell "3" [ref=e4374]
+            - cell "0.1" [ref=e4375]
+            - cell "↑" [ref=e4376]:
+              - generic [ref=e4377]: ↑
+          - row "246 Static Discharge Defect Uncommon 3 0.1 ↑" [ref=e4378] [cursor=pointer]:
+            - cell "246" [ref=e4379]
+            - cell "Static Discharge" [ref=e4380]: Static Discharge
+            - cell "Defect" [ref=e4382]
+            - cell "Uncommon" [ref=e4383]:
+              - generic [ref=e4386]: Uncommon
+            - cell "3" [ref=e4387]
+            - cell "0.1" [ref=e4388]
+            - cell "↑" [ref=e4389]:
+              - generic [ref=e4390]: ↑
+          - row "247 Ambush Regent Uncommon 3 0.0 ↓" [ref=e4391] [cursor=pointer]:
+            - cell "247" [ref=e4392]
+            - cell "Ambush" [ref=e4393]: Ambush
+            - cell "Regent" [ref=e4395]
+            - cell "Uncommon" [ref=e4396]:
+              - generic [ref=e4399]: Uncommon
+            - cell "3" [ref=e4400]
+            - cell "0.0" [ref=e4401]
+            - cell "↓" [ref=e4402]:
+              - generic [ref=e4403]: ↓
+          - row "248 Quick Slash Silent Common 3 0.0 ↓" [ref=e4404] [cursor=pointer]:
+            - cell "248" [ref=e4405]
+            - cell "Quick Slash" [ref=e4406]: Quick Slash
+            - cell "Silent" [ref=e4408]
+            - cell "Common" [ref=e4409]:
+              - generic [ref=e4412]: Common
+            - cell "3" [ref=e4413]
+            - cell "0.0" [ref=e4414]
+            - cell "↓" [ref=e4415]:
+              - generic [ref=e4416]: ↓
+          - row "249 Reckless Charge Ironclad Uncommon 2 0.0 →" [ref=e4417] [cursor=pointer]:
+            - cell "249" [ref=e4418]
+            - cell "Reckless Charge" [ref=e4419]: Reckless Charge
+            - cell "Ironclad" [ref=e4421]
+            - cell "Uncommon" [ref=e4422]:
+              - generic [ref=e4425]: Uncommon
+            - cell "2" [ref=e4426]
+            - cell "0.0" [ref=e4427]
+            - cell "→" [ref=e4428]:
+              - generic [ref=e4429]: →
+          - row "250 Constrict Regent Uncommon 2 0.1 ↑" [ref=e4430] [cursor=pointer]:
+            - cell "250" [ref=e4431]
+            - cell "Constrict" [ref=e4432]: Constrict
+            - cell "Regent" [ref=e4434]
+            - cell "Uncommon" [ref=e4435]:
+              - generic [ref=e4438]: Uncommon
+            - cell "2" [ref=e4439]
+            - cell "0.1" [ref=e4440]
+            - cell "↑" [ref=e4441]:
+              - generic [ref=e4442]: ↑
+          - row "251 Rattlesnake Regent Uncommon 2 0.0 →" [ref=e4443] [cursor=pointer]:
+            - cell "251" [ref=e4444]
+            - cell "Rattlesnake" [ref=e4445]: Rattlesnake
+            - cell "Regent" [ref=e4447]
+            - cell "Uncommon" [ref=e4448]:
+              - generic [ref=e4451]: Uncommon
+            - cell "2" [ref=e4452]
+            - cell "0.0" [ref=e4453]
+            - cell "→" [ref=e4454]:
+              - generic [ref=e4455]: →
+          - row "252 Flying Knee Silent Common 2 0.0 ↓" [ref=e4456] [cursor=pointer]:
+            - cell "252" [ref=e4457]
+            - cell "Flying Knee" [ref=e4458]: Flying Knee
+            - cell "Silent" [ref=e4460]
+            - cell "Common" [ref=e4461]:
+              - generic [ref=e4464]: Common
+            - cell "2" [ref=e4465]
+            - cell "0.0" [ref=e4466]
+            - cell "↓" [ref=e4467]:
+              - generic [ref=e4468]: ↓
+          - row "253 Riddle with Holes Silent Uncommon 2 0.0 →" [ref=e4469] [cursor=pointer]:
+            - cell "253" [ref=e4470]
+            - cell "Riddle with Holes" [ref=e4471]: Riddle with Holes
+            - cell "Silent" [ref=e4473]
+            - cell "Uncommon" [ref=e4474]:
+              - generic [ref=e4477]: Uncommon
+            - cell "2" [ref=e4478]
+            - cell "0.0" [ref=e4479]
+            - cell "→" [ref=e4480]:
+              - generic [ref=e4481]: →
+          - row "254 Bandage Up Colorless Common 1 0.1 ↑" [ref=e4482] [cursor=pointer]:
+            - cell "254" [ref=e4483]
+            - cell "Bandage Up" [ref=e4484]: Bandage Up
+            - cell "Colorless" [ref=e4486]
+            - cell "Common" [ref=e4487]:
+              - generic [ref=e4490]: Common
+            - cell "1" [ref=e4491]
+            - cell "0.1" [ref=e4492]
+            - cell "↑" [ref=e4493]:
+              - generic [ref=e4494]: ↑
+          - row "255 Forethought Colorless Common 1 0.0 ↓" [ref=e4495] [cursor=pointer]:
+            - cell "255" [ref=e4496]
+            - cell "Forethought" [ref=e4497]: Forethought
+            - cell "Colorless" [ref=e4499]
+            - cell "Common" [ref=e4500]:
+              - generic [ref=e4503]: Common
+            - cell "1" [ref=e4504]
+            - cell "0.0" [ref=e4505]
+            - cell "↓" [ref=e4506]:
+              - generic [ref=e4507]: ↓
+          - row "256 Good Instincts Colorless Common 1 0.0 ↓" [ref=e4508] [cursor=pointer]:
+            - cell "256" [ref=e4509]
+            - cell "Good Instincts" [ref=e4510]: Good Instincts
+            - cell "Colorless" [ref=e4512]
+            - cell "Common" [ref=e4513]:
+              - generic [ref=e4516]: Common
+            - cell "1" [ref=e4517]
+            - cell "0.0" [ref=e4518]
+            - cell "↓" [ref=e4519]:
+              - generic [ref=e4520]: ↓
+          - row "257 Magnetism Colorless Rare 1 0.0 →" [ref=e4521] [cursor=pointer]:
+            - cell "257" [ref=e4522]
+            - cell "Magnetism" [ref=e4523]: Magnetism
+            - cell "Colorless" [ref=e4525]
+            - cell "Rare" [ref=e4526]:
+              - generic [ref=e4529]: Rare
+            - cell "1" [ref=e4530]
+            - cell "0.0" [ref=e4531]
+            - cell "→" [ref=e4532]:
+              - generic [ref=e4533]: →
+          - row "258 Transmutation Colorless Rare 1 0.1 ↑" [ref=e4534] [cursor=pointer]:
+            - cell "258" [ref=e4535]
+            - cell "Transmutation" [ref=e4536]: Transmutation
+            - cell "Colorless" [ref=e4538]
+            - cell "Rare" [ref=e4539]:
+              - generic [ref=e4542]: Rare
+            - cell "1" [ref=e4543]
+            - cell "0.1" [ref=e4544]
+            - cell "↑" [ref=e4545]:
+              - generic [ref=e4546]: ↑
+          - row "259 Force Field Defect Uncommon 1 0.0 →" [ref=e4547] [cursor=pointer]:
+            - cell "259" [ref=e4548]
+            - cell "Force Field" [ref=e4549]: Force Field
+            - cell "Defect" [ref=e4551]
+            - cell "Uncommon" [ref=e4552]:
+              - generic [ref=e4555]: Uncommon
+            - cell "1" [ref=e4556]
+            - cell "0.0" [ref=e4557]
+            - cell "→" [ref=e4558]:
+              - generic [ref=e4559]: →
+          - row "260 Dark Pact Necrobinder Common 1 0.1 ↑" [ref=e4560] [cursor=pointer]:
+            - cell "260" [ref=e4561]
+            - cell "Dark Pact" [ref=e4562]: Dark Pact
+            - cell "Necrobinder" [ref=e4564]
+            - cell "Common" [ref=e4565]:
+              - generic [ref=e4568]: Common
+            - cell "1" [ref=e4569]
+            - cell "0.1" [ref=e4570]
+            - cell "↑" [ref=e4571]:
+              - generic [ref=e4572]: ↑
+          - row "261 Hiss Regent Common 1 0.0 →" [ref=e4573] [cursor=pointer]:
+            - cell "261" [ref=e4574]
+            - cell "Hiss" [ref=e4575]: Hiss
+            - cell "Regent" [ref=e4577]
+            - cell "Common" [ref=e4578]:
+              - generic [ref=e4581]: Common
+            - cell "1" [ref=e4582]
+            - cell "0.0" [ref=e4583]
+            - cell "→" [ref=e4584]:
+              - generic [ref=e4585]: →
+          - row "262 All-Out Attack Silent Uncommon 1 0.0 →" [ref=e4586] [cursor=pointer]:
+            - cell "262" [ref=e4587]
+            - cell "All-Out Attack" [ref=e4588]: All-Out Attack
+            - cell "Silent" [ref=e4590]
+            - cell "Uncommon" [ref=e4591]:
+              - generic [ref=e4594]: Uncommon
+            - cell "1" [ref=e4595]
+            - cell "0.0" [ref=e4596]
+            - cell "→" [ref=e4597]:
+              - generic [ref=e4598]: →
+          - row "263 Masterful Stab Silent Uncommon 1 0.0 ↓" [ref=e4599] [cursor=pointer]:
+            - cell "263" [ref=e4600]
+            - cell "Masterful Stab" [ref=e4601]: Masterful Stab
+            - cell "Silent" [ref=e4603]
+            - cell "Uncommon" [ref=e4604]:
+              - generic [ref=e4607]: Uncommon
+            - cell "1" [ref=e4608]
+            - cell "0.0" [ref=e4609]
+            - cell "↓" [ref=e4610]:
+              - generic [ref=e4611]: ↓
+  - contentinfo [ref=e4612]:
+    - generic [ref=e4614]:
+      - paragraph [ref=e4615]:
+        - text: Mention counts are matched using word-boundary regex against
+        - strong [ref=e4616]: r/slaythespire
+        - text: comments. Some false positives may occur for generic card names. Data collected 3× daily via GitHub Actions + PRAW. Historical data via Arctic Shift.
+      - paragraph [ref=e4617]:
+        - link "GitHub" [ref=e4618] [cursor=pointer]:
+          - /url: https://github.com
+        - text: ·
+        - link "r/slaythespire" [ref=e4619] [cursor=pointer]:
+          - /url: https://www.reddit.com/r/slaythespire
+        - text: "· Updated: Apr 8, 12:19 PM UTC"
