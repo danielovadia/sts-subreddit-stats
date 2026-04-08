@@ -518,14 +518,6 @@
       "match_strategy": "exact_phrase"
     },
     {
-      "id": "ironclad_exhume",
-      "name": "Exhume",
-      "character": "Ironclad",
-      "rarity": "Rare",
-      "type": "Skill",
-      "match_strategy": "exact_word"
-    },
-    {
       "id": "ironclad_feed",
       "name": "Feed",
       "character": "Ironclad",
