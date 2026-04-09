@@ -36,7 +36,8 @@
         2,
         1,
         3,
-        0
+        0,
+        4
       ],
       "name": "Apotheosis",
       "rarity": "Rare",
@@ -78,7 +79,8 @@
         0,
         0,
         0,
-        1
+        1,
+        0
       ],
       "name": "Bandage Up",
       "rarity": "Common",
@@ -120,7 +122,8 @@
         3,
         0,
         2,
-        0
+        0,
+        2
       ],
       "name": "Blind",
       "rarity": "Common",
@@ -162,6 +165,7 @@
         1,
         0,
         0,
+        0,
         0
       ],
       "name": "Dark Shackles",
@@ -194,6 +198,7 @@
         0,
         0,
         4,
+        0,
         0,
         0,
         0,
@@ -246,7 +251,8 @@
         4,
         0,
         0,
-        0
+        0,
+        5
       ],
       "name": "Discovery",
       "rarity": "Common",
@@ -288,7 +294,8 @@
         0,
         0,
         3,
-        1
+        1,
+        2
       ],
       "name": "Dramatic Entrance",
       "rarity": "Common",
@@ -330,7 +337,8 @@
         1,
         0,
         0,
-        0
+        0,
+        2
       ],
       "name": "Enlightenment",
       "rarity": "Common",
@@ -372,6 +380,7 @@
         3,
         1,
         4,
+        0,
         0
       ],
       "name": "Finesse",
@@ -414,6 +423,7 @@
         3,
         2,
         1,
+        1,
         1
       ],
       "name": "Flash of Steel",
@@ -447,6 +457,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -498,6 +509,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "name": "Good Instincts",
@@ -540,7 +552,8 @@
         0,
         1,
         1,
-        0
+        0,
+        1
       ],
       "name": "Hand of Greed",
       "rarity": "Rare",
@@ -582,6 +595,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "name": "Impatience",
@@ -619,6 +633,7 @@
         0,
         3,
         1,
+        0,
         0,
         0,
         0,
@@ -666,6 +681,7 @@
         0,
         1,
         1,
+        0,
         0
       ],
       "name": "Madness",
@@ -679,6 +695,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -750,7 +767,8 @@
         4,
         0,
         3,
-        0
+        0,
+        1
       ],
       "name": "Master of Strategy",
       "rarity": "Rare",
@@ -792,7 +810,8 @@
         5,
         5,
         1,
-        1
+        1,
+        6
       ],
       "name": "Mayhem",
       "rarity": "Rare",
@@ -834,7 +853,8 @@
         0,
         1,
         2,
-        1
+        1,
+        0
       ],
       "name": "Metamorphosis",
       "rarity": "Rare",
@@ -876,7 +896,8 @@
         1,
         0,
         2,
-        2
+        2,
+        1
       ],
       "name": "Mind Blast",
       "rarity": "Common",
@@ -915,6 +936,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -960,7 +982,8 @@
         1,
         2,
         0,
-        1
+        1,
+        0
       ],
       "name": "Panache",
       "rarity": "Rare",
@@ -1002,7 +1025,8 @@
         0,
         0,
         4,
-        0
+        0,
+        1
       ],
       "name": "Panic Button",
       "rarity": "Common",
@@ -1042,6 +1066,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0
@@ -1086,7 +1111,8 @@
         1,
         0,
         0,
-        0
+        0,
+        1
       ],
       "name": "Secret Technique",
       "rarity": "Rare",
@@ -1128,7 +1154,8 @@
         0,
         0,
         0,
-        0
+        0,
+        1
       ],
       "name": "Secret Weapon",
       "rarity": "Rare",
@@ -1170,6 +1197,7 @@
         2,
         1,
         1,
+        0,
         0
       ],
       "name": "The Bomb",
@@ -1212,7 +1240,8 @@
         1,
         0,
         0,
-        0
+        0,
+        1
       ],
       "name": "Thinking Ahead",
       "rarity": "Rare",
@@ -1253,6 +1282,7 @@
         0,
         0,
         1,
+        0,
         0,
         0
       ],
@@ -1296,7 +1326,8 @@
         0,
         0,
         0,
-        0
+        0,
+        3
       ],
       "name": "Trip",
       "rarity": "Common",
@@ -1338,6 +1369,7 @@
         0,
         0,
         1,
+        0,
         0
       ],
       "name": "Violence",
@@ -1380,7 +1412,8 @@
         14,
         0,
         1,
-        0
+        0,
+        1
       ],
       "name": "Clumsy",
       "rarity": "Curse",
@@ -1422,7 +1455,8 @@
         2,
         0,
         1,
-        0
+        0,
+        1
       ],
       "name": "Decay",
       "rarity": "Curse",
@@ -1464,6 +1498,7 @@
         2,
         4,
         1,
+        3,
         3
       ],
       "name": "Doubt",
@@ -1506,7 +1541,8 @@
         1,
         1,
         0,
-        1
+        1,
+        3
       ],
       "name": "Injury",
       "rarity": "Curse",
@@ -1548,7 +1584,8 @@
         2,
         0,
         0,
-        1
+        1,
+        0
       ],
       "name": "Necronomicurse",
       "rarity": "Curse",
@@ -1590,7 +1627,8 @@
         1,
         0,
         1,
-        1
+        1,
+        0
       ],
       "name": "Normality",
       "rarity": "Curse",
@@ -1632,7 +1670,8 @@
         8,
         8,
         4,
-        5
+        5,
+        16
       ],
       "name": "Pain",
       "rarity": "Curse",
@@ -1674,7 +1713,8 @@
         3,
         2,
         4,
-        3
+        3,
+        2
       ],
       "name": "Parasite",
       "rarity": "Curse",
@@ -1716,6 +1756,7 @@
         1,
         0,
         1,
+        0,
         0
       ],
       "name": "Pride",
@@ -1758,7 +1799,8 @@
         2,
         0,
         1,
-        4
+        4,
+        0
       ],
       "name": "Regret",
       "rarity": "Curse",
@@ -1800,6 +1842,7 @@
         3,
         2,
         0,
+        1,
         1
       ],
       "name": "Shame",
@@ -1839,6 +1882,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -1884,6 +1928,7 @@
         0,
         1,
         0,
+        0,
         0
       ],
       "name": "Aggregate",
@@ -1926,7 +1971,8 @@
         0,
         0,
         0,
-        1
+        1,
+        0
       ],
       "name": "Amplify",
       "rarity": "Rare",
@@ -1968,7 +2014,8 @@
         0,
         2,
         0,
-        0
+        0,
+        2
       ],
       "name": "Ball Lightning",
       "rarity": "Common",
@@ -2010,7 +2057,8 @@
         1,
         6,
         0,
-        0
+        0,
+        1
       ],
       "name": "Beam Cell",
       "rarity": "Common",
@@ -2052,7 +2100,8 @@
         0,
         0,
         0,
-        1
+        1,
+        4
       ],
       "name": "Biased Cognition",
       "rarity": "Rare",
@@ -2094,7 +2143,8 @@
         0,
         0,
         0,
-        0
+        0,
+        2
       ],
       "name": "Blizzard",
       "rarity": "Uncommon",
@@ -2136,7 +2186,8 @@
         1,
         4,
         1,
-        5
+        5,
+        7
       ],
       "name": "Buffer",
       "rarity": "Uncommon",
@@ -2178,7 +2229,8 @@
         2,
         2,
         0,
-        2
+        2,
+        5
       ],
       "name": "Capacitor",
       "rarity": "Uncommon",
@@ -2220,7 +2272,8 @@
         1,
         0,
         0,
-        2
+        2,
+        1
       ],
       "name": "Chaos",
       "rarity": "Uncommon",
@@ -2262,7 +2315,8 @@
         1,
         0,
         1,
-        0
+        0,
+        1
       ],
       "name": "Charge Battery",
       "rarity": "Common",
@@ -2304,7 +2358,8 @@
         3,
         6,
         0,
-        3
+        3,
+        0
       ],
       "name": "Chill",
       "rarity": "Uncommon",
@@ -2346,7 +2401,8 @@
         29,
         35,
         5,
-        14
+        14,
+        53
       ],
       "name": "Claw",
       "rarity": "Common",
@@ -2388,7 +2444,8 @@
         0,
         5,
         0,
-        1
+        1,
+        3
       ],
       "name": "Cold Snap",
       "rarity": "Common",
@@ -2430,7 +2487,8 @@
         0,
         1,
         0,
-        1
+        1,
+        0
       ],
       "name": "Compile Driver",
       "rarity": "Common",
@@ -2472,7 +2530,8 @@
         4,
         1,
         2,
-        0
+        0,
+        1
       ],
       "name": "Consume",
       "rarity": "Uncommon",
@@ -2514,7 +2573,8 @@
         0,
         6,
         0,
-        0
+        0,
+        2
       ],
       "name": "Coolheaded",
       "rarity": "Common",
@@ -2551,6 +2611,7 @@
         1,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -2598,7 +2659,8 @@
         3,
         8,
         0,
-        9
+        9,
+        8
       ],
       "name": "Creative AI",
       "rarity": "Rare",
@@ -2640,7 +2702,8 @@
         5,
         1,
         0,
-        3
+        3,
+        0
       ],
       "name": "Darkness",
       "rarity": "Uncommon",
@@ -2682,7 +2745,8 @@
         4,
         2,
         0,
-        2
+        2,
+        4
       ],
       "name": "Defragment",
       "rarity": "Uncommon",
@@ -2724,6 +2788,7 @@
         0,
         1,
         4,
+        1,
         1
       ],
       "name": "Double Energy",
@@ -2766,7 +2831,8 @@
         3,
         13,
         8,
-        17
+        17,
+        8
       ],
       "name": "Echo Form",
       "rarity": "Rare",
@@ -2808,7 +2874,8 @@
         0,
         0,
         3,
-        0
+        0,
+        1
       ],
       "name": "Electrodynamics",
       "rarity": "Rare",
@@ -2850,7 +2917,8 @@
         1,
         0,
         0,
-        1
+        1,
+        0
       ],
       "name": "Equilibrium",
       "rarity": "Uncommon",
@@ -2892,6 +2960,7 @@
         0,
         0,
         1,
+        0,
         0
       ],
       "name": "Fission",
@@ -2915,6 +2984,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -2976,7 +3046,8 @@
         0,
         0,
         0,
-        2
+        2,
+        0
       ],
       "name": "Fusion",
       "rarity": "Uncommon",
@@ -3018,7 +3089,8 @@
         0,
         0,
         0,
-        1
+        1,
+        0
       ],
       "name": "Genetic Algorithm",
       "rarity": "Uncommon",
@@ -3060,7 +3132,8 @@
         1,
         7,
         1,
-        1
+        1,
+        4
       ],
       "name": "Glacier",
       "rarity": "Uncommon",
@@ -3102,7 +3175,8 @@
         1,
         1,
         0,
-        1
+        1,
+        5
       ],
       "name": "Go for the Eyes",
       "rarity": "Common",
@@ -3144,6 +3218,7 @@
         0,
         1,
         1,
+        0,
         0
       ],
       "name": "Hello World",
@@ -3186,7 +3261,8 @@
         4,
         8,
         3,
-        4
+        4,
+        7
       ],
       "name": "Hologram",
       "rarity": "Common",
@@ -3228,7 +3304,8 @@
         5,
         1,
         2,
-        6
+        6,
+        3
       ],
       "name": "Hyperbeam",
       "rarity": "Rare",
@@ -3270,7 +3347,8 @@
         1,
         0,
         0,
-        0
+        0,
+        5
       ],
       "name": "Leap",
       "rarity": "Common",
@@ -3312,7 +3390,8 @@
         2,
         3,
         1,
-        0
+        0,
+        2
       ],
       "name": "Lightning Orb",
       "rarity": "Uncommon",
@@ -3354,7 +3433,8 @@
         5,
         4,
         5,
-        6
+        6,
+        4
       ],
       "name": "Loop",
       "rarity": "Uncommon",
@@ -3396,7 +3476,8 @@
         1,
         4,
         0,
-        2
+        2,
+        1
       ],
       "name": "Machine Learning",
       "rarity": "Rare",
@@ -3438,6 +3519,7 @@
         0,
         0,
         1,
+        0,
         0
       ],
       "name": "Melter",
@@ -3480,7 +3562,8 @@
         5,
         4,
         3,
-        2
+        2,
+        3
       ],
       "name": "Meteor Strike",
       "rarity": "Rare",
@@ -3522,7 +3605,8 @@
         0,
         3,
         2,
-        1
+        1,
+        0
       ],
       "name": "Multicast",
       "rarity": "Rare",
@@ -3564,7 +3648,8 @@
         2,
         3,
         0,
-        2
+        2,
+        3
       ],
       "name": "Overclock",
       "rarity": "Uncommon",
@@ -3606,7 +3691,8 @@
         2,
         3,
         3,
-        4
+        4,
+        1
       ],
       "name": "Plasma",
       "rarity": "Rare",
@@ -3648,7 +3734,8 @@
         0,
         0,
         0,
-        6
+        6,
+        1
       ],
       "name": "Rainbow",
       "rarity": "Uncommon",
@@ -3690,7 +3777,8 @@
         1,
         1,
         0,
-        2
+        2,
+        3
       ],
       "name": "Reboot",
       "rarity": "Uncommon",
@@ -3732,7 +3820,8 @@
         0,
         1,
         0,
-        0
+        0,
+        1
       ],
       "name": "Rebound",
       "rarity": "Common",
@@ -3774,7 +3863,8 @@
         0,
         0,
         0,
-        0
+        0,
+        3
       ],
       "name": "Recursion",
       "rarity": "Common",
@@ -3815,6 +3905,7 @@
         0,
         0,
         1,
+        0,
         0,
         0
       ],
@@ -3858,6 +3949,7 @@
         2,
         0,
         0,
+        1,
         1
       ],
       "name": "Reprogram",
@@ -3899,6 +3991,7 @@
         0,
         0,
         3,
+        0,
         0,
         0
       ],
@@ -3942,7 +4035,8 @@
         2,
         1,
         0,
-        0
+        0,
+        4
       ],
       "name": "Scrape",
       "rarity": "Uncommon",
@@ -3984,7 +4078,8 @@
         0,
         0,
         1,
-        0
+        0,
+        3
       ],
       "name": "Seek",
       "rarity": "Rare",
@@ -4026,6 +4121,7 @@
         0,
         0,
         1,
+        3,
         3
       ],
       "name": "Self Repair",
@@ -4068,7 +4164,8 @@
         6,
         6,
         14,
-        24
+        24,
+        22
       ],
       "name": "Stack",
       "rarity": "Common",
@@ -4105,6 +4202,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -4152,6 +4250,7 @@
         4,
         1,
         2,
+        1,
         1
       ],
       "name": "Storm",
@@ -4194,7 +4293,8 @@
         0,
         1,
         0,
-        0
+        0,
+        5
       ],
       "name": "Sweeping Beam",
       "rarity": "Common",
@@ -4236,6 +4336,7 @@
         2,
         0,
         2,
+        1,
         1
       ],
       "name": "Tempest",
@@ -4269,6 +4370,7 @@
         0,
         3,
         2,
+        0,
         0,
         0,
         0,
@@ -4320,7 +4422,8 @@
         6,
         11,
         5,
-        5
+        5,
+        2
       ],
       "name": "Turbo",
       "rarity": "Common",
@@ -4362,7 +4465,8 @@
         1,
         0,
         4,
-        6
+        6,
+        1
       ],
       "name": "White Noise",
       "rarity": "Uncommon",
@@ -4404,7 +4508,8 @@
         3,
         6,
         0,
-        0
+        0,
+        3
       ],
       "name": "Zap",
       "rarity": "Rare",
@@ -4446,7 +4551,8 @@
         1,
         3,
         2,
-        4
+        4,
+        6
       ],
       "name": "Anger",
       "rarity": "Common",
@@ -4488,7 +4594,8 @@
         3,
         0,
         0,
-        0
+        0,
+        15
       ],
       "name": "Armaments",
       "rarity": "Common",
@@ -4530,7 +4637,8 @@
         4,
         2,
         10,
-        9
+        9,
+        59
       ],
       "name": "Barricade",
       "rarity": "Rare",
@@ -4572,7 +4680,8 @@
         7,
         7,
         7,
-        22
+        22,
+        35
       ],
       "name": "Bash",
       "rarity": "Basic",
@@ -4614,7 +4723,8 @@
         1,
         2,
         1,
-        1
+        1,
+        3
       ],
       "name": "Battle Trance",
       "rarity": "Uncommon",
@@ -4650,6 +4760,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -4698,6 +4809,7 @@
         1,
         0,
         0,
+        0,
         0
       ],
       "name": "Blood for Blood",
@@ -4740,7 +4852,8 @@
         3,
         0,
         4,
-        5
+        5,
+        7
       ],
       "name": "Bloodletting",
       "rarity": "Uncommon",
@@ -4782,7 +4895,8 @@
         4,
         3,
         10,
-        6
+        6,
+        2
       ],
       "name": "Bludgeon",
       "rarity": "Rare",
@@ -4824,7 +4938,8 @@
         3,
         3,
         2,
-        4
+        4,
+        26
       ],
       "name": "Body Slam",
       "rarity": "Common",
@@ -4866,7 +4981,8 @@
         0,
         0,
         0,
-        0
+        0,
+        2
       ],
       "name": "Brutality",
       "rarity": "Rare",
@@ -4908,7 +5024,8 @@
         2,
         5,
         0,
-        0
+        0,
+        1
       ],
       "name": "Burning Pact",
       "rarity": "Uncommon",
@@ -4950,7 +5067,8 @@
         0,
         1,
         0,
-        0
+        0,
+        1
       ],
       "name": "Carnage",
       "rarity": "Uncommon",
@@ -4992,7 +5110,8 @@
         0,
         1,
         0,
-        3
+        3,
+        2
       ],
       "name": "Clash",
       "rarity": "Common",
@@ -5034,7 +5153,8 @@
         0,
         2,
         0,
-        2
+        2,
+        4
       ],
       "name": "Cleave",
       "rarity": "Common",
@@ -5076,7 +5196,8 @@
         0,
         4,
         0,
-        0
+        0,
+        1
       ],
       "name": "Clothesline",
       "rarity": "Common",
@@ -5118,7 +5239,8 @@
         0,
         0,
         2,
-        1
+        1,
+        2
       ],
       "name": "Combust",
       "rarity": "Uncommon",
@@ -5160,7 +5282,8 @@
         10,
         8,
         5,
-        4
+        4,
+        8
       ],
       "name": "Corruption",
       "rarity": "Rare",
@@ -5202,7 +5325,8 @@
         3,
         3,
         2,
-        3
+        3,
+        6
       ],
       "name": "Dark Embrace",
       "rarity": "Uncommon",
@@ -5244,7 +5368,8 @@
         3,
         42,
         4,
-        5
+        5,
+        13
       ],
       "name": "Demon Form",
       "rarity": "Rare",
@@ -5286,7 +5411,8 @@
         0,
         1,
         1,
-        0
+        0,
+        4
       ],
       "name": "Disarm",
       "rarity": "Uncommon",
@@ -5321,6 +5447,7 @@
         1,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -5370,6 +5497,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "name": "Dropkick",
@@ -5411,6 +5539,7 @@
         4,
         0,
         1,
+        0,
         0,
         0
       ],
@@ -5454,7 +5583,8 @@
         0,
         2,
         0,
-        2
+        2,
+        12
       ],
       "name": "Entrench",
       "rarity": "Uncommon",
@@ -5496,7 +5626,8 @@
         2,
         4,
         0,
-        0
+        0,
+        1
       ],
       "name": "Evolve",
       "rarity": "Uncommon",
@@ -5538,7 +5669,8 @@
         5,
         6,
         6,
-        6
+        6,
+        3
       ],
       "name": "Feed",
       "rarity": "Rare",
@@ -5580,7 +5712,8 @@
         4,
         3,
         2,
-        1
+        1,
+        12
       ],
       "name": "Feel No Pain",
       "rarity": "Uncommon",
@@ -5622,7 +5755,8 @@
         0,
         3,
         3,
-        0
+        0,
+        5
       ],
       "name": "Fiend Fire",
       "rarity": "Rare",
@@ -5664,7 +5798,8 @@
         1,
         0,
         1,
-        0
+        0,
+        5
       ],
       "name": "Fire Breathing",
       "rarity": "Uncommon",
@@ -5706,7 +5841,8 @@
         0,
         4,
         0,
-        0
+        0,
+        4
       ],
       "name": "Flame Barrier",
       "rarity": "Uncommon",
@@ -5748,7 +5884,8 @@
         2,
         2,
         4,
-        0
+        0,
+        2
       ],
       "name": "Flex",
       "rarity": "Common",
@@ -5789,6 +5926,7 @@
         0,
         0,
         2,
+        0,
         0,
         0
       ],
@@ -5832,6 +5970,7 @@
         2,
         20,
         1,
+        0,
         0
       ],
       "name": "Havoc",
@@ -5874,6 +6013,7 @@
         2,
         6,
         1,
+        6,
         6
       ],
       "name": "Headbutt",
@@ -5916,7 +6056,8 @@
         1,
         8,
         0,
-        1
+        1,
+        6
       ],
       "name": "Heavy Blade",
       "rarity": "Common",
@@ -5958,7 +6099,8 @@
         0,
         1,
         5,
-        0
+        0,
+        1
       ],
       "name": "Hemokinesis",
       "rarity": "Uncommon",
@@ -6000,7 +6142,8 @@
         1,
         7,
         3,
-        0
+        0,
+        2
       ],
       "name": "Immolate",
       "rarity": "Rare",
@@ -6042,7 +6185,8 @@
         0,
         1,
         1,
-        1
+        1,
+        5
       ],
       "name": "Impervious",
       "rarity": "Rare",
@@ -6081,6 +6225,7 @@
         0,
         1,
         1,
+        0,
         0,
         0,
         0,
@@ -6126,7 +6271,8 @@
         3,
         3,
         1,
-        0
+        0,
+        6
       ],
       "name": "Inflame",
       "rarity": "Uncommon",
@@ -6168,7 +6314,8 @@
         0,
         1,
         0,
-        0
+        0,
+        4
       ],
       "name": "Intimidate",
       "rarity": "Uncommon",
@@ -6210,7 +6357,8 @@
         1,
         1,
         0,
-        0
+        0,
+        12
       ],
       "name": "Iron Wave",
       "rarity": "Common",
@@ -6252,7 +6400,8 @@
         0,
         1,
         0,
-        2
+        2,
+        32
       ],
       "name": "Juggernaut",
       "rarity": "Rare",
@@ -6294,6 +6443,7 @@
         0,
         14,
         2,
+        1,
         1
       ],
       "name": "Limit Break",
@@ -6336,7 +6486,8 @@
         0,
         1,
         0,
-        4
+        4,
+        5
       ],
       "name": "Metallicize",
       "rarity": "Uncommon",
@@ -6378,7 +6529,8 @@
         4,
         5,
         6,
-        3
+        3,
+        23
       ],
       "name": "Offering",
       "rarity": "Rare",
@@ -6420,6 +6572,7 @@
         4,
         3,
         2,
+        3,
         3
       ],
       "name": "Perfected Strike",
@@ -6462,7 +6615,8 @@
         3,
         1,
         3,
-        9
+        9,
+        5
       ],
       "name": "Pommel Strike",
       "rarity": "Common",
@@ -6504,7 +6658,8 @@
         4,
         5,
         0,
-        2
+        2,
+        7
       ],
       "name": "Power Through",
       "rarity": "Uncommon",
@@ -6545,6 +6700,7 @@
         0,
         1,
         1,
+        0,
         0,
         0
       ],
@@ -6588,7 +6744,8 @@
         2,
         4,
         4,
-        0
+        0,
+        8
       ],
       "name": "Rage",
       "rarity": "Uncommon",
@@ -6630,6 +6787,7 @@
         1,
         4,
         9,
+        0,
         0
       ],
       "name": "Rampage",
@@ -6672,7 +6830,8 @@
         3,
         13,
         13,
-        7
+        7,
+        14
       ],
       "name": "Reaper",
       "rarity": "Rare",
@@ -6714,7 +6873,8 @@
         0,
         0,
         0,
-        0
+        0,
+        1
       ],
       "name": "Reckless Charge",
       "rarity": "Uncommon",
@@ -6756,7 +6916,8 @@
         0,
         9,
         3,
-        9
+        9,
+        11
       ],
       "name": "Rupture",
       "rarity": "Uncommon",
@@ -6798,6 +6959,7 @@
         1,
         0,
         2,
+        0,
         0
       ],
       "name": "Searing Blow",
@@ -6840,7 +7002,8 @@
         0,
         5,
         0,
-        3
+        3,
+        7
       ],
       "name": "Second Wind",
       "rarity": "Uncommon",
@@ -6867,6 +7030,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -6924,6 +7088,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "name": "Sentinel",
@@ -6954,6 +7119,7 @@
         0,
         0,
         3,
+        0,
         0,
         0,
         0,
@@ -7008,7 +7174,8 @@
         2,
         4,
         4,
-        0
+        0,
+        5
       ],
       "name": "Shockwave",
       "rarity": "Uncommon",
@@ -7050,7 +7217,8 @@
         1,
         1,
         0,
-        1
+        1,
+        5
       ],
       "name": "Shrug It Off",
       "rarity": "Common",
@@ -7092,6 +7260,7 @@
         1,
         5,
         0,
+        1,
         1
       ],
       "name": "Spot Weakness",
@@ -7134,7 +7303,8 @@
         0,
         2,
         2,
-        0
+        0,
+        3
       ],
       "name": "Sword Boomerang",
       "rarity": "Common",
@@ -7175,6 +7345,7 @@
         1,
         2,
         0,
+        1,
         1,
         1
       ],
@@ -7218,7 +7389,8 @@
         4,
         4,
         2,
-        1
+        1,
+        19
       ],
       "name": "True Grit",
       "rarity": "Common",
@@ -7260,7 +7432,8 @@
         0,
         5,
         1,
-        0
+        0,
+        4
       ],
       "name": "Twin Strike",
       "rarity": "Common",
@@ -7302,7 +7475,8 @@
         0,
         1,
         1,
-        5
+        5,
+        2
       ],
       "name": "Uppercut",
       "rarity": "Uncommon",
@@ -7344,7 +7518,8 @@
         0,
         0,
         0,
-        0
+        0,
+        1
       ],
       "name": "Warcry",
       "rarity": "Common",
@@ -7386,6 +7561,7 @@
         1,
         3,
         9,
+        0,
         0
       ],
       "name": "Whirlwind",
@@ -7428,7 +7604,8 @@
         0,
         0,
         0,
-        2
+        2,
+        7
       ],
       "name": "Wild Strike",
       "rarity": "Common",
@@ -7470,7 +7647,8 @@
         0,
         1,
         5,
-        1
+        1,
+        0
       ],
       "name": "Blight",
       "rarity": "Uncommon",
@@ -7502,6 +7680,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -7554,6 +7733,7 @@
         0,
         0,
         1,
+        0,
         0
       ],
       "name": "Corpse Explosion",
@@ -7596,7 +7776,8 @@
         1,
         0,
         0,
-        0
+        0,
+        1
       ],
       "name": "Dark Pact",
       "rarity": "Common",
@@ -7638,7 +7819,8 @@
         1,
         0,
         0,
-        0
+        0,
+        13
       ],
       "name": "Entropy",
       "rarity": "Uncommon",
@@ -7680,7 +7862,8 @@
         0,
         0,
         0,
-        0
+        0,
+        1
       ],
       "name": "Phylactery",
       "rarity": "Rare",
@@ -7722,7 +7905,8 @@
         3,
         0,
         1,
-        0
+        0,
+        5
       ],
       "name": "Reanimate",
       "rarity": "Common",
@@ -7764,7 +7948,8 @@
         7,
         2,
         5,
-        5
+        5,
+        6
       ],
       "name": "Sacrifice",
       "rarity": "Common",
@@ -7806,7 +7991,8 @@
         1,
         3,
         3,
-        1
+        1,
+        2
       ],
       "name": "Wail",
       "rarity": "Common",
@@ -7838,6 +8024,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -7890,6 +8077,7 @@
         0,
         1,
         0,
+        0,
         0
       ],
       "name": "Coil",
@@ -7927,6 +8115,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -7974,6 +8163,7 @@
         1,
         0,
         0,
+        0,
         0
       ],
       "name": "Double Strike",
@@ -7999,6 +8189,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -8058,6 +8249,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "name": "Ouroboros",
@@ -8087,6 +8279,7 @@
         0,
         0,
         2,
+        0,
         0,
         0,
         0,
@@ -8142,7 +8335,8 @@
         1,
         2,
         8,
-        2
+        2,
+        1
       ],
       "name": "Slither",
       "rarity": "Common",
@@ -8184,7 +8378,8 @@
         33,
         13,
         8,
-        11
+        11,
+        15
       ],
       "name": "Snakebite",
       "rarity": "Common",
@@ -8226,7 +8421,8 @@
         9,
         0,
         1,
-        0
+        0,
+        4
       ],
       "name": "Squeeze",
       "rarity": "Uncommon",
@@ -8265,6 +8461,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -8310,7 +8507,8 @@
         17,
         3,
         3,
-        4
+        4,
+        3
       ],
       "name": "Acrobatics",
       "rarity": "Common",
@@ -8352,7 +8550,8 @@
         6,
         7,
         5,
-        4
+        4,
+        11
       ],
       "name": "Adrenaline",
       "rarity": "Rare",
@@ -8394,6 +8593,7 @@
         0,
         1,
         2,
+        2,
         2
       ],
       "name": "After Image",
@@ -8404,6 +8604,7 @@
       "character": "Silent",
       "counts": [
         1,
+        0,
         0,
         0,
         0,
@@ -8478,7 +8679,8 @@
         1,
         1,
         0,
-        2
+        2,
+        0
       ],
       "name": "Backflip",
       "rarity": "Common",
@@ -8520,7 +8722,8 @@
         0,
         2,
         22,
-        0
+        0,
+        7
       ],
       "name": "Backstab",
       "rarity": "Uncommon",
@@ -8562,7 +8765,8 @@
         1,
         0,
         0,
-        2
+        2,
+        3
       ],
       "name": "Bane",
       "rarity": "Common",
@@ -8604,7 +8808,8 @@
         6,
         0,
         3,
-        8
+        8,
+        5
       ],
       "name": "Blade Dance",
       "rarity": "Common",
@@ -8646,7 +8851,8 @@
         1,
         2,
         4,
-        4
+        4,
+        1
       ],
       "name": "Bouncing Flask",
       "rarity": "Uncommon",
@@ -8688,7 +8894,8 @@
         2,
         3,
         0,
-        6
+        6,
+        8
       ],
       "name": "Bullet Time",
       "rarity": "Rare",
@@ -8730,7 +8937,8 @@
         7,
         13,
         13,
-        10
+        10,
+        5
       ],
       "name": "Burst",
       "rarity": "Rare",
@@ -8772,7 +8980,8 @@
         3,
         0,
         1,
-        0
+        0,
+        1
       ],
       "name": "Calculated Gamble",
       "rarity": "Uncommon",
@@ -8814,7 +9023,8 @@
         0,
         1,
         1,
-        1
+        1,
+        0
       ],
       "name": "Caltrops",
       "rarity": "Uncommon",
@@ -8855,6 +9065,7 @@
         1,
         1,
         3,
+        0,
         0,
         0
       ],
@@ -8898,6 +9109,7 @@
         0,
         1,
         0,
+        1,
         1
       ],
       "name": "Choke",
@@ -8940,6 +9152,7 @@
         0,
         0,
         0,
+        1,
         1
       ],
       "name": "Cloak and Dagger",
@@ -8982,6 +9195,7 @@
         0,
         0,
         1,
+        0,
         0
       ],
       "name": "Concentrate",
@@ -9024,6 +9238,7 @@
         0,
         0,
         1,
+        0,
         0
       ],
       "name": "Corpse Explosion",
@@ -9066,6 +9281,7 @@
         0,
         0,
         1,
+        0,
         0
       ],
       "name": "Crippling Cloud",
@@ -9108,6 +9324,7 @@
         1,
         3,
         0,
+        0,
         0
       ],
       "name": "Dagger Spray",
@@ -9148,6 +9365,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0
@@ -9192,7 +9410,8 @@
         3,
         5,
         0,
-        0
+        0,
+        5
       ],
       "name": "Dash",
       "rarity": "Uncommon",
@@ -9234,7 +9453,8 @@
         2,
         2,
         0,
-        1
+        1,
+        0
       ],
       "name": "Deadly Poison",
       "rarity": "Common",
@@ -9276,7 +9496,8 @@
         1,
         0,
         0,
-        0
+        0,
+        2
       ],
       "name": "Deflect",
       "rarity": "Common",
@@ -9313,6 +9534,7 @@
         0,
         0,
         2,
+        0,
         0,
         0,
         0,
@@ -9360,7 +9582,8 @@
         0,
         1,
         0,
-        1
+        1,
+        0
       ],
       "name": "Distraction",
       "rarity": "Uncommon",
@@ -9402,6 +9625,7 @@
         1,
         1,
         0,
+        1,
         1
       ],
       "name": "Dodge and Roll",
@@ -9444,6 +9668,7 @@
         0,
         0,
         1,
+        0,
         0
       ],
       "name": "Endless Agony",
@@ -9486,7 +9711,8 @@
         8,
         2,
         1,
-        0
+        0,
+        1
       ],
       "name": "Envenom",
       "rarity": "Rare",
@@ -9528,7 +9754,8 @@
         0,
         0,
         2,
-        1
+        1,
+        2
       ],
       "name": "Escape Plan",
       "rarity": "Uncommon",
@@ -9570,6 +9797,7 @@
         0,
         1,
         1,
+        0,
         0
       ],
       "name": "Eviscerate",
@@ -9608,6 +9836,7 @@
         1,
         1,
         1,
+        0,
         0,
         0,
         0,
@@ -9654,7 +9883,8 @@
         0,
         1,
         4,
-        1
+        1,
+        6
       ],
       "name": "Finisher",
       "rarity": "Uncommon",
@@ -9696,7 +9926,8 @@
         0,
         0,
         1,
-        0
+        0,
+        2
       ],
       "name": "Flechettes",
       "rarity": "Uncommon",
@@ -9729,6 +9960,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -9780,6 +10012,7 @@
         4,
         1,
         0,
+        2,
         2
       ],
       "name": "Footwork",
@@ -9822,6 +10055,7 @@
         0,
         0,
         2,
+        0,
         0
       ],
       "name": "Glass Knife",
@@ -9864,7 +10098,8 @@
         0,
         2,
         9,
-        0
+        0,
+        3
       ],
       "name": "Grand Finale",
       "rarity": "Rare",
@@ -9904,6 +10139,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0
@@ -9948,7 +10184,8 @@
         0,
         0,
         0,
-        0
+        0,
+        1
       ],
       "name": "Infinite Blades",
       "rarity": "Uncommon",
@@ -9990,7 +10227,8 @@
         3,
         4,
         2,
-        1
+        1,
+        5
       ],
       "name": "Leg Sweep",
       "rarity": "Uncommon",
@@ -10032,7 +10270,8 @@
         2,
         0,
         3,
-        0
+        0,
+        5
       ],
       "name": "Malaise",
       "rarity": "Uncommon",
@@ -10065,6 +10304,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -10116,7 +10356,8 @@
         1,
         1,
         2,
-        2
+        2,
+        0
       ],
       "name": "Noxious Fumes",
       "rarity": "Uncommon",
@@ -10158,6 +10399,7 @@
         2,
         1,
         0,
+        0,
         0
       ],
       "name": "Outmaneuver",
@@ -10194,6 +10436,7 @@
         2,
         1,
         1,
+        0,
         0,
         0,
         0,
@@ -10242,7 +10485,8 @@
         0,
         3,
         3,
-        0
+        0,
+        2
       ],
       "name": "Piercing Wail",
       "rarity": "Common",
@@ -10284,7 +10528,8 @@
         0,
         0,
         1,
-        1
+        1,
+        0
       ],
       "name": "Poisoned Stab",
       "rarity": "Common",
@@ -10326,7 +10571,8 @@
         0,
         0,
         0,
-        1
+        1,
+        0
       ],
       "name": "Predator",
       "rarity": "Uncommon",
@@ -10368,7 +10614,8 @@
         10,
         7,
         7,
-        13
+        13,
+        8
       ],
       "name": "Prepared",
       "rarity": "Common",
@@ -10404,6 +10651,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -10452,6 +10700,7 @@
         7,
         0,
         2,
+        0,
         0
       ],
       "name": "Reflex",
@@ -10471,6 +10720,7 @@
         0,
         0,
         2,
+        0,
         0,
         0,
         0,
@@ -10536,7 +10786,8 @@
         5,
         14,
         19,
-        20
+        20,
+        11
       ],
       "name": "Setup",
       "rarity": "Uncommon",
@@ -10578,7 +10829,8 @@
         1,
         1,
         0,
-        0
+        0,
+        1
       ],
       "name": "Skewer",
       "rarity": "Uncommon",
@@ -10620,7 +10872,8 @@
         0,
         0,
         4,
-        0
+        0,
+        2
       ],
       "name": "Slice",
       "rarity": "Common",
@@ -10662,6 +10915,7 @@
         1,
         0,
         1,
+        0,
         0
       ],
       "name": "Sneaky Strike",
@@ -10704,7 +10958,8 @@
         0,
         0,
         2,
-        0
+        0,
+        1
       ],
       "name": "Storm of Steel",
       "rarity": "Rare",
@@ -10742,6 +10997,7 @@
         0,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -10788,7 +11044,8 @@
         8,
         1,
         1,
-        4
+        4,
+        0
       ],
       "name": "Tactician",
       "rarity": "Uncommon",
@@ -10830,7 +11087,8 @@
         2,
         5,
         2,
-        3
+        3,
+        8
       ],
       "name": "Terror",
       "rarity": "Uncommon",
@@ -10872,6 +11130,7 @@
         1,
         1,
         2,
+        0,
         0
       ],
       "name": "Tools of the Trade",
@@ -10914,7 +11173,8 @@
         0,
         0,
         0,
-        0
+        0,
+        1
       ],
       "name": "Unload",
       "rarity": "Rare",
@@ -10956,7 +11216,8 @@
         0,
         0,
         1,
-        4
+        4,
+        1
       ],
       "name": "Well-Laid Plans",
       "rarity": "Uncommon",
@@ -10998,7 +11259,8 @@
         0,
         5,
         3,
-        7
+        7,
+        2
       ],
       "name": "Wraith Form",
       "rarity": "Rare",
@@ -11006,7 +11268,7 @@
     }
   },
   "date_range": {
-    "end": "2026-04-07",
+    "end": "2026-04-08",
     "start": "2026-03-05"
   },
   "dates": [
@@ -11043,10 +11305,12 @@
     "2026-04-04",
     "2026-04-05",
     "2026-04-06",
-    "2026-04-07"
+    "2026-04-07",
+    "2026-04-08"
   ],
-  "generated_at": "2026-04-08T12:19:48.915619+00:00",
+  "generated_at": "2026-04-09T06:32:06.502325+00:00",
   "total_comments_by_date": [
+    2000,
     2000,
     2000,
     2000,
