@@ -6,6 +6,11 @@ on:
     paths:
       - 'dashboard/**'
       - 'data/summary.json'
+  # Re-deploy after GitHub's built-in Jekyll builder runs, so our dashboard
+  # always wins over the README.md it would otherwise serve.
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
   workflow_dispatch:
 
 # GitHub Pages deployment permissions
@@ -46,9 +51,6 @@ jobs:
             echo '{"dates":[],"cards":{},"total_comments_by_date":[]}' > _site/data.json
             echo "Warning: data/summary.json not found, using empty placeholder"
           fi
-
-      - name: Setup GitHub Pages
-        uses: actions/configure-pages@v4
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
