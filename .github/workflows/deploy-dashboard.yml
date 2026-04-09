@@ -35,6 +35,8 @@ jobs:
       - name: Prepare site files
         run: |
           mkdir -p _site
+          # Disable Jekyll so GitHub Pages serves files as-is
+          touch _site/.nojekyll
           # Copy dashboard files
           cp -r dashboard/. _site/
           # Copy summary.json as data.json (fetched by app.js)
