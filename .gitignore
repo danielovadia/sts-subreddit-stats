@@ -24,8 +24,7 @@ build/
 
 # OS
 .DS_Store
-Thumbs.db
-
+Thumbs.
 # Data (keep daily/ and summary.json tracked, but ignore temp files)
 *.tmp
 *.bak
