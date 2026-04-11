@@ -63,13 +63,40 @@ let chartInst  = null;
 let activeIds  = [];
 let colorMap   = {};
 let defaultIds = [];
+let activePreset = null;
 
-let useRollingAvg  = false;
-let dateStartIdx   = 0;
-let dateEndIdx     = Infinity;
-let hiddenChars    = new Set();
-let rarityFilter   = '';
-let browserQuery   = '';
+let useRollingAvg   = false;
+let useShareOfVoice = false;
+let dateStartIdx    = 0;
+let dateEndIdx      = Infinity;
+let hiddenChars     = new Set();
+let rarityFilter    = '';
+let browserQuery    = '';
+
+/* ─── Series abstraction ────────────────────────────────────── */
+/* Series IDs are either a raw card id (e.g. "ironclad_exhume")
+   or a char-aggregate id prefixed with "__char:" (e.g. "__char:Ironclad"). */
+
+const CHAR_PREFIX = '__char:';
+const isCharId  = id => typeof id === 'string' && id.startsWith(CHAR_PREFIX);
+const charOfId  = id => id.slice(CHAR_PREFIX.length);
+const charIdOf  = name => CHAR_PREFIX + name;
+
+function seriesOf(id, data) {
+  if (isCharId(id)) {
+    const char = charOfId(id);
+    const len  = data.dates.length;
+    const counts = new Array(len).fill(0);
+    for (const c of Object.values(data.cards)) {
+      if (c.character !== char) continue;
+      for (let i = 0; i < len; i++) counts[i] += c.counts[i] || 0;
+    }
+    return { name: char + ' (all cards)', counts, character: char, rarity: null, type: null, isChar: true };
+  }
+  const card = data.cards[id];
+  if (!card) return null;
+  return { name: card.name, counts: card.counts, character: card.character, rarity: card.rarity, type: card.type, isChar: false };
+}
 
 /* ─── Math helpers ──────────────────────────────────────────── */
 
@@ -98,6 +125,9 @@ function ccOf(char)   { return CHAR_COLORS[char]  || CHAR_COLORS.Unknown; }
 function rcOf(rarity) { return RARITY_COLORS[rarity] || '#888'; }
 
 function ensureColor(id) {
+  if (isCharId(id)) {
+    return CHAR_COLORS[charOfId(id)] || CHAR_COLORS.Unknown;
+  }
   if (!colorMap[id]) {
     const used = Object.keys(colorMap).length;
     colorMap[id] = PALETTE[used % PALETTE.length];
@@ -252,6 +282,275 @@ function computeFading(data, excludeIds = []) {
     .slice(0, 6);
 }
 
+/* ─── Presets ───────────────────────────────────────────────── */
+
+const PRESETS = {
+  breakouts: {
+    label: 'Breakouts',
+    sub:   "this week's biggest jumps",
+    compute: data => computeSurging(data).slice(0, 5).map(x => x.id),
+  },
+  newcomers: {
+    label: 'Newly Discovered',
+    sub:   'first seen in the last 2 weeks',
+    compute: data => {
+      const n      = data.dates.length;
+      const cutoff = Math.max(0, n - 14);
+      return Object.entries(data.cards).map(([id, c]) => {
+        const firstIdx = c.counts.findIndex(v => v > 0);
+        if (firstIdx < 0 || firstIdx < cutoff) return null;
+        const recent = sum(c.counts.slice(cutoff));
+        if (recent < 2) return null;
+        return { id, recent };
+      }).filter(Boolean)
+        .sort((a, b) => b.recent - a.recent)
+        .slice(0, 5)
+        .map(x => x.id);
+    },
+  },
+  climbers: {
+    label: 'Long Climbers',
+    sub:   '30-day upward trend',
+    compute: data => {
+      const n    = data.dates.length;
+      const winS = Math.max(0, n - 30);
+      return Object.entries(data.cards).map(([id, c]) => {
+        const arr = c.counts.slice(winS);
+        if (arr.length < 7) return null;
+        const total = sum(arr);
+        if (total < 15) return null;
+        const len   = arr.length;
+        const meanX = (len - 1) / 2;
+        const meanY = total / len;
+        let num = 0, den = 0;
+        for (let i = 0; i < len; i++) {
+          num += (i - meanX) * (arr[i] - meanY);
+          den += (i - meanX) ** 2;
+        }
+        const slope = den > 0 ? num / den : 0;
+        if (slope <= 0) return null;
+        return { id, slope };
+      }).filter(Boolean)
+        .sort((a, b) => b.slope - a.slope)
+        .slice(0, 5)
+        .map(x => x.id);
+    },
+  },
+  showdown: {
+    label: 'Character Showdown',
+    sub:   'each class aggregated',
+    compute: data => {
+      const seen = new Set();
+      for (const c of Object.values(data.cards)) seen.add(c.character);
+      return [...seen]
+        .filter(c => c && c !== 'Unknown')
+        .sort()
+        .map(charIdOf);
+    },
+  },
+  alltime: {
+    label: 'All-Time Top',
+    sub:   'most discussed overall',
+    compute: data => Object.entries(data.cards)
+      .map(([id, c]) => ({ id, total: sum(c.counts) }))
+      .sort((a, b) => b.total - a.total)
+      .slice(0, 5)
+      .map(x => x.id),
+  },
+};
+
+function setActivePreset(name) {
+  activePreset = name;
+  document.querySelectorAll('.preset-btn').forEach(btn => {
+    btn.classList.toggle('preset-btn--active', btn.dataset.preset === name);
+  });
+}
+
+function applyPreset(name, data) {
+  const def = PRESETS[name];
+  if (!def) return;
+  const ids = def.compute(data);
+  if (!ids.length) return;
+  colorMap  = {};
+  activeIds = ids;
+  activeIds.forEach(id => ensureColor(id));
+  refreshChart(data);
+  syncAll();
+  setActivePreset(name);
+}
+
+function setupPresetBar(data) {
+  const bar = document.getElementById('presetBar');
+  if (!bar) return;
+  bar.innerHTML = '';
+  Object.entries(PRESETS).forEach(([key, def]) => {
+    const btn = document.createElement('button');
+    btn.className = 'preset-btn';
+    btn.dataset.preset = key;
+    btn.setAttribute('role', 'tab');
+    btn.innerHTML = `
+      <span class="preset-label">${def.label}</span>
+      <span class="preset-sub">${def.sub}</span>
+    `;
+    btn.addEventListener('click', () => applyPreset(key, data));
+    bar.appendChild(btn);
+  });
+}
+
+/* ─── Card detail modal ─────────────────────────────────────── */
+
+function wikiUrlFor(name) {
+  const slug = name.trim().replace(/\s+/g, '_');
+  return `https://slaythespire.wiki.gg/wiki/Slay_the_Spire_2:${encodeURIComponent(slug)}`;
+}
+
+function computeCardStats(id, data) {
+  const card    = data.cards[id];
+  if (!card) return null;
+  const counts  = card.counts;
+  const totals  = data.total_comments_by_date || [];
+  const total   = sum(counts);
+
+  let peakVal = 0, peakIdx = -1;
+  counts.forEach((v, i) => { if (v > peakVal) { peakVal = v; peakIdx = i; } });
+
+  const firstIdx = counts.findIndex(v => v > 0);
+  const daysSinceFirst = firstIdx >= 0 ? counts.length - 1 - firstIdx : null;
+
+  const l7v = last7(card);
+  const p7v = prev7(card);
+  const pct = p7v > 0 ? Math.round(((l7v - p7v) / p7v) * 100)
+                      : (l7v > 0 ? null : 0);
+
+  const sovWin   = 7;
+  const cSlice   = counts.slice(-sovWin);
+  const tSlice   = totals.slice(-sovWin);
+  const cSum     = sum(cSlice);
+  const tSum     = tSlice.reduce((a, b) => a + (b || 0), 0);
+  const sov7     = tSum > 0 ? (cSum / tSum) * 100 : 0;
+
+  const ranked = Object.entries(data.cards)
+    .map(([rid, rc]) => ({ id: rid, l7: last7(rc) }))
+    .filter(x => x.l7 > 0)
+    .sort((a, b) => b.l7 - a.l7);
+  const rankIdx = ranked.findIndex(r => r.id === id);
+  const rank    = rankIdx >= 0 ? rankIdx + 1 : null;
+  const rankedTotal = ranked.length;
+
+  return { card, counts, total, peakVal, peakIdx, firstIdx, daysSinceFirst, l7v, p7v, pct, sov7, rank, rankedTotal };
+}
+
+function openCardDetail(id, data) {
+  if (isCharId(id)) return; // char aggregates don't have a detail view
+  const s = computeCardStats(id, data);
+  if (!s) return;
+
+  const { card, counts, total, peakVal, peakIdx, firstIdx, daysSinceFirst, l7v, p7v, pct, sov7, rank, rankedTotal } = s;
+  const cc = ccOf(card.character);
+  const rc = rcOf(card.rarity);
+  const sparkSVG  = makeSpark(counts, 560, 88, cc, true);
+  const sparkDates = data.dates;
+
+  const pctClass = pct === null ? '' : (pct >= 0 ? 'surge' : 'fade');
+  const pctLabel = pct === null
+    ? (l7v > 0 ? 'new this week' : '—')
+    : (pct >= 0 ? '+' : '') + pct + '% vs last week';
+
+  const body = document.getElementById('modalBody');
+  body.innerHTML = `
+    <div class="modal-head">
+      <div class="modal-title" id="modalTitle">${card.name}</div>
+      <div class="modal-meta">
+        <span class="char-pill" style="color:${cc};border-color:${cc}">${card.character}</span>
+        <span class="rarity-label" style="color:${rc}">${card.rarity}${card.type ? ' · ' + card.type : ''}</span>
+      </div>
+    </div>
+
+    <div class="modal-spark">
+      ${sparkSVG}
+      <div class="modal-spark-axis">
+        <span>${sparkDates.length ? fmtDate(sparkDates[0]) : ''}</span>
+        <span>full history</span>
+        <span>${sparkDates.length ? fmtDate(sparkDates[sparkDates.length - 1]) : ''}</span>
+      </div>
+    </div>
+
+    <div class="modal-stats">
+      <div class="mstat">
+        <div class="mstat-lbl">This week</div>
+        <div class="mstat-val ${pctClass}">${l7v}</div>
+        <div class="mstat-sub">${pctLabel}</div>
+      </div>
+      <div class="mstat">
+        <div class="mstat-lbl">All-time peak</div>
+        <div class="mstat-val">${peakVal}</div>
+        <div class="mstat-sub">${peakIdx >= 0 ? 'on ' + fmtDate(data.dates[peakIdx]) : '—'}</div>
+      </div>
+      <div class="mstat">
+        <div class="mstat-lbl">First seen</div>
+        <div class="mstat-val">${firstIdx >= 0 ? fmtDate(data.dates[firstIdx]) : '—'}</div>
+        <div class="mstat-sub">${daysSinceFirst !== null ? daysSinceFirst + ' days ago' : 'not yet mentioned'}</div>
+      </div>
+      <div class="mstat">
+        <div class="mstat-lbl">Share of voice</div>
+        <div class="mstat-val">${sov7.toFixed(2)}%</div>
+        <div class="mstat-sub">of comments this week</div>
+      </div>
+      <div class="mstat">
+        <div class="mstat-lbl">Total mentions</div>
+        <div class="mstat-val">${total}</div>
+        <div class="mstat-sub">all time</div>
+      </div>
+      <div class="mstat">
+        <div class="mstat-lbl">Current rank</div>
+        <div class="mstat-val">${rank ? '#' + rank : '—'}</div>
+        <div class="mstat-sub">${rank ? 'of ' + rankedTotal + ' active' : 'no mentions this week'}</div>
+      </div>
+    </div>
+
+    <div class="modal-actions">
+      <button class="modal-btn modal-btn--primary" id="modalToggleBtn" data-id="${id}">
+        ${activeIds.includes(id) ? '✓ Remove from chart' : '+ Add to chart'}
+      </button>
+      <a class="modal-btn modal-btn--wiki" href="${wikiUrlFor(card.name)}" target="_blank" rel="noopener">
+        View on wiki ↗
+      </a>
+    </div>
+  `;
+
+  body.querySelector('#modalToggleBtn').addEventListener('click', () => {
+    toggleChart(id);
+    syncAll();
+    const btn = body.querySelector('#modalToggleBtn');
+    btn.textContent = activeIds.includes(id) ? '✓ Remove from chart' : '+ Add to chart';
+  });
+
+  const modal = document.getElementById('cardModal');
+  modal.hidden = false;
+  document.body.classList.add('modal-open');
+}
+
+function closeCardModal() {
+  const modal = document.getElementById('cardModal');
+  if (!modal) return;
+  modal.hidden = true;
+  document.body.classList.remove('modal-open');
+}
+
+function setupModal() {
+  const modal = document.getElementById('cardModal');
+  if (!modal) return;
+  modal.addEventListener('click', e => {
+    const t = e.target;
+    if (t === modal || (t.dataset && t.dataset.close !== undefined) || t.closest('[data-close]')) {
+      closeCardModal();
+    }
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && !modal.hidden) closeCardModal();
+  });
+}
+
 /* ─── Spotlight ─────────────────────────────────────────────── */
 
 function renderSpotlight(data, sleeper) {
@@ -304,12 +603,7 @@ function renderSpotlight(data, sleeper) {
   const viz = body.querySelector('.spotlight-viz');
   if (activeIds.includes(sleeper.id)) body.classList.add('in-chart');
 
-  viz.addEventListener('click', () => {
-    toggleChart(sleeper.id);
-    body.classList.toggle('in-chart', activeIds.includes(sleeper.id));
-    syncTrends();
-    syncBrowser();
-  });
+  viz.addEventListener('click', () => openCardDetail(sleeper.id, data));
   viz.addEventListener('keydown', e => {
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
@@ -358,18 +652,7 @@ function renderTrendList(containerId, data, cards, dir) {
       </div>
     `;
 
-    row.addEventListener('click', () => {
-      toggleChart(card.id);
-      row.classList.toggle('in-chart', activeIds.includes(card.id));
-      syncBrowser();
-      // Update spotlight if needed
-      const sb = document.getElementById('spotlightBody');
-      const sleeperViz = sb?.querySelector('.spotlight-viz');
-      if (sleeperViz) {
-        sb.classList.toggle('in-chart', activeIds.includes(sleeperViz.dataset.id));
-      }
-    });
-
+    row.addEventListener('click', () => openCardDetail(card.id, data));
     wrap.appendChild(row);
   });
 }
@@ -382,21 +665,36 @@ function getDateSlice(data) {
   return { start, end: end + 1 };
 }
 
+function toShareOfVoice(counts, totals) {
+  return counts.map((v, i) => {
+    const t = totals[i] || 0;
+    return t > 0 ? (v / t) * 100 : 0;
+  });
+}
+
 function buildDataset(id, data) {
-  const card = data.cards[id];
-  if (!card) return null;
-  const color  = ensureColor(id);
-  const raw    = card.counts;
-  const full   = useRollingAvg ? rollingAvg(raw) : raw;
+  const series = seriesOf(id, data);
+  if (!series) return null;
+  const color = ensureColor(id);
+
+  let raw = series.counts;
+  if (useShareOfVoice) {
+    raw = toShareOfVoice(raw, data.total_comments_by_date || []);
+  }
+  const full = useRollingAvg ? rollingAvg(raw) : raw;
   const { start, end } = getDateSlice(data);
-  const yData  = full.slice(start, end);
+  let yData = full.slice(start, end);
+  if (useShareOfVoice) {
+    yData = yData.map(v => Math.round(v * 100) / 100);
+  }
   if (yData.every(v => v === 0)) return null;
+
   return {
-    label:           card.name,
+    label:           series.name,
     data:            yData,
     borderColor:     color,
     backgroundColor: color + '20',
-    borderWidth:     2,
+    borderWidth:     series.isChar ? 2.5 : 2,
     pointRadius:     yData.length > 60 ? 0 : 3,
     pointHoverRadius: 5,
     tension:         0.35,
@@ -435,7 +733,7 @@ function initChart(data, initialIds) {
           bodyFont:  { family: "'Crimson Pro', serif", size: 13 },
           padding: 10,
           callbacks: {
-            label: item => ` ${item.dataset.label}: ${item.raw}`,
+            label: item => ` ${item.dataset.label}: ${item.raw}${useShareOfVoice ? '%' : ''}`,
           },
         },
       },
@@ -449,7 +747,11 @@ function initChart(data, initialIds) {
           beginAtZero: true,
           grid:   { color: 'rgba(34,34,64,.5)' },
           border: { color: '#222240' },
-          ticks:  { color: '#5a5a7a', font: { family: "'Cinzel', serif", size: 9 } },
+          ticks:  {
+            color: '#5a5a7a',
+            font:  { family: "'Cinzel', serif", size: 9 },
+            callback: v => useShareOfVoice ? v + '%' : v,
+          },
           title:  { display: true, text: 'Mentions', color: '#5a5a7a', font: { family: "'Cinzel', serif", size: 9 } },
         },
       },
@@ -464,6 +766,7 @@ function refreshChart(data) {
   const { start, end } = getDateSlice(data);
   chartInst.data.labels   = data.dates.slice(start, end).map(fmtDate);
   chartInst.data.datasets = activeIds.map(id => buildDataset(id, data)).filter(Boolean);
+  chartInst.options.scales.y.title.text = useShareOfVoice ? 'Share of voice (%)' : 'Mentions';
   chartInst.update();
   renderActiveTags(data);
 }
@@ -472,10 +775,12 @@ function toggleChart(id) {
   if (activeIds.includes(id)) {
     activeIds = activeIds.filter(x => x !== id);
   } else {
-    if (!appData.cards[id]) return;
+    if (!seriesOf(id, appData)) return;
     ensureColor(id);
     activeIds.push(id);
   }
+  // Clicking a card breaks out of a preset into custom mode
+  if (activePreset) setActivePreset(null);
   refreshChart(appData);
 }
 
@@ -483,16 +788,16 @@ function renderActiveTags(data) {
   const wrap = document.getElementById('activeTags');
   wrap.innerHTML = '';
   activeIds.forEach(id => {
-    const card  = data.cards[id];
-    if (!card) return;
-    const color = colorMap[id] || '#888';
+    const series = seriesOf(id, data);
+    if (!series) return;
+    const color = ensureColor(id);
     const tag   = document.createElement('div');
     tag.className = 'tag';
     tag.style.setProperty('--lc', color);
     tag.innerHTML = `
       <span class="tag-line" aria-hidden="true"></span>
-      <span class="tag-name">${card.name}</span>
-      <button class="tag-remove" title="Remove ${card.name}" aria-label="Remove ${card.name}">✕</button>
+      <span class="tag-name">${series.name}</span>
+      <button class="tag-remove" title="Remove ${series.name}" aria-label="Remove ${series.name}">✕</button>
     `;
     tag.querySelector('.tag-remove').addEventListener('click', e => {
       e.stopPropagation();
@@ -579,17 +884,21 @@ function setupChartControls(data) {
     refreshChart(data);
   });
 
+  document.getElementById('shareOfVoice').addEventListener('change', e => {
+    useShareOfVoice = e.target.checked;
+    refreshChart(data);
+  });
+
   document.getElementById('resetChart').addEventListener('click', () => {
     colorMap     = {};
-    activeIds    = [...defaultIds];
-    activeIds.forEach(id => ensureColor(id));
     dateStartIdx = 0;
     dateEndIdx   = data.dates.length - 1;
     useRollingAvg = false;
+    useShareOfVoice = false;
     document.getElementById('rollingAvg').checked = false;
+    document.getElementById('shareOfVoice').checked = false;
     setZoomActive(0);
-    refreshChart(data);
-    syncAll();
+    applyPreset('breakouts', data);
   });
 
   function setZoomActive(days) {
@@ -649,15 +958,7 @@ function renderBrowser(data) {
       <div class="bt-meta">${c.character} · ${l7v > 0 ? `${l7v} this week` : 'quiet'}</div>
     `;
 
-    tile.addEventListener('click', () => {
-      toggleChart(id);
-      tile.classList.toggle('in-chart', activeIds.includes(id));
-      syncTrends();
-      const sb  = document.getElementById('spotlightBody');
-      const viz = sb?.querySelector('.spotlight-viz');
-      if (viz) sb.classList.toggle('in-chart', activeIds.includes(viz.dataset.id));
-    });
-
+    tile.addEventListener('click', () => openCardDetail(id, data));
     grid.appendChild(tile);
   });
 }
@@ -729,16 +1030,17 @@ async function init() {
   renderSpotlight(data, sleeper);
   renderTrends(data, surging, fading);
 
-  // Chart starts with: sleeper + top 3 surging
-  defaultIds = [
-    ...(sleeper ? [sleeper.id] : []),
-    ...surging.slice(0, 3).map(s => s.id),
-  ];
+  // Chart starts with the Breakouts preset
+  defaultIds = PRESETS.breakouts.compute(data);
+  if (!defaultIds.length && sleeper) defaultIds = [sleeper.id];
 
   initChart(data, defaultIds);
+  setActivePreset('breakouts');
+  setupPresetBar(data);
   setupChartSearch(data);
   setupChartControls(data);
   setupBrowserFilters(data);
+  setupModal();
   renderBrowser(data);
   syncAll();
 }

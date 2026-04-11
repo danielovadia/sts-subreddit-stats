@@ -76,9 +76,9 @@
         <div>
           <div class="eyebrow">
             <span class="eyebrow-icon">◈</span>
-            <span id="chart-heading">Compare Cards</span>
+            <span id="chart-heading">Card Popularity Over Time</span>
           </div>
-          <p class="chart-hint">Pre-loaded with this week's most interesting cards — add more below</p>
+          <p class="chart-hint">Pick a story below — or search any card</p>
         </div>
         <div class="chart-controls">
           <div class="search-wrap">
@@ -96,9 +96,16 @@
             <span class="toggle-track"></span>
             <span class="toggle-text">Avg</span>
           </label>
+          <label class="toggle-lbl" title="Share of voice: mentions as % of daily comments">
+            <input type="checkbox" id="shareOfVoice" class="toggle-inp">
+            <span class="toggle-track"></span>
+            <span class="toggle-text">SoV</span>
+          </label>
           <button class="ctrl-ghost" id="resetChart">Reset</button>
         </div>
       </div>
+
+      <div class="preset-bar" id="presetBar" role="tablist" aria-label="Story presets"></div>
 
       <div class="active-tags" id="activeTags"></div>
 
@@ -141,6 +148,15 @@
       <a href="https://www.reddit.com/r/slaythespire" class="footer-link" target="_blank" rel="noopener">r/slaythespire</a>
     </p>
   </footer>
+
+  <!-- ── Card Detail Modal ─────────────────────────────── -->
+  <div class="modal" id="cardModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card">
+      <button class="modal-close" data-close aria-label="Close">✕</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
 
   <aside class="dev-banner" id="devBanner" hidden>
     <strong>⚠ Sample Data</strong> — serve with <code>python -m http.server</code> for live data.
