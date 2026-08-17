@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-16",
+  "mentions": {
+    "colorless_blind": 1,
+    "colorless_discovery": 1,
+    "colorless_panache": 2,
+    "curse_doubt": 2,
+    "defect_buffer": 1,
+    "defect_chaos": 1,
+    "defect_chill": 1,
+    "defect_darkness": 8,
+    "defect_glacier": 2,
+    "defect_hyperbeam": 1,
+    "defect_loop": 4,
+    "defect_storm": 1,
+    "defect_white_noise": 1,
+    "defect_zap": 6,
+    "ironclad_battle_trance": 2,
+    "ironclad_demon_form": 1,
+    "ironclad_feed": 1,
+    "ironclad_rupture": 3,
+    "ironclad_shrug_it_off": 1,
+    "necrobinder_entropy": 5,
+    "necrobinder_reanimate": 1,
+    "regent_coil": 1,
+    "silent_footwork": 1,
+    "silent_malaise": 1,
+    "silent_setup": 5
+  },
+  "total_comments": 300
+}
