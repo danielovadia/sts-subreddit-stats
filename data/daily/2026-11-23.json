@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-23",
+  "mentions": {
+    "colorless_apotheosis": 1,
+    "colorless_mayhem": 2,
+    "colorless_mind_blast": 1,
+    "curse_pain": 1,
+    "defect_buffer": 1,
+    "defect_chaos": 1,
+    "defect_claw": 2,
+    "defect_echo_form": 1,
+    "defect_equilibrium": 1,
+    "defect_hologram": 1,
+    "defect_leap": 1,
+    "defect_stack": 1,
+    "defect_zap": 1,
+    "ironclad_demon_form": 8,
+    "ironclad_offering": 1,
+    "ironclad_perfected_strike": 4,
+    "necrobinder_corpse_explosion": 2,
+    "regent_squeeze": 1,
+    "silent_bane": 1,
+    "silent_corpse_explosion": 2,
+    "silent_dagger_spray": 1,
+    "silent_dash": 1,
+    "silent_grand_finale": 2,
+    "silent_outmaneuver": 2,
+    "silent_predator": 3,
+    "silent_reflex": 1,
+    "silent_setup": 2
+  },
+  "total_comments": 300
+}
